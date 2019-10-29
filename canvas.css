@@ -1,0 +1,16 @@
+html
+{
+  -webkit-filter: invert(100%) hue-rotate(180deg)!important;
+  filter: invert(100%) hue-rotate(180deg)!important;
+  background: rgb(0, 0, 0)!important;
+
+}
+
+.ic-avatar,
+span.foKny_bGBk.foKny_UeJS.bbhNB_bGBk.bbhNB_eoMd.bbhNB_cJVF,
+div.ic-DashboardCard__header_image,
+.avatar
+{
+  -webkit-filter: invert(100%) hue-rotate(180deg)!important;
+  filter: invert(100%) hue-rotate(180deg)!important;
+}
