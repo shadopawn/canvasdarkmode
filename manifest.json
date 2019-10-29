@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
 
-  "name": "UNCC Canvas Black Theme",
-  "version": "1.0.0",
-  "description": "Black theme for UNCC Canvas",
+  "name": "Black Theme for UNCC Canvas",
+  "version": "1.0.1",
+  "description": "Chrome extension that enables black theme on uncc.instructure.com",
   "icons": {
             "48": "icon48.png",
             "128": "icon128.png" },
