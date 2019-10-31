@@ -5,6 +5,7 @@
 This extension will only work for https://uncc.instructure.com URLs and does not work for other subdomains of Canvas. 
 
  ## How to Install
+ ### Install from Github
  (1) Download the latest CRX file from the Releases page
  
  (2) Open Google Chrome
@@ -16,3 +17,9 @@ This extension will only work for https://uncc.instructure.com URLs and does not
  (5) Refresh the page
  
  (6) Drag and drop the CRX file onto the page
+ ### Install from Chrome Web Store
+ (1) Navigate to https://chrome.google.com/webstore/detail/black-theme-for-uncc-canv/jgiilnejobjjdnjkpoahdglfejggnfgh
+ 
+ (2) Click "Add to Chrome"
+ 
+ (3) Click "Add extension"
