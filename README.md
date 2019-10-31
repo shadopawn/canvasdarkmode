@@ -1,6 +1,7 @@
 # Black Theme for UNCC Canvas
 ## Created by Marissa Rousseau
  A Chrome extension that enables a black theme for UNCC Canvas
+ ![image]([https://drive.google.com/file/d/1-3xOHUTHOV7VzyKOL1eSIzECHu5JoNyq/view?usp=sharing](url))
 ## Important information
 This extension will only works for https://uncc.instructure.com URLs and does not work for other subdomains of Canvas. 
 
