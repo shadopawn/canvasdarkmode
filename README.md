@@ -28,7 +28,7 @@ This extension will only work for https://uncc.instructure.com URLs and does not
 
  (2) Click "Clone or download"
 
- (3) CLick "Download ZIP"
+ (3) Click "Download ZIP"
 
  (4) Extract the contents of the downloaded file
 
