@@ -5,6 +5,8 @@
 This extension will only work for https://uncc.instructure.com URLs and does not work for other subdomains of Canvas.
  ## Screenshots
  ![screenshot1](https://marissa.page/res/canvas/screenshot1.png)
+ ![screenshot2](https://marissa.page/res/canvas/screenshot2.png)
+ ![screenshot3](https://marissa.page/res/canvas/screenshot3.png)
 
  ## How to Install
  ### Install from Github
