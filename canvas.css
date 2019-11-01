@@ -6,11 +6,62 @@ html
 
 }
 
-.ic-avatar,
 span.foKny_bGBk.foKny_UeJS.bbhNB_bGBk.bbhNB_eoMd.bbhNB_cJVF,
 div.ic-DashboardCard__header_image,
-.avatar
+.avatar,
+img,
+div.ctf-container
 {
   -webkit-filter: invert(100%) hue-rotate(180deg)!important;
   filter: invert(100%) hue-rotate(180deg)!important;
 }
+
+
+img.equation_image
+{
+  -webkit-filter: invert(100%) hue-rotate(180deg)!important;
+  filter: invert(100%) hue-rotate(180deg)!important;
+}
+span.foKny_bGBk.foKny_cuDs.bbhNB_bGBk.bbhNB_doqw.bbhNB_cJVF
+{
+  -webkit-filter: invert(100%) hue-rotate(180deg)!important;
+  filter: invert(100%) hue-rotate(180deg)!important;
+}
+
+
+/*
+-------------------------------------------------------------------------------
+GOAL: Prevent inverting the document viewer
+
+ISSUES: (1) All documents are inverted
+-------------------------------------------------------------------------------
+div.page-canvas-container
+{
+  -webkit-filter: invert(100%) hue-rotate(180deg)!important;
+  filter: invert(100%) hue-rotate(180deg)!important;
+}
+*/
+
+/*
+-------------------------------------------------------------------------------
+GOAL: Black Side Navigation Menu
+
+ISSUES: (1) Profile image is inverted
+        (2) UNCC logo background is green
+        (3) On some screen resolutions, side menu is entirely black
+-------------------------------------------------------------------------------
+.ic-app-header__main-navigation
+{
+  background-color: black;
+  -webkit-filter: invert(100%) hue-rotate(180deg)!important;
+  filter: invert(100%) hue-rotate(180deg)!important;
+}
+
+a.ic-app-header__logomark-container
+{
+  background-color: black;
+  -webkit-filter: invert(100%) hue-rotate(180deg)!important;
+  filter: invert(100%) hue-rotate(180deg)!important;
+}
+-------------------------------------------------------------------------------
+*/
