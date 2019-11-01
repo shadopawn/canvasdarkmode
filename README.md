@@ -4,7 +4,7 @@
  ## Important information
 This extension will only work for https://uncc.instructure.com URLs and does not work for other subdomains of Canvas.
  ## Screenshots
- [image](https://raw.githubusercontent.com/marissarousseau/marissarousseau.github.io/master/res/canvas/title.png)
+ ![screenshot1](https://marissa.page/res/canvas/screenshot1.png)
 
  ## How to Install
  ### Install from Github
