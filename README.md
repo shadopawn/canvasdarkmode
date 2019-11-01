@@ -3,6 +3,8 @@
  A Chrome extension that enables a black theme for UNCC Canvas
  ## Important information
 This extension will only work for https://uncc.instructure.com URLs and does not work for other subdomains of Canvas.
+ ## Screenshots
+ [image](https://raw.githubusercontent.com/marissarousseau/marissarousseau.github.io/master/res/canvas/title.png)
 
  ## How to Install
  ### Install from Github
