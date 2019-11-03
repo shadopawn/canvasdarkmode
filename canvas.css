@@ -28,6 +28,21 @@ span.foKny_bGBk.foKny_cuDs.bbhNB_bGBk.bbhNB_doqw.bbhNB_cJVF
   filter: invert(100%) hue-rotate(180deg)!important;
 }
 
+div.ic-DashboardCard__header_hero,
+h2.ic-DashboardCard__header-title.ellipsis
+{
+  -webkit-filter: invert(100%) hue-rotate(180deg)!important;
+  filter: invert(100%) hue-rotate(180deg)!important;
+}
+
+.menu-item__badge,
+.fdaJD_bGBk
+{
+  background: #ff0000 !important;
+  color: white !important;
+  font-weight: bolder !important;
+}
+
 
 /*
 -------------------------------------------------------------------------------
