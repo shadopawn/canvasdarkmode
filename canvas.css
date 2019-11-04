@@ -16,12 +16,6 @@ div.ctf-container
   filter: invert(100%) hue-rotate(180deg)!important;
 }
 
-
-img.equation_image
-{
-  -webkit-filter: invert(100%) hue-rotate(180deg)!important;
-  filter: invert(100%) hue-rotate(180deg)!important;
-}
 span.foKny_bGBk.foKny_cuDs.bbhNB_bGBk.bbhNB_doqw.bbhNB_cJVF
 {
   -webkit-filter: invert(100%) hue-rotate(180deg)!important;
@@ -41,6 +35,13 @@ h2.ic-DashboardCard__header-title.ellipsis
   background: #ff0000 !important;
   color: white !important;
   font-weight: bolder !important;
+}
+
+
+img.equation_image
+{
+  -webkit-filter: invert(100%) hue-rotate(180deg)!important;
+  filter: invert(100%) hue-rotate(180deg)!important;
 }
 
 
