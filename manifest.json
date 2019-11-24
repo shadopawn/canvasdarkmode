@@ -2,7 +2,8 @@
   "manifest_version": 2,
 
   "name": "Black Theme for UNCC Canvas",
-  "version": "1.0.3",
+  "version": "1.0.4.5",
+  "version_name":"1.0.4-beta",
   "description": "A black theme for UNCC Canvas",
   "icons": {
             "48": "icon48.png",
@@ -14,7 +15,7 @@
   },
   "content_scripts": [{
     "css": ["canvas.css"],
-    "matches": ["https://uncc.instructure.com/*"]
+    "matches": ["https://*.instructure.com/*"]
   }]
 
 }
