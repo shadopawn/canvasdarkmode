@@ -43,8 +43,31 @@ img.equation_image
   -webkit-filter: invert(100%) hue-rotate(180deg)!important;
   filter: invert(100%) hue-rotate(180deg)!important;
 }
+ul#menu
+{
+  -webkit-filter: invert(100%) hue-rotate(180deg)!important;
+  filter: invert(100%) hue-rotate(180deg)!important;
+  background-color: black;
+}
 
+a.ic-app-header__logomark, .ic-avatar
+{
+  -webkit-filter: invert(100%) hue-rotate(180deg)!important;
+  filter: invert(100%) hue-rotate(180deg)!important;
+  background-color: black;
+}
 
+ div.ic-app-header__secondary-navigation
+ {
+   -webkit-filter: invert(100%) hue-rotate(180deg)!important;
+   filter: invert(100%) hue-rotate(180deg)!important;
+   background-color: black;
+  }
+
+  .ic-app-header__main-navigation
+  {
+    background-color: white;
+  }
 /*
 -------------------------------------------------------------------------------
 GOAL: Prevent inverting the document viewer
