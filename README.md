@@ -10,7 +10,7 @@ This extension works for all organizations that use Canvas.  It is primarily tes
 
  ## How to Install
  ### Install from Chrome Web Store
- (1) Navigate to https://chrome.google.com/webstore/detail/jgiilnejobjjdnjkpoahdglfejggnfgh
+ (1) Navigate to http://bit.ly/jackrabbitdark
 
  (2) Click "Add to Chrome"
 
