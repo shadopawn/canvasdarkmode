@@ -1,0 +1,39 @@
+<!doctype html>
+
+<html>
+  <head>
+    <title>Dark Mode for Canvas</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"/>
+    <link href="options.css" rel="stylesheet"/>
+    <style>
+    @media(prefers-color-scheme:light)
+    {
+      body
+      {
+        border-color: red !important;
+      }
+    }
+    </style>
+  </head>
+
+
+  <body style="width: 200px; border-radius: 2px; border: 2px solid green;">
+
+    <div style="display: inline-block">
+          <img style="margin-top: 25px;" class="profile" src="icon128.png">
+    <h3> Dark Mode Status: </h3>
+    <h3 style="margin-top: 32px" id="onState"> ON </h3>
+    <h3 style="margin-bottom: 0;" id="offState"> OFF </h3>
+
+    <p id="onState"> Canvas will display in dark mode </p>
+    <p id="offState"> Canvas will display in light mode </p>
+
+    <p> This extension follows your system theme</p>
+
+    <p> If your computer doesn't have a system theme setting, the extension defaults to on </p>
+  </div>
+
+
+
+
+  </body>
