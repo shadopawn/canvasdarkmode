@@ -40,10 +40,15 @@
   }
 
 
-  img.equation_image
+  img.equation_image,
+  div.ic-DashboardCard__header_hero
   {
     -webkit-filter: invert(100%) hue-rotate(180deg)!important;
     filter: invert(100%) hue-rotate(180deg)!important;
+  }
+  div.ic-DashboardCard__header_hero
+  {
+    opacity: 1;
   }
   ul#menu
   {
@@ -113,10 +118,15 @@
   }
 
 
-  img.equation_image
+  img.equation_image,
+  div.ic-DashboardCard__header_hero
   {
     -webkit-filter: invert(100%) hue-rotate(180deg)!important;
     filter: invert(100%) hue-rotate(180deg)!important;
+  }
+  div.ic-DashboardCard__header_hero
+  {
+    opacity: 1;
   }
   ul#menu
   {
