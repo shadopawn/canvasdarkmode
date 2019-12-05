@@ -135,3 +135,12 @@ h3#offState
   height: 0;
   visibility: hidden;
 }
+
+
+@media(prefers-color-scheme: no-preference)
+{
+  span#setByBrowser
+  {
+    display: none;
+  }
+}
