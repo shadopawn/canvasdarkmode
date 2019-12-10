@@ -114,26 +114,22 @@ h3#offState
 {
   #onState
   {
-    opacity: 0;
-    height: 0;
-    visibility: hidden;
-    margin-top: 0 !important;
+    display: none;
   }
   #offState
   {
-    opacity: 1 !important;
-    height: 100% !important;
-    visibility: visible !important;
-    margin-bottom: 20px !important;
+    display: block !important;
   }
 
 }
 
 #offState
 {
-  opacity: 0;
-  height: 0;
-  visibility: hidden;
+  display: none;
+}
+span#onByDefault
+{
+  display: none;
 }
 
 
@@ -142,5 +138,10 @@ h3#offState
   span#setByBrowser
   {
     display: none;
+  }
+
+  span#onByDefault
+  {
+    display: block !important;
   }
 }
