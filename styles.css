@@ -5,14 +5,10 @@ body {
     text-align: center;
 }
 
-button {
+button
+{
     background-color: #404040;
     color: white;
-}
-
-
-
-button {
     border: 4px solid #404040;
     padding: 10px;
     border-radius: 50px;
@@ -20,85 +16,18 @@ button {
     display: inline-block
 }
 
-button:hover {
+button:hover
+{
     transform: scale(1.05)
 }
 
-.navbar a,button a {
+button a
+{
     float: left;
     text-decoration: none;
     text-align: center
 }
 
-
-/*** SWITCH TOGGLE ***/
-
-/* box around slider (switch) */
-.switch
-{
-  position: relative;
-  display: inline-block;
-  width: 60px;
-  height: 34px;
-}
-
-/* hide checkbox */
-.switch input
-{
-  opacity: 0;
-  width: 0;
-  height: 0;
-}
-
-/* slider itself */
-.slider
-{
-  position: absolute;
-  cursor: pointer;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #404040;
-  transition: .4s;
-}
-
-.slider:before
-{
-  position: absolute;
-  content: "";
-  height: 26px;
-  width: 26px;
-  left: 4px;
-  bottom: 4px;
-  background-color: black;
-  transition: .4s;
-}
-
-input:checked + .slider
-{
-  background-color: #28bdd7;
-}
-
-input.focus + .slider
-{
-  box-shadow: 0 0 1px #28bdd7;
-}
-
-input:checked + .slider:before
-{
-  transform: translateX(26px);
-}
-
-.slider.round
-{
-  border-radius: 34px;
-}
-
-.slider.round:before
-{
-  border-radius: 50%;
-}
 h3#onState
 {
   color: green;
