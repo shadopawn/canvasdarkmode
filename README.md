@@ -1,4 +1,4 @@
-# Dark Mode for Canvas
+![screenshot1](https://marissa.page/res/canvas/banner.png)
 ## Created by Marissa Rousseau
 Dark mode support for Canvas. Stay up late doing your homework, without the eyestrain.
 ## About
@@ -10,8 +10,6 @@ This extension modifies all Canvas Instructure URLs in order to add dark mode su
 
 Dark Mode for Canvas is not affiliated with Canvas and is an unofficial extension that injects custom CSS when the site is loaded in order to provide a dark theme.
 
- ## Supported URLs
-This extension works for all organizations that use Canvas.  It is primarily tested on UNCC Canvas.
  ## Screenshots
  ![screenshot1](https://marissa.page/res/canvas/screenshot1.png)
  ![screenshot2](https://marissa.page/res/canvas/screenshot2.png)
