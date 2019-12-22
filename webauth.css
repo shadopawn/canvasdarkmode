@@ -1,0 +1,10 @@
+html
+{
+  background: #000 !important;
+}
+
+body,
+div.page-wrapper
+{
+  background-color: #000 !important;
+}
