@@ -82,6 +82,12 @@
   {
     font-size: 0 !important;
   }
+
+
+  div.logout-content
+  {
+    text-align: center !important;
+  }
 }
 
 
@@ -168,5 +174,10 @@
   label
   {
     font-size: 0 !important;
+  }
+
+  div.logout-content
+  {
+    text-align: center !important;
   }
 }
