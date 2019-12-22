@@ -1,82 +1,172 @@
-html
+@media(prefers-color-scheme: dark)
 {
-  -webkit-filter: invert(100%) hue-rotate(180deg)!important;
-  filter: invert(100%) hue-rotate(180deg)!important;
-  background: rgb(0, 0, 0)!important;
-  overflow: hidden;
+  html
+  {
+    -webkit-filter: invert(100%) hue-rotate(180deg)!important;
+    filter: invert(100%) hue-rotate(180deg)!important;
+    background: rgb(0, 0, 0)!important;
+    overflow: hidden;
 
+  }
+
+  img,
+  div#branding,
+  div#logo-wrapper
+  {
+    -webkit-filter: invert(100%) hue-rotate(180deg)!important;
+    filter: invert(100%) hue-rotate(180deg)!important;
+  }
+
+
+  button#shibboleth-login-button.form-element.form-button
+  {
+    -webkit-filter: invert(100%) hue-rotate(180deg)!important;
+    filter: invert(100%) hue-rotate(180deg)!important;
+    background: green !important;
+    color: white !important;
+    border-radius: 40px;
+  }
+
+
+
+  button:hover
+  {
+     transform: scale(1.04) !important;
+  }
+
+
+  div#footer,
+  div#branding,
+  span#login-id-details.glyphicon.glyphicon-info-sign
+  {
+    display: none !important;
+    visibility: hidden !important;
+  }
+
+  header
+  {
+    -webkit-filter: invert(100%) hue-rotate(180deg)!important;
+    filter: invert(100%) hue-rotate(180deg)!important;
+    background: green !important;
+    border-top-left-radius: 15px !important;
+    border-top-right-radius: 15px !important;
+  }
+
+
+  div#page-wrapper
+  {
+    transform: scale(1.05) !important;
+    margin-bottom: 500px !important;
+  }
+
+
+  div#logo-wrapper
+  {
+    margin-left: 305px !important;
+  }
+
+
+  label[for="username"]:before
+  {
+    content:'Email';
+    font-size: 15px !important;
+  }
+
+  label[for="password"]:before
+  {
+    content:'Password';
+    font-size: 15px !important;
+  }
+
+  label
+  {
+    font-size: 0 !important;
+  }
 }
 
-img,
-div#branding,
-div#logo-wrapper
+
+@media(prefers-color-scheme: no-preference)
 {
-  -webkit-filter: invert(100%) hue-rotate(180deg)!important;
-  filter: invert(100%) hue-rotate(180deg)!important;
-}
+  html
+  {
+    -webkit-filter: invert(100%) hue-rotate(180deg)!important;
+    filter: invert(100%) hue-rotate(180deg)!important;
+    background: rgb(0, 0, 0)!important;
+    overflow: hidden;
+
+  }
+
+  img,
+  div#branding,
+  div#logo-wrapper
+  {
+    -webkit-filter: invert(100%) hue-rotate(180deg)!important;
+    filter: invert(100%) hue-rotate(180deg)!important;
+  }
 
 
-button#shibboleth-login-button.form-element.form-button
-{
-  -webkit-filter: invert(100%) hue-rotate(180deg)!important;
-  filter: invert(100%) hue-rotate(180deg)!important;
-  background: green !important;
-  color: white !important;
-  border-radius: 40px;
-}
+  button#shibboleth-login-button.form-element.form-button
+  {
+    -webkit-filter: invert(100%) hue-rotate(180deg)!important;
+    filter: invert(100%) hue-rotate(180deg)!important;
+    background: green !important;
+    color: white !important;
+    border-radius: 40px;
+  }
 
 
 
-button:hover
-{
-   transform: scale(1.04) !important;
-}
+  button:hover
+  {
+     transform: scale(1.04) !important;
+  }
 
 
-div#footer,
-div#branding,
-span#login-id-details.glyphicon.glyphicon-info-sign
-{
-  display: none !important;
-  visibility: hidden !important;
-}
+  div#footer,
+  div#branding,
+  span#login-id-details.glyphicon.glyphicon-info-sign
+  {
+    display: none !important;
+    visibility: hidden !important;
+  }
 
-header
-{
-  -webkit-filter: invert(100%) hue-rotate(180deg)!important;
-  filter: invert(100%) hue-rotate(180deg)!important;
-  background: green !important;
-  border-top-left-radius: 15px !important;
-  border-top-right-radius: 15px !important;
-}
-
-
-div#page-wrapper
-{
-  transform: scale(1.05) !important;
-  margin-bottom: 500px !important;
-}
+  header
+  {
+    -webkit-filter: invert(100%) hue-rotate(180deg)!important;
+    filter: invert(100%) hue-rotate(180deg)!important;
+    background: green !important;
+    border-top-left-radius: 15px !important;
+    border-top-right-radius: 15px !important;
+  }
 
 
-div#logo-wrapper
-{
-  margin-left: 305px !important;
-}
+  div#page-wrapper
+  {
+    transform: scale(1.05) !important;
+    margin-bottom: 500px !important;
+  }
 
 
-label[for="username"]:before
-{
-  content:'Email';
-  font-size: 15px !important;
-}
+  div#logo-wrapper
+  {
+    margin-left: 305px !important;
+  }
 
-label[for="password"]:before
-{
-  content:'Password';
-  font-size: 15px !important;
-}
 
-label
-{
-  font-size: 0 !important;
+  label[for="username"]:before
+  {
+    content:'Email';
+    font-size: 15px !important;
+  }
+
+  label[for="password"]:before
+  {
+    content:'Password';
+    font-size: 15px !important;
+  }
+
+  label
+  {
+    font-size: 0 !important;
+  }
 }
