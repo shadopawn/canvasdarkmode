@@ -12,7 +12,7 @@ An exclusive feature exists for UNCC users. The login page for Canvas (known as 
 
 Dark Mode for Canvas is not affiliated with Canvas or UNCC and is an unofficial extension that injects custom CSS when the following URLs are loaded:
 
-(1) https://*.instructure.com/*
+(1) https://**.instructure.com/*
 
 (2) https://webauth.uncc.edu/*
 
