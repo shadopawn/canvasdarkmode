@@ -8,7 +8,10 @@ This extension modifies all Canvas Instructure URLs in order to add dark mode su
 
 --
 
-Dark Mode for Canvas is not affiliated with Canvas and is an unofficial extension that injects custom CSS when the site is loaded in order to provide a dark theme.
+Dark Mode for Canvas is not affiliated with Canvas or UNCC and is an unofficial extension that injects custom CSS when the following URLs are loaded:
+
+(1) https://*.instructure.com/*
+(2) https://webauth.uncc.edu/*
 
  ## Screenshots
  ![screenshot1](https://marissa.page/res/canvas/screenshot1.png)
