@@ -16,6 +16,8 @@ Dark Mode for Canvas is not affiliated with Canvas or UNCC and is an unofficial 
 
 (2) https://webauth.uncc.edu/*
 
+The asterisks in the URLs represent any sudomains or pages within a site (such as uncc.instructure.com or webauth.uncc.edu/idp).
+
  ## Screenshots
  ![screenshot1](https://marissa.page/res/canvas/screenshot1.png)
  ![screenshot2](https://marissa.page/res/canvas/screenshot2.png)
