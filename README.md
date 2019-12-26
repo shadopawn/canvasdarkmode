@@ -22,3 +22,11 @@ The asterisks in the URLs represent any sudomains or pages within a site (such a
  ![screenshot1](https://marissa.page/res/canvas/screenshot1.png)
  ![screenshot2](https://marissa.page/res/canvas/screenshot2.png)
  ![screenshot3](https://marissa.page/res/canvas/screenshot3.png)
+
+ ## How to Install
+ ### Install from Chrome Web Store
+ (1) Navigate to https://chrome.google.com/webstore/detail/jgiilnejobjjdnjkpoahdglfejggnfgh
+
+ (2) Click "Add to Chrome"
+
+ (3) Click "Add extension"

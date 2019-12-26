@@ -1,8 +1,9 @@
 {
   "manifest_version": 2,
 
-  "name": "Dark Mode for Canvas (Beta)",
-  "version": "1.0.0",
+  "name": "Dark Mode for Canvas",
+  "version": "1.0.8",
+  "version_name":"1.0.8",
   "description": "Dark mode support for Canvas. Stay up late doing your homework, without the eyestrain.",
   "icons": {
             "48": "icon48.png",
