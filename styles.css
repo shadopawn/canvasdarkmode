@@ -15,12 +15,13 @@ button
     width: 200px;
     border-radius: 50px;
     margin: 4px 2px;
-    display: inline-block
+    display: inline-block;
+    transition: .25s ease;
 }
 
 button:hover
 {
-    transform: scale(1.05)
+    transform: scale(1.05);
 }
 
 button a
