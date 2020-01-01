@@ -22,6 +22,7 @@ The asterisks in the URLs represent any subdomains or pages within a site (such 
  ![screenshot1](https://marissa.page/res/canvas/screenshot1.png)
  ![screenshot2](https://marissa.page/res/canvas/screenshot2.png)
  ![screenshot3](https://marissa.page/res/canvas/screenshot3.png)
+ ![screenshot4](https://marissa.page/res/canvas/screenshot4.png)
 
  ## How to Install
  ### Install from Chrome Web Store
