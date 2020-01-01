@@ -16,7 +16,7 @@
 
   "browser_action" : {
 
-                  "default_title" : "Settings",
+                  "default_title" : "Dark Mode for Canvas",
                   "default_popup" : "popup.html"
 
             },
