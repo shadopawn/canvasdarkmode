@@ -1,4 +1,4 @@
-![screenshot1](https://marissa.page/res/canvas/banner.png)
+![screenshot1](https://marissa.page/canvasdarkmode/banner.png)
 ## Created by Marissa Rousseau
 Dark mode support for Canvas. Stay up late doing your homework, without the eyestrain.
 ## About
@@ -19,10 +19,10 @@ Dark Mode for Canvas is not affiliated with Canvas or UNCC and is an unofficial 
 The asterisks in the URLs represent any subdomains or pages within a site (such as uncc.instructure.com or webauth.uncc.edu/idp).
 
  ## Screenshots
- ![screenshot1](https://marissa.page/res/canvas/screenshot1.png)
- ![screenshot2](https://marissa.page/res/canvas/screenshot2.png)
- ![screenshot3](https://marissa.page/res/canvas/screenshot3.png)
- ![screenshot4](https://marissa.page/res/canvas/screenshot4.png)
+ ![screenshot1](https://marissa.page/canvasdarkmode/screenshot1.png)
+ ![screenshot2](https://marissa.page/canvasdarkmode/screenshot2.png)
+ ![screenshot3](https://marissa.page/canvasdarkmode/screenshot3.png)
+ ![screenshot4](https://marissa.page/canvasdarkmode/screenshot4.png)
 
  ## How to Install
  ### Install from Chrome Web Store
