@@ -1,6 +1,4 @@
-@media(prefers-color-scheme: dark), (prefers-color-scheme: no-preference)
-{
-  html
+html
   {
     filter: invert(100%) hue-rotate(180deg)!important;
     background: black !important;
@@ -88,4 +86,3 @@
     {
       background-color: white;
     }
-}
