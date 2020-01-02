@@ -31,3 +31,6 @@ The asterisks in the URLs represent any subdomains or pages within a site (such 
  (2) Click "Add to Chrome"
 
  (3) Click "Add extension"
+
+ ## gh-pages branch
+ Dark Mode for Canvas uses various resources hosted via Github Pages.  You can find them by viewing the gh-pages branch in this repository.
