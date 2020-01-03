@@ -5,19 +5,46 @@
     <title>Dark Mode for Canvas</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
-    <link href="https://marissa.page/canvasdarkmode/styles.css" rel="stylesheet"/>
+    <link href="styles.css" rel="stylesheet"/>
 
     <style>
+    @media(prefers-color-scheme:light)
+    {
+      body
+      {
+        border-color: red !important;
+      }
+    }
     </style>
   </head>
 
 
-  <body style="height: 100vh; width: 315px;">
-    <div style="margin-top: 25px">
-      <h1> Dark Mode for Canvas </h1>
-    <img style="margin-bottom: 10px; height: 100px" class="profile" src="icon128.png">
+  <body style="width: 300px; border-radius: 2px; border: 2px solid green;">
+
+    <div style="display: inline-block">
+          <img style="margin-top: 10px; height: 75px" class="profile" src="icon128.png">
+          <h2 id="onState">Dark mode is enabled for Canvas<span id="setByBrowser"><br>(set by browser theme)</span><br><br><i style="color: green; font-size: 2em"class="material-icons-outlined">check_circle</i></h2>
+
+          <h2 id="offState">Dark mode is disabled for Canvas<span id="setByBrowser"><br>(set by browser theme)</span><br><br><i style="color: red; font-size: 2em"class="material-icons-outlined">block</i></h2>
+
+
+
+
+    <h2>Report a problem via</h2>
+    <div style="display: inline-block">
+
+    <a href="https://github.com/marissarousseau/canvasdarkmode/issues/new" target="_blank"><button class="linkButton"><i class="material-icons-outlined">code</i><br>Github</button></a>
+
+
+    <a href="mailto:info@marissa.page" target="_blank"><button class="linkButton"><i class="material-icons-outlined">email</i><br>Email</button></a>
+
+
+    <a href="https://forms.gle/3UKbST8X8DCFBHw77" target="_blank"><button class="linkButton"><i class="material-icons-outlined">explore</i><br>Form</button></a>
+
+
   </div>
-    <iframe style="margin-top: 0px;" src="https://marissa.page/canvasdarkmode/popup" width="100%" height="120%" frameborder="0"> </iframe>
+    <br>
+    <br>
   </div>
 
 
