@@ -31,6 +31,8 @@ The asterisks in the URLs represent any subdomains or pages within a site (such 
  (2) Click "Add to Chrome"
 
  (3) Click "Add extension"
+ 
+ (4) Confirm extension is working by selecting the Canvas icon in your web browser's toolbar. If you see a green check mark, you are good to go!
 
  ## gh-pages branch
  Dark Mode for Canvas uses various resources hosted via Github Pages.  You can find them by viewing the gh-pages branch in this repository.
