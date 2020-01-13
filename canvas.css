@@ -93,12 +93,15 @@
 
 
 /**** NEW IN VERSION 1.1.2 (STABLE AND BETA!) ****/
-span.fOyUs_bGBk.fOyUs_cuDs.bbhNB_bGBk.bbhNB_doqw.bbhNB_cJVF
+/* fixes issues with inverted UI elements */
+span.fOyUs_bGBk.fOyUs_cuDs.bbhNB_bGBk.bbhNB_doqw.bbhNB_cJVF,
+iframe
 {
   -webkit-filter: invert(100%) hue-rotate(180deg)!important;
   filter: invert(100%) hue-rotate(180deg)!important;
 }
 
+/* removes useless buttons nobody uses ever */
 button.fOyUs_bGBk.eHiXd_bGBk.eHiXd_brAJ.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS
 {
   display: none;
