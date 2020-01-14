@@ -1,0 +1,194 @@
+/* GENERAL */
+html,
+body,
+header#header.ic-app-header.no-print,
+div.ic-app-header__logomark-container,
+div#main.ic-Layout-columns,
+div.large.ic-Dashboard-header__layout,
+div.fLzZc_caGd,
+div.root_3KEc.planner-day,
+div.nothingPlannedContainer_hppr,
+div.root_2rqW.PlannerHeader,
+div.header-bar.flex-container,
+div#wrapper.ic-Layout-wrapper,
+nav#breadcrumbs,
+div#add_comment_form,
+div.comment_list,
+a span.ellipsible,
+div.header-bar,
+input#search_term.ic-Input,
+div#application.ic-app
+ {
+  background-color: black;
+  color: white;
+}
+/* side menu */
+div.fLzZc_caGd
+{
+  border-right: 1px solid white;
+  height: 100vh;
+}
+
+/* Course title / section number text on homepage of course */
+ h2.course-title.ellipsis
+ {
+   color: white !important;
+ }
+
+/* items that require !important in order to have black background on white text */
+div.ic-app-nav-toggle-and-crumbs.no-print,
+div#main.ic-Layout-columns,
+li#crumb_course_123283 a,
+li#crumb_course_123283,
+a.active,
+div.submission-details-comments div,
+div#wrapper.ic-Layout-wrapper,
+div#ag-list.item-group-container
+
+{
+  background-color: black !important;
+  color: white !important;
+}
+
+a.active
+{
+  border-left: 2px solid white !important; /* yes !important is required here sadly */
+}
+
+/* new styling of dashboard header */
+div.large.ic-Dashboard-header__layout
+{
+  border-bottom-style: none;
+  opacity: .8;
+}
+
+/* Dashboard View & Course Cards */
+div.ic-DashboardCard__header-subtitle.ellipsis,
+div.ic-DashboardCard__header-term.ellipsis,
+h2.ic-DashboardCard__header-title.ellipsis span,
+div.ic-DashboardCard svg
+{
+  color: white !important;  /*!important is required here –– will not work if removed! */
+}
+div.ic-DashboardCard__header_content,
+div.ic-DashboardCard
+{
+  background-color: #404040;
+}
+h2.fOyUs_bGBk.emyav_bGBk.emyav_dlZd.emyav_fAVi
+{
+  margin-top: 20px;
+}
+
+/* buttons, images, videos, etc */
+svg.esvoZ_bGBk.esvoZ_drOs.esvoZ_eXrk.cGqzL_bGBk.cGqzL_owrh.ToDoSidebarItem__Icon,
+div.event-details::after,
+iframe#preview_frame,
+span.bNerA_bGBk.bNerA_NmrE.bNerA_qfdC.bNerA_bBOa.bNerA_buDT.bNerA_DpxJ.bNerA_eFno,
+div#discussion-toolbar.toolbarView,
+div.assignment-list
+{
+  -webkit-filter: invert(100%) hue-rotate(180deg)!important;  /* using important here as a precaution */
+}
+
+
+
+/* some button elements and icons */
+span.eHiXd_caGd,
+h2.ig-header-title a.element_toggler.accessible-toggler
+{
+  color: white;
+}
+
+/* other button elements */
+a.Button.button-sidebar-wide,
+button.fOyUs_bGBk.eHiXd_bGBk.eHiXd_ddES.eHiXd_doqw.eHiXd_bNlk.eHiXd_cuTS,
+button#planner-today-btn.fOyUs_bGBk.eHiXd_bGBk.eHiXd_eYmo.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS,
+a.btn.button-sidebar-wide
+{
+  transition: .5s  ease !important;
+  background-color: #212121 !important;
+  color: white !important;
+}
+a.Button.button-sidebar-wide:hover,
+button.fOyUs_bGBk.eHiXd_bGBk.eHiXd_ddES.eHiXd_doqw.eHiXd_bNlk.eHiXd_cuTS:hover,
+button#planner-today-btn.fOyUs_bGBk.eHiXd_bGBk.eHiXd_eYmo.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS:hover,
+a.btn.button-sidebar-wide:hover
+{
+  background-color: #00703c !important;
+}
+
+a.fOyUs_bGBk.eHiXd_bGBk.eHiXd_brAJ.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS:hover,
+a span.ellipsible:hover
+{
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+
+/* specific Dashboard list items for announcements/activty that don't display correctly */
+
+/* HIDDEN ELEMENTS */
+::-webkit-scrollbar,
+footer#footer.ic-app-footer,
+span.MYpOQ_bGBk.MYpOQ_dBtH.MYpOQ_UeJS,
+div#discussion-managebar.toolbarView,
+div.ag-header-controls,
+/* removed ability to customize dashboard view &  items for now */
+i.icon-more,
+i.icon-more::before,
+div#DashboardOptionsMenu_Container
+{
+display: none !important; /* !important required for some elements */
+}
+
+/* discussion board and announcement view new borders */
+div.entry-content
+{
+  border-top: 1px solid #303030;
+  border-right: 1px solid #303030 !important;
+  border-left: 1px solid #303030 !important;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  z-index: 1000;
+}
+
+div.headerBar
+{
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+
+div#ag-list.item-group-container
+{
+  border: 1px solid white;
+  border-radius: 25px;
+}
+
+div.header-bar
+{
+  border-style: none !important;
+}
+
+span.hidden-phone,
+h1.ic-Dashboard-header__title
+{
+  text-align: center !important;
+  width: 100%;
+}
+
+
+/* LABS TEST */
+div#DashboardCard_Container,
+div.ic-DashboardCard__box
+{
+  place-items: center center !important;
+  width: 100vw;
+  height: 100vh;
+}
+
+
+div#right-side-wrapper
+{
+  display: none !important;
+}
