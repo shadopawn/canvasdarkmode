@@ -179,6 +179,7 @@ h1.ic-Dashboard-header__title
 
 
 /* LABS TEST */
+/* center classes in middle of dashboard */
 div#DashboardCard_Container,
 div.ic-DashboardCard__box
 {
@@ -187,7 +188,7 @@ div.ic-DashboardCard__box
   height: 100vh;
 }
 
-
+/* remove sidebar (todo and recent feedback) */
 div#right-side-wrapper
 {
   display: none !important;
