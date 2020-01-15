@@ -193,3 +193,11 @@ div#right-side-wrapper
 {
   display: none !important;
 }
+
+
+/* custom notification color */
+span.ic-DashboardCard__action-badge
+{
+  color: white;
+  background-color: red;
+}
