@@ -2,31 +2,55 @@
   "manifest_version": 2,
 
   "name": "Dark Mode for Canvas",
+
   "version": "1.1.1",
+
   "version_name":"v1.1.1",
+
   "description": "Dark mode support for Canvas. Stay up late doing your homework, without the eyestrain.",
-  "icons": {
-            "48": "icon48.png",
-            "128": "icon128.png" },
-  "options_ui" : {
+
+  "icons":
+  {
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+
+  "options_ui" :
+  {
 
     "page" :"options.html",
     "open_in_tab" : false
   },
 
-  "browser_action" : {
+  "permissions" :
+  [
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>"
+  ],
 
-                  "default_title" : "Dark Mode for Canvas",
-                  "default_popup" : "popup.html"
-
-            },
-  "content_scripts": [{
-    "css": ["canvas-new.css"],
-    "matches": ["https://*.instructure.com/*"]
-  },
+  "background":
   {
-    "css": ["webauth.css"],
-    "matches": ["https://webauth.uncc.edu/*"]
-  }]
+  "scripts": ["background.js"],
+  "persistent": true
+},
+
+  "browser_action" :
+  {
+    "default_title" : "Dark Mode for Canvas",
+    "default_popup" : "popup.html"
+  },
+
+  "content_scripts":
+  [
+    {
+
+      "css": ["canvas-new.css"],
+      "matches": ["https://*.instructure.com/*"]
+    },
+    {
+      "css": ["webauth.css"],
+      "matches": ["https://webauth.uncc.edu/*"]
+    }]
 
 }
