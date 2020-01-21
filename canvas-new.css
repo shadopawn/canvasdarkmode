@@ -17,11 +17,19 @@ div.comment_list,
 a span.ellipsible,
 div.header-bar,
 input#search_term.ic-Input,
-div#application.ic-app
+div#application.ic-app,
+div#questions.assessing,
+div.quiz_sortable.question_holder,
+div.header,
+div.text
  {
   background-color: black;
   color: white;
 }
+
+/* quiz */
+
+
 /* side menu */
 div.fLzZc_caGd
 {
@@ -43,7 +51,11 @@ li#crumb_course_123283,
 a.active,
 div.submission-details-comments div,
 div#wrapper.ic-Layout-wrapper,
-div#ag-list.item-group-container
+div#ag-list.item-group-container,
+div.header,
+span.points.question_points,
+span.question_points_holder,
+span#last_saved_indicator
 
 {
   background-color: black !important;
@@ -86,7 +98,8 @@ div.event-details::after,
 iframe#preview_frame,
 span.bNerA_bGBk.bNerA_NmrE.bNerA_qfdC.bNerA_bBOa.bNerA_buDT.bNerA_DpxJ.bNerA_eFno,
 div#discussion-toolbar.toolbarView,
-div.assignment-list
+div.assignment-list,
+img.equation_image
 {
   -webkit-filter: invert(100%) hue-rotate(180deg)!important;  /* using important here as a precaution */
 }
@@ -104,16 +117,22 @@ h2.ig-header-title a.element_toggler.accessible-toggler
 a.Button.button-sidebar-wide,
 button.fOyUs_bGBk.eHiXd_bGBk.eHiXd_ddES.eHiXd_doqw.eHiXd_bNlk.eHiXd_cuTS,
 button#planner-today-btn.fOyUs_bGBk.eHiXd_bGBk.eHiXd_eYmo.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS,
-a.btn.button-sidebar-wide
+a.btn.button-sidebar-wide,
+button#submit_quiz_button.btn.submit_button.quiz_submit.btn-secondary,
+button.Button.submit_button.next-question.btn-primary
 {
   transition: .5s  ease !important;
   background-color: #212121 !important;
   color: white !important;
+  border-color: white;
 }
 a.Button.button-sidebar-wide:hover,
 button.fOyUs_bGBk.eHiXd_bGBk.eHiXd_ddES.eHiXd_doqw.eHiXd_bNlk.eHiXd_cuTS:hover,
 button#planner-today-btn.fOyUs_bGBk.eHiXd_bGBk.eHiXd_eYmo.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS:hover,
-a.btn.button-sidebar-wide:hover
+a.btn.button-sidebar-wide:hover,
+button#submit_quiz_button.btn.submit_button.quiz_submit.btn-secondary:hover,
+button.Button.submit_button.next-question.btn-primary:hover
+
 {
   background-color: #00703c !important;
 }
