@@ -165,10 +165,10 @@ footer#footer.ic-app-footer,
 span.MYpOQ_bGBk.MYpOQ_dBtH.MYpOQ_UeJS,
 div#discussion-managebar.toolbarView,
 div.ag-header-controls,
-/* removed ability to customize dashboard view &  items for now */
+/* removed ability to customize dashboard view &  items for now
 i.icon-more,
 i.icon-more::before,
-div#DashboardOptionsMenu_Container,
+div#DashboardOptionsMenu_Container,*/
 button.Button.Button--icon-action-rev.ic-DashboardCard__header-button
 {
 display: none !important; /* !important required for some elements */
