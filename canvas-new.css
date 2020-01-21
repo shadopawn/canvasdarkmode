@@ -1,335 +1,334 @@
-/* GENERAL */
-html,
-body,
-header#header.ic-app-header.no-print,
-div.ic-app-header__logomark-container,
-div#main.ic-Layout-columns,
-div.large.ic-Dashboard-header__layout,
-div.fLzZc_caGd,
-div.root_3KEc.planner-day,
-div.nothingPlannedContainer_hppr,
-div.root_2rqW.PlannerHeader,
-div.header-bar.flex-container,
-div#wrapper.ic-Layout-wrapper,
-nav#breadcrumbs,
-div#add_comment_form,
-div.comment_list,
-a span.ellipsible,
-div.header-bar,
-input#search_term.ic-Input,
-div#application.ic-app,
-div#questions.assessing,
-div.quiz_sortable.question_holder,
-div.header,
-div.text,
-div.quiz-submission
+
+@media(prefers-color-scheme: dark), (prefers-color-scheme: no-preference)
 {
-  background-color: black;
-  color: white;
+  /* GENERAL */
+  html,
+  body,
+  header#header.ic-app-header.no-print,
+  div.ic-app-header__logomark-container,
+  div#main.ic-Layout-columns,
+  div.large.ic-Dashboard-header__layout,
+  div.fLzZc_caGd,
+  div.root_3KEc.planner-day,
+  div.nothingPlannedContainer_hppr,
+  div.root_2rqW.PlannerHeader,
+  div.header-bar.flex-container,
+  div#wrapper.ic-Layout-wrapper,
+  nav#breadcrumbs,
+  div#add_comment_form,
+  div.comment_list,
+  a span.ellipsible,
+  div.header-bar,
+  input#search_term.ic-Input,
+  div#application.ic-app,
+  div#questions.assessing,
+  div.quiz_sortable.question_holder,
+  div.header,
+  div.text,
+  div.quiz-submission
+  {
+    background-color: black;
+    color: white;
+  }
+
+  /* quiz */
+
+
+  /* side menu */
+  div.fLzZc_caGd
+  {
+    border-right: 1px solid white;
+    height: 100vh;
+  }
+
+  /* Course title / section number text on homepage of course */
+   h2.course-title.ellipsis,
+   span.score_value
+   {
+     color: white !important;
+   }
+
+  /* items that require !important in order to have black background on white text */
+  div.ic-app-nav-toggle-and-crumbs.no-print,
+  div#main.ic-Layout-columns,
+  li#crumb_course_123283 a,
+  li#crumb_course_123283,
+  a.active,
+  div.submission-details-comments div,
+  div#wrapper.ic-Layout-wrapper,
+  div#ag-list.item-group-container,
+  div.header,
+  span.points.question_points,
+  span.question_points_holder,
+  span#last_saved_indicator,
+  div.module-sequence-footer-content,
+  div.MYpOQ_bGBk,
+  div#opportunities_parent.root_3FFz,
+  div.fOyUs_bGBk.fOyUs_desw.fOyUs_cBHs.fOyUs_eWbJ.fOyUs_eeJl.fOyUs_cBtr.fOyUs_fuTR.cMXVf_bXVH,
+  div.fOyUs_bGBk.cDwzl_caGd.eJkkQ_bEpV,
+  div#panel-uGLOkZy3Zy6s.cDwzl_bGBk.cDwzl_GKUc,
+  div#tab-uuk7HzPjmYje.fOyUs_bGBk.cyAHS_bGBk.cyAHS_GKUc,
+  div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-draggable.ui-dialog-buttons,
+  div.ui-dialog-titlebar.ui-widget-header.ui-corner-all.ui-helper-clearfix,
+  div.ui-dialog-buttonpane.ui-widget-content.ui-helper-clearfix,
+  div.span6,
+  div#communication_channels.ui-tabs.ui-widget.ui-widget-content.ui-corner-all.ui-dialog-content
+  {
+    background-color: black !important;
+    color: white !important;
+  }
+  textarea.ic-Input.grading_comment,
+  textarea#profile_bio.ic_Input,
+  input.ic-Input
+  {
+    background-color: #212121 !important;
+    color: white !important;
+  }
+
+  a.active
+  {
+    border-left: 2px solid white !important; /* yes !important is required here sadly */
+  }
+
+  /* new styling of dashboard header */
+  div.large.ic-Dashboard-header__layout
+  {
+    border-bottom-style: none;
+    opacity: .8;
+  }
+
+  /* Dashboard View & Course Cards */
+  div.ic-DashboardCard__header-subtitle.ellipsis,
+  div.ic-DashboardCard__header-term.ellipsis,
+  h2.ic-DashboardCard__header-title.ellipsis span,
+  div.ic-DashboardCard svg
+  {
+    color: white !important;  /*!important is required here –– will not work if removed! */
+  }
+  div.ic-DashboardCard__header_content,
+  div.ic-DashboardCard
+  {
+    background-color: #404040;
+  }
+  h2.fOyUs_bGBk.emyav_bGBk.emyav_dlZd.emyav_fAVi
+  {
+    margin-top: 20px;
+  }
+
+  /* buttons, images, videos, etc */
+  svg.esvoZ_bGBk.esvoZ_drOs.esvoZ_eXrk.cGqzL_bGBk.cGqzL_owrh.ToDoSidebarItem__Icon,
+  div.event-details::after,
+  iframe#preview_frame,
+  span.bNerA_bGBk.bNerA_NmrE.bNerA_qfdC.bNerA_bBOa.bNerA_buDT.bNerA_DpxJ.bNerA_eFno,
+  div#discussion-toolbar.toolbarView,
+  div.assignment-list,
+  img.equation_image,
+  pre,
+  i.placeholder.icon-check,
+  i.placeholder.icon-question,
+  table.summary,
+  span.ui-icon.ui-icon-extlink.ui-icon-inline,
+  span.ui-icon.ui-icon-closethick,
+  i.icon-mini-arrow-right,
+  i.icon-folder,
+  i.icon-folder-locked,
+  i.media-object.ef-big-icon.FilesystemObjectThumbnail.mimeClass-folder,
+  i.media-object.ef-big-icon.FilesystemObjectThumbnail.mimeClass-folder-locked,
+  i.icon-mini-arrow-up,
+  table#access_tokens.summary thead tr th
+  {
+    -webkit-filter: invert(100%) hue-rotate(180deg)!important;  /* using important here as a precaution */
+  }
+  table#access_tokens.summary thead tr th
+  {
+    color: white !important;
+  }
+  thead th
+  {
+    background: black !important;
+    background-color: black !important;
+  }
+
+  /* some button elements and icons */
+  span.eHiXd_caGd,
+  h2.ig-header-title a.element_toggler.accessible-toggler,
+  a.ef-plain-link span,
+  span.ellipsis,
+  a.ef-plain-link
+  {
+    color: white !important;
+  }
+
+  span#hints_name.edit_or_show_data.data_description,
+  span#hints_short_name.edit_or_show_data.data_description,
+  span#hints_sortable_name.edit_or_show_data.data_description,
+  p.path.email_channel.contact_channel_path.ellipsis,
+  span#hints_language.data_description,
+  div.cjUyb_bGBk.cjUyb_dfBC.cjUyb_pEgL.cjUyb_eQnG
+  {
+    color: #BBB !important;
+  }
+
+  /* other button elements */
+  a.Button.button-sidebar-wide,
+  button.fOyUs_bGBk.eHiXd_bGBk.eHiXd_ddES.eHiXd_doqw.eHiXd_bNlk.eHiXd_cuTS,
+  button#planner-today-btn.fOyUs_bGBk.eHiXd_bGBk.eHiXd_eYmo.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS,
+  a.btn.button-sidebar-wide,
+  button#submit_quiz_button.btn.submit_button.quiz_submit.btn-secondary,
+  button.Button.submit_button.next-question.btn-primary,
+  button.Button.submit_button.previous-question,
+  button.Button.submit_button.next-question,
+  a.Button,
+  a#take_quiz_link.btn.btn-primary,
+  button.ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-text-only,
+  button.btn.take-snapshot-btn,
+  button.hide-if-editing.Button,
+  button.show-if-editing.Button,
+  button.btn.btn-small,
+  button.btn,
+  button.btn.btn-primary,
+  button.Button,
+  button.Button:hover,
+  a.btn.btn-small,
+  a.btn.btn-primary.add_access_token_link
+  {
+    transition: .5s  ease !important;
+    background-color: #212121 !important;
+    color: white !important;
+    border-color: white;
+  }
+  a.Button.button-sidebar-wide:hover,
+  button.fOyUs_bGBk.eHiXd_bGBk.eHiXd_ddES.eHiXd_doqw.eHiXd_bNlk.eHiXd_cuTS:hover,
+  button#planner-today-btn.fOyUs_bGBk.eHiXd_bGBk.eHiXd_eYmo.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS:hover,
+  a.btn.button-sidebar-wide:hover,
+  button#submit_quiz_button.btn.submit_button.quiz_submit.btn-secondary:hover,
+  button.Button.submit_button.next-question.btn-primary:hover,
+  button.Button.submit_button.previous-question:hover,
+  button.Button.submit_button.next-question:hover,
+  a.Button:hover,
+  a#take_quiz_link.btn.btn-primary:hover,
+  button.ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-text-only:hover,
+  button.btn.take-snapshot-btn:hover,
+  button.hide-if-editing.Button:hover,
+  button.show-if-editing.Button:hover,
+  button.btn.btn-small:hover,
+  button.btn:hover:hover,
+  button.btn.btn-primary:hover,
+  a.btn.btn-small:hover,
+  a.btn.btn-primary.add_access_token_link:hover
+  {
+    background-color: #00703c !important;
+  }
+
+  a.fOyUs_bGBk.eHiXd_bGBk.eHiXd_brAJ.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS:hover,
+  a span.ellipsible:hover
+  {
+    text-decoration: underline;
+    text-decoration-color: white;
+  }
+
+  /* specific Dashboard list items for announcements/activty that don't display correctly */
+
+  /* HIDDEN ELEMENTS */
+  ::-webkit-scrollbar,
+  footer#footer.ic-app-footer,
+  span.MYpOQ_bGBk.MYpOQ_dBtH.MYpOQ_UeJS,
+  div#discussion-managebar.toolbarView,
+  div.ag-header-controls,
+  /* removed ability to customize dashboard view &  items for now
+  i.icon-more,
+  i.icon-more::before,
+  div#DashboardOptionsMenu_Container,*/
+  button.Button.Button--icon-action-rev.ic-DashboardCard__header-button,
+  div.feature-flag-wrapper
+  {
+  display: none !important; /* !important required for some elements */
+  }
+
+  /* discussion board and announcement view new borders */
+  div.entry-content
+  {
+    border-top: 1px solid #303030;
+    border-right: 1px solid #303030 !important;
+    border-left: 1px solid #303030 !important;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    z-index: 1000;
+  }
+
+  div.headerBar
+  {
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+  }
+
+
+  div#ag-list.item-group-container
+  {
+    border: 1px solid white;
+    border-radius: 25px;
+  }
+
+  div.header-bar,
+  div.ic-avatar
+  {
+    border-style: none !important;
+  }
+
+  div.stream_header:hover,
+  tr:hover,
+  li#service_google_drive.service.clearfix.service-hover
+  {
+    background-color: #303030 !important;
+  }
+
+  div.ef-item-row:hover,
+  div.ef-item-row.ef-item-selected
+  {
+    background-color: #212121 !important;
+  }
+
+  thead tr:hover,
+  tr.edit_data_row
+  {
+    background-color: #000 !important;
+  }
+
+
+  /* LABS TEST */
+  /* center classes in middle of dashboard
+  div#DashboardCard_Container,
+  div.ic-DashboardCard__box
+  {
+    place-items: center center !important;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  span.hidden-phone,
+  h1.ic-Dashboard-header__title
+  {
+    text-align: center !important;
+  }
+   */
+
+  /* remove sidebar (todo and recent feedback)
+  div#right-side-wrapper
+  {
+    display: none !important;
+  }*/
+
+  /* last attempt details */
+   table.summary
+   {
+     color: black !important;
+   }
+
+
+  /* custom notification color */
+  span.ic-DashboardCard__action-badge
+  {
+    color: white;
+    background-color: red;
+  }
 }
-
-/* quiz */
-
-
-/* side menu */
-div.fLzZc_caGd
-{
-  border-right: 1px solid white;
-  height: 100vh;
-}
-
-/* Course title / section number text on homepage of course */
- h2.course-title.ellipsis,
- span.score_value
- {
-   color: white !important;
- }
-
-/* items that require !important in order to have black background on white text */
-div.ic-app-nav-toggle-and-crumbs.no-print,
-div#main.ic-Layout-columns,
-li#crumb_course_123283 a,
-li#crumb_course_123283,
-a.active,
-div.submission-details-comments div,
-div#wrapper.ic-Layout-wrapper,
-div#ag-list.item-group-container,
-div.header,
-span.points.question_points,
-span.question_points_holder,
-span#last_saved_indicator,
-div.module-sequence-footer-content,
-div.MYpOQ_bGBk,
-div#opportunities_parent.root_3FFz,
-div.fOyUs_bGBk.fOyUs_desw.fOyUs_cBHs.fOyUs_eWbJ.fOyUs_eeJl.fOyUs_cBtr.fOyUs_fuTR.cMXVf_bXVH,
-div.fOyUs_bGBk.cDwzl_caGd.eJkkQ_bEpV,
-div#panel-uGLOkZy3Zy6s.cDwzl_bGBk.cDwzl_GKUc,
-div#tab-uuk7HzPjmYje.fOyUs_bGBk.cyAHS_bGBk.cyAHS_GKUc,
-div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-draggable.ui-dialog-buttons,
-div.ui-dialog-titlebar.ui-widget-header.ui-corner-all.ui-helper-clearfix,
-div.ui-dialog-buttonpane.ui-widget-content.ui-helper-clearfix,
-div.span6,
-div#communication_channels.ui-tabs.ui-widget.ui-widget-content.ui-corner-all.ui-dialog-content
-{
-  background-color: black !important;
-  color: white !important;
-}
-textarea.ic-Input.grading_comment,
-textarea#profile_bio.ic_Input,
-input.ic-Input
-{
-  background-color: #212121 !important;
-  color: white !important;
-}
-
-a.active
-{
-  border-left: 2px solid white !important; /* yes !important is required here sadly */
-}
-
-/* new styling of dashboard header */
-div.large.ic-Dashboard-header__layout
-{
-  border-bottom-style: none;
-  opacity: .8;
-}
-
-/* Dashboard View & Course Cards */
-div.ic-DashboardCard__header-subtitle.ellipsis,
-div.ic-DashboardCard__header-term.ellipsis,
-h2.ic-DashboardCard__header-title.ellipsis span,
-div.ic-DashboardCard svg
-{
-  color: white !important;  /*!important is required here –– will not work if removed! */
-}
-div.ic-DashboardCard__header_content,
-div.ic-DashboardCard
-{
-  background-color: #404040;
-}
-h2.fOyUs_bGBk.emyav_bGBk.emyav_dlZd.emyav_fAVi
-{
-  margin-top: 20px;
-}
-
-/* buttons, images, videos, etc */
-svg.esvoZ_bGBk.esvoZ_drOs.esvoZ_eXrk.cGqzL_bGBk.cGqzL_owrh.ToDoSidebarItem__Icon,
-div.event-details::after,
-iframe#preview_frame,
-span.bNerA_bGBk.bNerA_NmrE.bNerA_qfdC.bNerA_bBOa.bNerA_buDT.bNerA_DpxJ.bNerA_eFno,
-div#discussion-toolbar.toolbarView,
-div.assignment-list,
-img.equation_image,
-pre,
-i.placeholder.icon-check,
-i.placeholder.icon-question,
-table.summary,
-span.ui-icon.ui-icon-extlink.ui-icon-inline,
-span.ui-icon.ui-icon-closethick,
-i.icon-mini-arrow-right,
-i.icon-folder,
-i.icon-folder-locked,
-i.media-object.ef-big-icon.FilesystemObjectThumbnail.mimeClass-folder,
-i.media-object.ef-big-icon.FilesystemObjectThumbnail.mimeClass-folder-locked,
-i.icon-mini-arrow-up,
-table#access_tokens.summary thead tr th
-{
-  -webkit-filter: invert(100%) hue-rotate(180deg)!important;  /* using important here as a precaution */
-}
-table#access_tokens.summary thead tr th
-{
-  color: white !important;
-}
-thead th
-{
-  background: black !important;
-  background-color: black !important;
-}
-
-/* some button elements and icons */
-span.eHiXd_caGd,
-h2.ig-header-title a.element_toggler.accessible-toggler,
-a.ef-plain-link span,
-span.ellipsis,
-a.ef-plain-link
-{
-  color: white !important;
-}
-
-span#hints_name.edit_or_show_data.data_description,
-span#hints_short_name.edit_or_show_data.data_description,
-span#hints_sortable_name.edit_or_show_data.data_description,
-p.path.email_channel.contact_channel_path.ellipsis,
-span#hints_language.data_description,
-div.cjUyb_bGBk.cjUyb_dfBC.cjUyb_pEgL.cjUyb_eQnG
-{
-  color: #BBB !important;
-}
-
-/* other button elements */
-a.Button.button-sidebar-wide,
-button.fOyUs_bGBk.eHiXd_bGBk.eHiXd_ddES.eHiXd_doqw.eHiXd_bNlk.eHiXd_cuTS,
-button#planner-today-btn.fOyUs_bGBk.eHiXd_bGBk.eHiXd_eYmo.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS,
-a.btn.button-sidebar-wide,
-button#submit_quiz_button.btn.submit_button.quiz_submit.btn-secondary,
-button.Button.submit_button.next-question.btn-primary,
-button.Button.submit_button.previous-question,
-button.Button.submit_button.next-question,
-a.Button,
-a#take_quiz_link.btn.btn-primary,
-button.ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-text-only,
-button.btn.take-snapshot-btn,
-button.hide-if-editing.Button,
-button.show-if-editing.Button,
-button.btn.btn-small,
-button.btn,
-button.btn.btn-primary,
-button.Button,
-button.Button:hover,
-a.btn.btn-small,
-a.btn.btn-primary.add_access_token_link
-{
-  transition: .5s  ease !important;
-  background-color: #212121 !important;
-  color: white !important;
-  border-color: white;
-}
-a.Button.button-sidebar-wide:hover,
-button.fOyUs_bGBk.eHiXd_bGBk.eHiXd_ddES.eHiXd_doqw.eHiXd_bNlk.eHiXd_cuTS:hover,
-button#planner-today-btn.fOyUs_bGBk.eHiXd_bGBk.eHiXd_eYmo.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS:hover,
-a.btn.button-sidebar-wide:hover,
-button#submit_quiz_button.btn.submit_button.quiz_submit.btn-secondary:hover,
-button.Button.submit_button.next-question.btn-primary:hover,
-button.Button.submit_button.previous-question:hover,
-button.Button.submit_button.next-question:hover,
-a.Button:hover,
-a#take_quiz_link.btn.btn-primary:hover,
-button.ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-text-only:hover,
-button.btn.take-snapshot-btn:hover,
-button.hide-if-editing.Button:hover,
-button.show-if-editing.Button:hover,
-button.btn.btn-small:hover,
-button.btn:hover:hover,
-button.btn.btn-primary:hover,
-a.btn.btn-small:hover,
-a.btn.btn-primary.add_access_token_link:hover
-{
-  background-color: #00703c !important;
-}
-
-a.fOyUs_bGBk.eHiXd_bGBk.eHiXd_brAJ.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS:hover,
-a span.ellipsible:hover
-{
-  text-decoration: underline;
-  text-decoration-color: white;
-}
-
-/* specific Dashboard list items for announcements/activty that don't display correctly */
-
-/* HIDDEN ELEMENTS */
-::-webkit-scrollbar,
-footer#footer.ic-app-footer,
-span.MYpOQ_bGBk.MYpOQ_dBtH.MYpOQ_UeJS,
-div#discussion-managebar.toolbarView,
-div.ag-header-controls,
-/* removed ability to customize dashboard view &  items for now
-i.icon-more,
-i.icon-more::before,
-div#DashboardOptionsMenu_Container,*/
-button.Button.Button--icon-action-rev.ic-DashboardCard__header-button,
-div.feature-flag-wrapper
-{
-display: none !important; /* !important required for some elements */
-}
-
-/* discussion board and announcement view new borders */
-div.entry-content
-{
-  border-top: 1px solid #303030;
-  border-right: 1px solid #303030 !important;
-  border-left: 1px solid #303030 !important;
-  border-top-left-radius: 25px;
-  border-top-right-radius: 25px;
-  z-index: 1000;
-}
-
-div.headerBar
-{
-  border-bottom-left-radius: 25px;
-  border-bottom-right-radius: 25px;
-}
-
-
-div#ag-list.item-group-container
-{
-  border: 1px solid white;
-  border-radius: 25px;
-}
-
-div.header-bar,
-div.ic-avatar
-{
-  border-style: none !important;
-}
-
-div.stream_header:hover,
-tr:hover,
-li#service_google_drive.service.clearfix.service-hover
-{
-  background-color: #303030 !important;
-}
-
-div.ef-item-row:hover,
-div.ef-item-row.ef-item-selected
-{
-  background-color: #212121 !important;
-}
-
-thead tr:hover,
-tr.edit_data_row
-{
-  background-color: #000 !important;
-}
-
-
-/* LABS TEST */
-/* center classes in middle of dashboard
-div#DashboardCard_Container,
-div.ic-DashboardCard__box
-{
-  place-items: center center !important;
-  width: 100vw;
-  height: 100vh;
-}
-
-span.hidden-phone,
-h1.ic-Dashboard-header__title
-{
-  text-align: center !important;
-}
- */
-
-/* remove sidebar (todo and recent feedback)
-div#right-side-wrapper
-{
-  display: none !important;
-}*/
-
-/* last attempt details */
- table.summary
- {
-   color: black !important;
- }
-
-
-/* custom notification color */
-span.ic-DashboardCard__action-badge
-{
-  color: white;
-  background-color: red;
-}
-
-
-/*
-
-*/
