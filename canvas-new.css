@@ -39,7 +39,8 @@ div.fLzZc_caGd
 }
 
 /* Course title / section number text on homepage of course */
- h2.course-title.ellipsis
+ h2.course-title.ellipsis,
+ span.score_value
  {
    color: white !important;
  }
@@ -205,12 +206,12 @@ span.hidden-phone,
 h1.ic-Dashboard-header__title
 {
   text-align: center !important;
-  width: 100%;
 }
 
 
+
 /* LABS TEST */
-/* center classes in middle of dashboard */
+/* center classes in middle of dashboard
 div#DashboardCard_Container,
 div.ic-DashboardCard__box
 {
@@ -218,6 +219,7 @@ div.ic-DashboardCard__box
   width: 100vw;
   height: 100vh;
 }
+ */
 
 /* remove sidebar (todo and recent feedback)
 div#right-side-wrapper
