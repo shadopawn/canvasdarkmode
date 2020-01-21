@@ -59,7 +59,12 @@ span.points.question_points,
 span.question_points_holder,
 span#last_saved_indicator,
 div.module-sequence-footer-content,
-div.MYpOQ_bGBk
+div.MYpOQ_bGBk,
+div#opportunities_parent.root_3FFz,
+div.fOyUs_bGBk.fOyUs_desw.fOyUs_cBHs.fOyUs_eWbJ.fOyUs_eeJl.fOyUs_cBtr.fOyUs_fuTR.cMXVf_bXVH,
+div.fOyUs_bGBk.cDwzl_caGd.eJkkQ_bEpV,
+div#panel-uGLOkZy3Zy6s.cDwzl_bGBk.cDwzl_GKUc,
+div#tab-uuk7HzPjmYje.fOyUs_bGBk.cyAHS_bGBk.cyAHS_GKUc
 {
   background-color: black !important;
   color: white !important;
@@ -204,6 +209,16 @@ div.header-bar
   border-style: none !important;
 }
 
+div.stream_header:hover,
+tr:hover
+{
+  background-color: #303030 !important;
+}
+
+thead tr:hover
+{
+  background-color: #000 !important;
+}
 
 
 /* LABS TEST */
