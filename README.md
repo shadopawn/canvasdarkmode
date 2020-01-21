@@ -41,4 +41,4 @@ The asterisks in the URLs represent any subdomains or pages within a site (such 
  The firefox-edition branch contains a beta build of Dark Mode for Canvas (Firefox Edition). It is currently in development and will not get official Github releases at this time.
 
  ## Dark Mode for Canvas (Beta)
- The chrome-beta branch contains a build build of Dark Mode for Canvas. This build is only supported on Google Chrome. A beta release is coming along with the next release of Dark Mode for Canvas (Stable)
+ The chrome-beta branch contains a beta build of Dark Mode for Canvas. This build is only supported on Google Chrome. 
