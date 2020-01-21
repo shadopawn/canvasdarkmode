@@ -34,7 +34,8 @@
 
       "css": ["canvas-new.css"],
       "matches": ["https://*.instructure.com/*"],
-      "exclude_matches": ["https://*.instructure.com/calendar/*"]
+      "exclude_matches": ["https://*.instructure.com/calendar/*"],
+      "exclude_matches": ["https://*.instructure.com/conversations/*"]
     },
     {
       "css": ["webauth.css"],
