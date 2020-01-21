@@ -207,11 +207,11 @@ div.ic-DashboardCard__box
   height: 100vh;
 }
 
-/* remove sidebar (todo and recent feedback) */
+/* remove sidebar (todo and recent feedback)
 div#right-side-wrapper
 {
   display: none !important;
-}
+}*/
 
 
 /* custom notification color */
