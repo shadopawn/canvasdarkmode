@@ -23,7 +23,7 @@ div.quiz_sortable.question_holder,
 div.header,
 div.text,
 div.quiz-submission
- {
+{
   background-color: black;
   color: white;
 }
@@ -64,9 +64,21 @@ div#opportunities_parent.root_3FFz,
 div.fOyUs_bGBk.fOyUs_desw.fOyUs_cBHs.fOyUs_eWbJ.fOyUs_eeJl.fOyUs_cBtr.fOyUs_fuTR.cMXVf_bXVH,
 div.fOyUs_bGBk.cDwzl_caGd.eJkkQ_bEpV,
 div#panel-uGLOkZy3Zy6s.cDwzl_bGBk.cDwzl_GKUc,
-div#tab-uuk7HzPjmYje.fOyUs_bGBk.cyAHS_bGBk.cyAHS_GKUc
+div#tab-uuk7HzPjmYje.fOyUs_bGBk.cyAHS_bGBk.cyAHS_GKUc,
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-draggable.ui-dialog-buttons,
+div.ui-dialog-titlebar.ui-widget-header.ui-corner-all.ui-helper-clearfix,
+div.ui-dialog-buttonpane.ui-widget-content.ui-helper-clearfix,
+div.span6,
+div#communication_channels.ui-tabs.ui-widget.ui-widget-content.ui-corner-all.ui-dialog-content
 {
   background-color: black !important;
+  color: white !important;
+}
+textarea.ic-Input.grading_comment,
+textarea#profile_bio.ic_Input,
+input.ic-Input
+{
+  background-color: #212121 !important;
   color: white !important;
 }
 
@@ -111,18 +123,47 @@ img.equation_image,
 pre,
 i.placeholder.icon-check,
 i.placeholder.icon-question,
-table.summary
+table.summary,
+span.ui-icon.ui-icon-extlink.ui-icon-inline,
+span.ui-icon.ui-icon-closethick,
+i.icon-mini-arrow-right,
+i.icon-folder,
+i.icon-folder-locked,
+i.media-object.ef-big-icon.FilesystemObjectThumbnail.mimeClass-folder,
+i.media-object.ef-big-icon.FilesystemObjectThumbnail.mimeClass-folder-locked,
+i.icon-mini-arrow-up,
+table#access_tokens.summary thead tr th
 {
   -webkit-filter: invert(100%) hue-rotate(180deg)!important;  /* using important here as a precaution */
 }
-
-
+table#access_tokens.summary thead tr th
+{
+  color: white !important;
+}
+thead th
+{
+  background: black !important;
+  background-color: black !important;
+}
 
 /* some button elements and icons */
 span.eHiXd_caGd,
-h2.ig-header-title a.element_toggler.accessible-toggler
+h2.ig-header-title a.element_toggler.accessible-toggler,
+a.ef-plain-link span,
+span.ellipsis,
+a.ef-plain-link
 {
-  color: white;
+  color: white !important;
+}
+
+span#hints_name.edit_or_show_data.data_description,
+span#hints_short_name.edit_or_show_data.data_description,
+span#hints_sortable_name.edit_or_show_data.data_description,
+p.path.email_channel.contact_channel_path.ellipsis,
+span#hints_language.data_description,
+div.cjUyb_bGBk.cjUyb_dfBC.cjUyb_pEgL.cjUyb_eQnG
+{
+  color: #BBB !important;
 }
 
 /* other button elements */
@@ -135,7 +176,18 @@ button.Button.submit_button.next-question.btn-primary,
 button.Button.submit_button.previous-question,
 button.Button.submit_button.next-question,
 a.Button,
-a#take_quiz_link.btn.btn-primary
+a#take_quiz_link.btn.btn-primary,
+button.ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-text-only,
+button.btn.take-snapshot-btn,
+button.hide-if-editing.Button,
+button.show-if-editing.Button,
+button.btn.btn-small,
+button.btn,
+button.btn.btn-primary,
+button.Button,
+button.Button:hover,
+a.btn.btn-small,
+a.btn.btn-primary.add_access_token_link
 {
   transition: .5s  ease !important;
   background-color: #212121 !important;
@@ -151,7 +203,16 @@ button.Button.submit_button.next-question.btn-primary:hover,
 button.Button.submit_button.previous-question:hover,
 button.Button.submit_button.next-question:hover,
 a.Button:hover,
-a#take_quiz_link.btn.btn-primary:hover
+a#take_quiz_link.btn.btn-primary:hover,
+button.ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-text-only:hover,
+button.btn.take-snapshot-btn:hover,
+button.hide-if-editing.Button:hover,
+button.show-if-editing.Button:hover,
+button.btn.btn-small:hover,
+button.btn:hover:hover,
+button.btn.btn-primary:hover,
+a.btn.btn-small:hover,
+a.btn.btn-primary.add_access_token_link:hover
 {
   background-color: #00703c !important;
 }
@@ -175,7 +236,8 @@ div.ag-header-controls,
 i.icon-more,
 i.icon-more::before,
 div#DashboardOptionsMenu_Container,*/
-button.Button.Button--icon-action-rev.ic-DashboardCard__header-button
+button.Button.Button--icon-action-rev.ic-DashboardCard__header-button,
+div.feature-flag-wrapper
 {
 display: none !important; /* !important required for some elements */
 }
@@ -204,18 +266,27 @@ div#ag-list.item-group-container
   border-radius: 25px;
 }
 
-div.header-bar
+div.header-bar,
+div.ic-avatar
 {
   border-style: none !important;
 }
 
 div.stream_header:hover,
-tr:hover
+tr:hover,
+li#service_google_drive.service.clearfix.service-hover
 {
   background-color: #303030 !important;
 }
 
-thead tr:hover
+div.ef-item-row:hover,
+div.ef-item-row.ef-item-selected
+{
+  background-color: #212121 !important;
+}
+
+thead tr:hover,
+tr.edit_data_row
 {
   background-color: #000 !important;
 }
