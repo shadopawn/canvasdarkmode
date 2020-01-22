@@ -25,11 +25,27 @@
   div.quiz_sortable.question_holder,
   div.header,
   div.text,
-  div.quiz-submission
+  div.quiz-submission,
+  span.month_name,
+  span.year_number,
+  table.mini_calendar,
+  div.day_wrapper
   {
     background-color: black;
     color: white;
   }
+
+
+  /* alert banner */
+  div.alert
+  {
+    background-color: black;
+    color: #FFCCCB;
+    border: 1px solid #FFCCCB;
+    text-align: center;
+  }
+
+
 
 
   /* side menu */
@@ -107,9 +123,17 @@
   div.ic-DashboardCard__header-subtitle.ellipsis,
   div.ic-DashboardCard__header-term.ellipsis,
   h2.ic-DashboardCard__header-title.ellipsis span,
-  div.ic-DashboardCard svg
+  div.event-details b.event-details__title.recent_feedback_title
   {
     color: white !important;  /*!important is required here –– will not work if removed! */
+  }
+  div.event-details p
+  {
+    color: #8B969E !important;
+  }
+  div.ic-DashboardCard svg
+  {
+    color: black !important; /* !important is required AND because the icon is inverted, the color black is needed */
   }
   div.ic-DashboardCard__header_content,
   div.ic-DashboardCard
@@ -132,7 +156,7 @@
   pre,
   i.placeholder.icon-check,
   i.placeholder.icon-question,
-  table.summary,
+/*  table.summary,*/
   span.ui-icon.ui-icon-extlink.ui-icon-inline,
   span.ui-icon.ui-icon-closethick,
   i.icon-mini-arrow-right,
@@ -142,9 +166,12 @@
   i.media-object.ef-big-icon.FilesystemObjectThumbnail.mimeClass-folder-locked,
   i.icon-mini-arrow-up,
   table#access_tokens.summary thead tr th,
-  svg.esvoZ_bGBk.esvoZ_drOs.esvoZ_eXrk.cGqzL_bGBk,
   button#discussion_settings.fOyUs_bGBk.eHiXd_bGBk.eHiXd_ddES.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS,
-  svg.esvoZ_bGBk.esvoZ_drOs.esvoZ_eXrk.cGqzL_bGBk
+  svg.esvoZ_bGBk.esvoZ_drOs.esvoZ_eXrk.cGqzL_bGBk,
+  svg.esvoZ_bGBk.esvoZ_drOs.esvoZ_eXrk.cGqzL_bGBk.cGqzL_dIzR.cGqzL_owrh,
+  button#collapseAll.btn.disableWhileFiltering,
+  button#expandAll.btn.disableWhileFiltering,
+  label.ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-text-only
   {
     -webkit-filter: invert(100%) hue-rotate(180deg)!important;  /* using important here as a precaution */
   }
@@ -152,6 +179,14 @@
   {
     color: white !important;
   }
+
+  table.summary td, table.summary tbody th
+  {
+    background-color: #000000 !important;
+  }
+
+
+
   thead th
   {
     background: black !important;
@@ -160,12 +195,19 @@
 
   /* some button elements and icons */
   span.eHiXd_caGd,
-  h2.ig-header-title a.element_toggler.accessible-toggler,
+  h2.ig-header-title a.element_toggler.accessible-toggler, /* FIGURE OUT WHAT THE HECK IS GOING ON !!!! */
   a.ef-plain-link span,
   span.ellipsis,
-  a.ef-plain-link
+  a.ef-plain-link,
+  a.content_summary,
+  span.fake-link
   {
     color: white !important;
+  }
+
+  a.content_summary:hover
+  {
+    color: blue;
   }
 
   span#hints_name.edit_or_show_data.data_description,
@@ -200,7 +242,8 @@
   button.Button:hover,
   a.btn.btn-small,
   a.btn.btn-primary.add_access_token_link,
-  a#add_discussion.fOyUs_bGBk.eHiXd_bGBk.eHiXd_bXiG.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS
+  a#add_discussion.fOyUs_bGBk.eHiXd_bGBk.eHiXd_bXiG.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS,
+  label.ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-text-only
   {
     transition: .5s  ease !important;
     background-color: #212121 !important;
@@ -226,7 +269,10 @@
   button.btn.btn-primary:hover,
   a.btn.btn-small:hover,
   a.btn.btn-primary.add_access_token_link:hover,
-  a#add_discussion.fOyUs_bGBk.eHiXd_bGBk.eHiXd_bXiG.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS:hover
+  a#add_discussion.fOyUs_bGBk.eHiXd_bGBk.eHiXd_bXiG.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS:hover,
+  button#collapseAll.btn.disableWhileFiltering:hover,
+  button#expandAll.btn.disableWhileFiltering:hover,
+  label.ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-text-only:hover
   {
     background-color: #00703c !important;
   }
@@ -305,11 +351,11 @@
     background-color: #000 !important;
   }
 
-  /* last attempt details */
+  /* last attempt details
    table.summary
    {
      color: black !important;
-   }
+   }*/
 
 
   /* custom notification color */
@@ -318,4 +364,43 @@
     color: white;
     background-color: red;
   }
+
+
+  div.discussion-fyi
+  {
+    color: #CCC;
+  }
+
+  tr.date.related td, #syllabus
+  tr.date.related th, #syllabus
+  tr.date.selected td, #syllabus
+  tr.date.selected th
+  {
+    background-color: #303030 !important;
+  }
+
+  input#discussion-search
+  {
+    -webkit-filter: invert(100%) hue-rotate(180deg)!important;
+    filter: invert(100%) hue-rotate(180deg)!important;
+    background: #121212;
+    background-color: #121212;
+    border: 1px solid #AAA;
+    color: white;
+  }
+
+  input#discussion-search:focus
+  {
+    background: #212121;
+    background-color: #212121;
+    outline: none;
+    border: 1px solid white;
+  }
+
+  button#courseMenuToggle
+  {
+    outline: none;
+    border-style: none;
+  }
+
 }
