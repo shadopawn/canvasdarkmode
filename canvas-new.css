@@ -160,6 +160,7 @@
   span.ui-icon.ui-icon-extlink.ui-icon-inline,
   span.ui-icon.ui-icon-closethick,
   i.icon-mini-arrow-right,
+  i.icon-mini-arrow-right:before,
   i.icon-folder,
   i.icon-folder-locked,
   i.media-object.ef-big-icon.FilesystemObjectThumbnail.mimeClass-folder,
@@ -171,7 +172,8 @@
   svg.esvoZ_bGBk.esvoZ_drOs.esvoZ_eXrk.cGqzL_bGBk.cGqzL_dIzR.cGqzL_owrh,
   button#collapseAll.btn.disableWhileFiltering,
   button#expandAll.btn.disableWhileFiltering,
-  label.ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-text-only
+  label.ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-text-only,
+  i.icon-mini-arrow-right
   {
     -webkit-filter: invert(100%) hue-rotate(180deg)!important;  /* using important here as a precaution */
   }
@@ -379,7 +381,8 @@
     background-color: #303030 !important;
   }
 
-  input#discussion-search
+  input#discussion-search,
+  input#quiz_access_code
   {
     -webkit-filter: invert(100%) hue-rotate(180deg)!important;
     filter: invert(100%) hue-rotate(180deg)!important;
@@ -389,7 +392,8 @@
     color: white;
   }
 
-  input#discussion-search:focus
+  input#discussion-search:focus,
+    input#quiz_access_code:focus
   {
     background: #212121;
     background-color: #212121;
