@@ -35,10 +35,10 @@ The asterisks in the URLs represent any subdomains or pages within a site (such 
  (4) Confirm extension is working by selecting the Canvas icon in your web browser's toolbar. If you see a green check mark, you are good to go!
 
  ## gh-pages branch
- Dark Mode for Canvas uses various resources hosted via Github Pages.  You can find them by viewing the gh-pages branch in this repository.
+ Dark Mode for Canvas uses various resources hosted via Github Pages.  You can find them by viewing the gh-pages branch in this repository. There is also a live viewable page with official download links and an FAQ available at https://marissa.page/canvasdarkmode
 
  ## Firefox Edition (Beta)
- The firefox-edition branch contains a beta build of Dark Mode for Canvas (Firefox Edition). It is currently in development and will not get official Github releases at this time.
+ The firefox-edition branch contains an in-the-works build of Dark Mode for Canvas (Firefox Edition). This build is incomplete and will see an official release at a later time. 
 
- ## Dark Mode for Canvas (Beta)
- The chrome-beta branch contains a beta build of Dark Mode for Canvas. This build is only supported on Google Chrome. 
+ ## Dark Mode for Canvas (Experimental Edition)
+ The chrome-beta branch contains an experimental build of Dark Mode for Canvas. This build is only supported on Google Chrome. It will not see releases for the time being, and is only meant to be a way to test out new features early. It must also be sideloaded via chrome://extensions. 
