@@ -10,7 +10,8 @@
 
   img,
   div#branding,
-  div#logo-wrapper
+  div#logo-wrapper,
+  iframe#duo_iframe
   {
     -webkit-filter: invert(100%) hue-rotate(180deg)!important;
     filter: invert(100%) hue-rotate(180deg)!important;
