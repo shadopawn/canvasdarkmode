@@ -70,7 +70,14 @@
   div.ui-dialog-titlebar.ui-widget-header.ui-corner-all.ui-helper-clearfix,
   div.ui-dialog-buttonpane.ui-widget-content.ui-helper-clearfix,
   div.span6,
-  div#communication_channels.ui-tabs.ui-widget.ui-widget-content.ui-corner-all.ui-dialog-content
+  div#communication_channels.ui-tabs.ui-widget.ui-widget-content.ui-corner-all.ui-dialog-content,
+  div.ig-empty-msg,
+  div.unpinned-discussions-v2__wrapper,
+  div.MlJlv_bGBk.MlJlv_ycrn,
+  button.MlJlv_cjSw,
+  span.cjUyb_bGBk.cjUyb_ycrn.cjUyb_fetN.cjUyb_eQnG,
+  div.discussions-v2__container-image,
+  div.closed-for-comments-discussions-v2__wrapper
   {
     background-color: black !important;
     color: white !important;
@@ -82,6 +89,7 @@
     background-color: #212121 !important;
     color: white !important;
   }
+
 
   a.active
   {
@@ -133,7 +141,10 @@
   i.media-object.ef-big-icon.FilesystemObjectThumbnail.mimeClass-folder,
   i.media-object.ef-big-icon.FilesystemObjectThumbnail.mimeClass-folder-locked,
   i.icon-mini-arrow-up,
-  table#access_tokens.summary thead tr th
+  table#access_tokens.summary thead tr th,
+  svg.esvoZ_bGBk.esvoZ_drOs.esvoZ_eXrk.cGqzL_bGBk,
+  button#discussion_settings.fOyUs_bGBk.eHiXd_bGBk.eHiXd_ddES.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS,
+  svg.esvoZ_bGBk.esvoZ_drOs.esvoZ_eXrk.cGqzL_bGBk
   {
     -webkit-filter: invert(100%) hue-rotate(180deg)!important;  /* using important here as a precaution */
   }
@@ -188,7 +199,8 @@
   button.Button,
   button.Button:hover,
   a.btn.btn-small,
-  a.btn.btn-primary.add_access_token_link
+  a.btn.btn-primary.add_access_token_link,
+  a#add_discussion.fOyUs_bGBk.eHiXd_bGBk.eHiXd_bXiG.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS
   {
     transition: .5s  ease !important;
     background-color: #212121 !important;
@@ -213,7 +225,8 @@
   button.btn:hover:hover,
   button.btn.btn-primary:hover,
   a.btn.btn-small:hover,
-  a.btn.btn-primary.add_access_token_link:hover
+  a.btn.btn-primary.add_access_token_link:hover,
+  a#add_discussion.fOyUs_bGBk.eHiXd_bGBk.eHiXd_bXiG.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS:hover
   {
     background-color: #00703c !important;
   }
