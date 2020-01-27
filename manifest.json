@@ -33,6 +33,7 @@
     {
 
       "css": ["canvas.css"],
+      "run_at": "document_start",
       "matches": ["https://*.instructure.com/*"]
     },
     {
