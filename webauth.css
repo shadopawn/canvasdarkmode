@@ -1,20 +1,40 @@
-@media(prefers-color-scheme: dark)
+@media(prefers-color-scheme: dark), (prefers-color-scheme: no-preference)
 {
   html
   {
     -webkit-filter: invert(100%) hue-rotate(180deg)!important;
     filter: invert(100%) hue-rotate(180deg)!important;
     background: rgb(0, 0, 0)!important;
-    overflow: hidden;
 
   }
 
   img,
   div#branding,
-  div#logo-wrapper
+  div#logo-wrapper,
+  iframe#duo_iframe
   {
     -webkit-filter: invert(100%) hue-rotate(180deg)!important;
     filter: invert(100%) hue-rotate(180deg)!important;
+  }
+
+  input#username.form-element.form-field,
+  input#password.form-element.form-field
+  {
+    -webkit-filter: invert(100%) hue-rotate(180deg)!important;
+    filter: invert(100%) hue-rotate(180deg)!important;
+    background: #121212;
+    background-color: #121212;
+    border: 1px solid #AAA;
+    color: white;
+  }
+
+  input#username.form-element.form-field:focus,
+  input#password.form-element.form-field:focus
+  {
+    background: #212121;
+    background-color: #212121;
+    outline: none;
+    border: 1px solid white;
   }
 
 
@@ -22,109 +42,20 @@
   {
     -webkit-filter: invert(100%) hue-rotate(180deg)!important;
     filter: invert(100%) hue-rotate(180deg)!important;
-    background: green !important;
+    background: #212121 !important;
+    transition: .5s  ease !important;
+    background-color: #212121 !important;
     color: white !important;
-    border-radius: 40px;
+    border: 1px solid white;
   }
 
 
 
-  button:hover
-  {
-     transform: scale(1.04) !important;
-  }
-
-
-  div#footer,
-  div#branding,
-  span#login-id-details.glyphicon.glyphicon-info-sign
-  {
-    display: none !important;
-    visibility: hidden !important;
-  }
-
-  header
+  button#shibboleth-login-button.form-element.form-button:hover
   {
     -webkit-filter: invert(100%) hue-rotate(180deg)!important;
     filter: invert(100%) hue-rotate(180deg)!important;
-    background: green !important;
-    border-top-left-radius: 15px !important;
-    border-top-right-radius: 15px !important;
-  }
-
-
-  div#page-wrapper
-  {
-    transform: scale(1.05) !important;
-    margin-bottom: 500px !important;
-  }
-
-
-  div#logo-wrapper
-  {
-    margin-left: 305px !important;
-  }
-
-
-  label[for="username"]:before
-  {
-    content:'Email';
-    font-size: 15px !important;
-  }
-
-  label[for="password"]:before
-  {
-    content:'Password';
-    font-size: 15px !important;
-  }
-
-  label
-  {
-    font-size: 0 !important;
-  }
-
-
-  div.logout-content
-  {
-    text-align: center !important;
-  }
-}
-
-
-@media(prefers-color-scheme: no-preference)
-{
-  html
-  {
-    -webkit-filter: invert(100%) hue-rotate(180deg)!important;
-    filter: invert(100%) hue-rotate(180deg)!important;
-    background: rgb(0, 0, 0)!important;
-    overflow: hidden;
-
-  }
-
-  img,
-  div#branding,
-  div#logo-wrapper
-  {
-    -webkit-filter: invert(100%) hue-rotate(180deg)!important;
-    filter: invert(100%) hue-rotate(180deg)!important;
-  }
-
-
-  button#shibboleth-login-button.form-element.form-button
-  {
-    -webkit-filter: invert(100%) hue-rotate(180deg)!important;
-    filter: invert(100%) hue-rotate(180deg)!important;
-    background: green !important;
-    color: white !important;
-    border-radius: 40px;
-  }
-
-
-
-  button:hover
-  {
-     transform: scale(1.04) !important;
+    background-color: #00703c !important;
   }
 
 

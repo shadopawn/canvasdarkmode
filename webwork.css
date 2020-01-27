@@ -1,0 +1,57 @@
+html,
+body,
+div.row-fluid
+{
+  background-color: black !important;
+  color: white !important;
+}
+
+div#site-links ul,
+div#siblings ul,
+div#fisheye.info-box,
+div#info-panel-right,
+div#problem_body
+{
+  background-color: #212121 !important;
+  color: white !important;
+}
+
+div#site-links ul li a,
+div#siblings ul li a,
+li.nav-header h2,
+li.info-box h2
+{
+  color: white !important;
+  text-align: center;
+}
+
+div#alert-error
+{
+  text-align: center;
+}
+
+div#site-links ul li a:hover,
+div#siblings ul li a:hover
+{
+  background-color: #505050 !important;
+}
+
+a.btn.btn-small,
+a#toggle-sidebar.btn.btn,
+div#breadcrumb-navigation,
+div.popover.fade.right.in.ui-draggable
+{
+  -webkit-filter: invert(100%) hue-rotate(180deg)!important;  /* using important here as a precaution */
+}
+
+table.problem_set_table.problem_table.table.small-table-text tbody tr td a
+{
+  color: #87ceeb !important;
+}
+
+input
+{
+  background-color: #303030 !important;
+  color: white !important;
+  border: 1px solid white !important;
+}

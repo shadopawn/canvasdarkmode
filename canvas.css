@@ -1,200 +1,606 @@
-@media(prefers-color-scheme: dark)
+
+@media(prefers-color-scheme: dark), (prefers-color-scheme: no-preference)
 {
-  html
+  /* GENERAL */
+  html,
+  body,
+  header#header.ic-app-header.no-print,
+  div.ic-app-header__logomark-container,
+  div#main.ic-Layout-columns,
+  div.large.ic-Dashboard-header__layout,
+  div.fLzZc_caGd,
+  div.root_3KEc.planner-day,
+  div.nothingPlannedContainer_hppr,
+  div.root_2rqW.PlannerHeader,
+  div.header-bar.flex-container,
+  div#wrapper.ic-Layout-wrapper,
+  nav#breadcrumbs,
+  div#add_comment_form,
+  div.comment_list,
+  a span.ellipsible,
+  div.header-bar,
+  input#search_term.ic-Input,
+  div#application.ic-app,
+  div#questions.assessing,
+  div.quiz_sortable.question_holder,
+  div.header,
+  div.text,
+  div.quiz-submission,
+  span.month_name,
+  span.year_number,
+  table.mini_calendar,
+  div.day_wrapper,
+  form#submit_online_upload_form,
+  form#submit_google_doc_form,
+  div.cvphu_dnnz,
+  div.cvphu_caGd,
+  button.fOyUs_bGBk.eHiXd_bGBk.eHiXd_dnnz.eHiXd_doqw.eHiXd_bPzo.eHiXd_cuTS.eHiXd_wWyq
   {
-    -webkit-filter: invert(100%) hue-rotate(180deg)!important;
-    filter: invert(100%) hue-rotate(180deg)!important;
-    background: rgb(0, 0, 0)!important;
-
-  }
-
-  div.MYpOQ_bGBk
-  {
-    border-right: 1px solid black !important;
-    height: 100vh !important;
-  }
-
-  div h2.fOyUs_bGBk.emyav_bGBk.emyav_dlZd.emyav_fAVi
-  {
-    padding-top: 20px !important;
-    padding-bottom: 3px !important;
-  }
-
-  span.foKny_bGBk.foKny_UeJS.bbhNB_bGBk.bbhNB_eoMd.bbhNB_cJVF,
-  div.ic-DashboardCard__header_image,
-  .avatar,
-  img,
-  div.ctf-container,
-  span.fOyUs_bGBk.fOyUs_UeJS.bbhNB_bGBk.bbhNB_eoMd.bbhNB_cJVF,
-  button.fOyUs_bGBk.eHiXd_bGBk.eHiXd_ddES.eHiXd_doqw.eHiXd_bNlk.eHiXd_cuTS
-  {
-    -webkit-filter: invert(100%) hue-rotate(180deg)!important;
-    filter: invert(100%) hue-rotate(180deg)!important;
-  }
-
-  span.foKny_bGBk.foKny_cuDs.bbhNB_bGBk.bbhNB_doqw.bbhNB_cJVF
-  {
-    -webkit-filter: invert(100%) hue-rotate(180deg)!important;
-    filter: invert(100%) hue-rotate(180deg)!important;
-  }
-
-  div.ic-DashboardCard__header_hero,
-  h2.ic-DashboardCard__header-title.ellipsis
-  {
-    -webkit-filter: invert(100%) hue-rotate(180deg)!important;
-    filter: invert(100%) hue-rotate(180deg)!important;
-  }
-
-  .menu-item__badge,
-  .fdaJD_bGBk
-  {
-    background: #ff0000 !important;
-    color: white !important;
-    font-weight: bolder !important;
-  }
-
-
-  img.equation_image,
-  div.ic-DashboardCard__header_hero
-  {
-    -webkit-filter: invert(100%) hue-rotate(180deg)!important;
-    filter: invert(100%) hue-rotate(180deg)!important;
-  }
-  div.ic-DashboardCard__header_hero
-  {
-    opacity: 1;
-  }
-  ul#menu
-  {
-    -webkit-filter: invert(100%) hue-rotate(180deg)!important;
-    filter: invert(100%) hue-rotate(180deg)!important;
     background-color: black;
+    color: white;
   }
 
-  a.ic-app-header__logomark, .ic-avatar
-  {
-    -webkit-filter: invert(100%) hue-rotate(180deg)!important;
-    filter: invert(100%) hue-rotate(180deg)!important;
-    background-color: black;
-  }
-
-   div.ic-app-header__secondary-navigation
-   {
-     -webkit-filter: invert(100%) hue-rotate(180deg)!important;
-     filter: invert(100%) hue-rotate(180deg)!important;
-     background-color: black;
-    }
-
-    .ic-app-header__main-navigation
-    {
-      background-color: white;
-    }
-
-
-    h2.fOyUs_bGBk.emyav_bGBk.emyav_dlZd.emyav_fAVi::after
-    {
-      content: ",\A you are using a beta version of Dark Mode for Canvas. \A"
-
-               "Be warned that there will be bugs in this release. \A"
-
-               "You can report them by clicking the extension icon in your toolbar and selecting an option";
-    }
-
-    h2.fOyUs_bGBk.emyav_bGBk.emyav_dlZd.emyav_fAVi
-    {
-      font-size: .90em;
-    }
-
+form#submit_online_upload_form table tbody tr:hover,
+div.fc-row.fc-week.fc-widget-content table tbody tr:hover,
+form#edit_calendar_event_form table tbody tr:hover,
+form.validated-form-view table tbody tr:hover,
+div.fc-slats table tbody tr:hover,
+div.event-details-timestring table tbody tr:hover
+{
+  background-color: black !important;
 }
-@media(prefers-color-scheme: no-preference)
-{
-  html
-  {
-    -webkit-filter: invert(100%) hue-rotate(180deg)!important;
-    filter: invert(100%) hue-rotate(180deg)!important;
-    background: rgb(0, 0, 0)!important;
 
-  }
-
-  div.MYpOQ_bGBk
+  /* alert banner */
+  div.alert
   {
-    border-right: 1px solid black !important;
-    height: 100vh !important;
-  }
-
-  div h2.fOyUs_bGBk.emyav_bGBk.emyav_dlZd.emyav_fAVi
-  {
-    padding-top: 20px !important;
-    padding-bottom: 3px !important;
-  }
-
-  span.foKny_bGBk.foKny_UeJS.bbhNB_bGBk.bbhNB_eoMd.bbhNB_cJVF,
-  div.ic-DashboardCard__header_image,
-  .avatar,
-  img,
-  div.ctf-container,
-  span.fOyUs_bGBk.fOyUs_UeJS.bbhNB_bGBk.bbhNB_eoMd.bbhNB_cJVF,
-  button.fOyUs_bGBk.eHiXd_bGBk.eHiXd_ddES.eHiXd_doqw.eHiXd_bNlk.eHiXd_cuTS
-  {
-    -webkit-filter: invert(100%) hue-rotate(180deg)!important;
-    filter: invert(100%) hue-rotate(180deg)!important;
-  }
-
-  span.foKny_bGBk.foKny_cuDs.bbhNB_bGBk.bbhNB_doqw.bbhNB_cJVF
-  {
-    -webkit-filter: invert(100%) hue-rotate(180deg)!important;
-    filter: invert(100%) hue-rotate(180deg)!important;
-  }
-
-  div.ic-DashboardCard__header_hero,
-  h2.ic-DashboardCard__header-title.ellipsis
-  {
-    -webkit-filter: invert(100%) hue-rotate(180deg)!important;
-    filter: invert(100%) hue-rotate(180deg)!important;
-  }
-
-  .menu-item__badge,
-  .fdaJD_bGBk
-  {
-    background: #ff0000 !important;
-    color: white !important;
-    font-weight: bolder !important;
-  }
-
-
-  img.equation_image,
-  div.ic-DashboardCard__header_hero
-  {
-    -webkit-filter: invert(100%) hue-rotate(180deg)!important;
-    filter: invert(100%) hue-rotate(180deg)!important;
-  }
-  div.ic-DashboardCard__header_hero
-  {
-    opacity: 1;
-  }
-  ul#menu
-  {
-    -webkit-filter: invert(100%) hue-rotate(180deg)!important;
-    filter: invert(100%) hue-rotate(180deg)!important;
     background-color: black;
+    color: #FFCCCB;
+    border: 1px solid #FFCCCB;
+    text-align: center;
   }
 
-  a.ic-app-header__logomark, .ic-avatar
+
+
+
+  /* side menu */
+  div.fLzZc_caGd
   {
-    -webkit-filter: invert(100%) hue-rotate(180deg)!important;
-    filter: invert(100%) hue-rotate(180deg)!important;
-    background-color: black;
+    border-right: 1px solid white;
+    height: 100vh;
   }
 
-   div.ic-app-header__secondary-navigation
+  /* Course title / section number text on homepage of course */
+   h2.course-title.ellipsis,
+   span.score_value,
+   h1.page-title,
+   span.fCrpb_bGBk.fCrpb_egrg
    {
-     -webkit-filter: invert(100%) hue-rotate(180deg)!important;
-     filter: invert(100%) hue-rotate(180deg)!important;
-     background-color: black;
+     color: white !important;
+   }
+
+   div.context
+   {
+     color: #DDD !important;
+   }
+
+   /* background shading in some areas */
+   span.fvvQs_bGBk.fvvQs_cwzs.fvvQs_cMOR.eJkkQ_bEpV
+   {
+     -webkit-filter: invert(100%) hue-rotate(180deg)!important;  /* using important here as a precaution */
+   }
+
+  /* items that require !important in order to have black background on white text */
+  div.ic-app-nav-toggle-and-crumbs.no-print,
+  div#main.ic-Layout-columns,
+  li#crumb_course_123283 a,
+  li#crumb_course_123283,
+  a.active,
+  div.submission-details-comments div,
+  div#wrapper.ic-Layout-wrapper,
+  div#ag-list.item-group-container,
+  div.header,
+  span.points.question_points,
+  span.question_points_holder,
+  span#last_saved_indicator,
+  div.module-sequence-footer-content,
+  div.MYpOQ_bGBk,
+  div#opportunities_parent.root_3FFz,
+  div.fOyUs_bGBk.fOyUs_desw.fOyUs_cBHs.fOyUs_eWbJ.fOyUs_eeJl.fOyUs_cBtr.fOyUs_fuTR.cMXVf_bXVH,
+  div.fOyUs_bGBk.cDwzl_caGd.eJkkQ_bEpV,
+  div#panel-uGLOkZy3Zy6s.cDwzl_bGBk.cDwzl_GKUc,
+  div#tab-uuk7HzPjmYje.fOyUs_bGBk.cyAHS_bGBk.cyAHS_GKUc,
+  div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-draggable.ui-dialog-buttons,
+  div.ui-dialog-titlebar.ui-widget-header.ui-corner-all.ui-helper-clearfix,
+  div.ui-dialog-buttonpane.ui-widget-content.ui-helper-clearfix,
+  div.span6,
+  div#communication_channels.ui-tabs.ui-widget.ui-widget-content.ui-corner-all.ui-dialog-content,
+  div.ig-empty-msg,
+  div.unpinned-discussions-v2__wrapper,
+  div.MlJlv_bGBk.MlJlv_ycrn,
+  button.MlJlv_cjSw,
+  span.cjUyb_bGBk.cjUyb_ycrn.cjUyb_fetN.cjUyb_eQnG,
+  div.discussions-v2__container-image,
+  div.closed-for-comments-discussions-v2__wrapper,
+  span.deUoG_bGBk.deUoG_uUeq,
+  div.cDMBL_bGBk.cDMBL_ssMr,
+  span.yyQPt_blJt,
+  div.dNoYT_bGBk,
+  div#tab-0,
+  tr,
+  a.ui-tabs-anchor,
+  li.ui-state-default.ui-corner-top,
+  span.item_name a,
+  span.name,
+  div.ig-row,
+  div.context_module,
+  div.item-group-container,
+  tr.date.date_passed td,
+  a.ig-title,
+  ul#assignment-quizzes.ig-list.collectionViewItems li.quiz div.ig-row,
+  ul#surveys-quizzes.ig-list.collectionViewItems li.quiz div.ig-row,
+  ul#assignment-quizzes.ig-list.collectionViewItems li.quiz div.ig-row a.ig-title,
+  ul#surveys-quizzes.ig-list.collectionViewItems li.quiz div.ig-row a.ig-title,
+  div#minical.fc.fc-ltr.fc-unthemed,
+  div.rs-section.hidden-phone,
+  div.fc-center h2,
+  div#context-list-holder,
+  div#event-details-trap-focus,
+  div.agenda-wrapper.active,
+  div.agenda-day.agenda-today,
+  div#calendar_feed_box,
+  div#edit_event,
+  div#edit_calendar_event_form_holder,
+  div#edit_planner_note_form_holder,
+  div.fc-day-header__week-number,
+  div.fc-day-header__week-day
+  {
+    background-color: black !important;
+    color: white !important;
+  }
+  ul.collectionViewItems.ig-list li div.ig-row,
+  ul.collectionViewItems.ig-list li div.ig-row a.ig-title
+  {
+    background-color: white !important;
+    color: black !important;
+  }
+  div.context_module
+  {
+    border: 2px solid #606060 !important;
+    border-bottom-style: none !important;
+  }
+  div.item-group-container
+  {
+    border-style: none !important;
+  }
+  textarea.ic-Input.grading_comment,
+  textarea#profile_bio.ic_Input,
+  input.ic-Input,
+  div.ic-notification__content,
+  textarea#submission_comment.submissino_comment-textarea,
+  p#calendar-feed-box-lower input,
+  a.fc-time-grid-event.fc-v-event.fc-event.fc-start.fc-end,
+  a.fc-day-grid-event.fc-h-event.fc-event.fc-start.fc-end,
+  input#calendar_event_title,
+  input#calendar_event_date,
+  input#calendar_event_start_time,
+  input#calendar_event_end_time,
+  input#calendar_event_location_name,
+  input#planner_note_title,
+  input#planner_note_date,
+  input#planner_note_time,
+  textarea#details_textarea
+  {
+    background-color: #212121 !important;
+    color: white !important;
+  }
+
+  a.fc-time-grid-event.fc-v-event.fc-event.fc-start.fc-end span,
+  td.fc-axis.fc-widget-content span
+  {
+    color: white !important;
+  }
+
+
+
+  a.ui-tabs-anchor,
+    li.ui-state-default.ui-corner-top a
+  {
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+  }
+
+  a.ui-tabs-anchor:hover,
+  li.ui-state-default.ui-corner-top a:hover
+  {
+    background-color: #303030 !important;
+  }
+
+
+  a.active
+  {
+    border-left: 2px solid white !important; /* yes !important is required here sadly */
+  }
+
+  /* new styling of dashboard header */
+  div.large.ic-Dashboard-header__layout
+  {
+    border-bottom-style: none;
+    opacity: .8;
+  }
+
+  /* Dashboard View & Course Cards */
+  div.ic-DashboardCard__header-subtitle.ellipsis,
+  div.ic-DashboardCard__header-term.ellipsis,
+  h2.ic-DashboardCard__header-title.ellipsis span,
+  div.event-details b.event-details__title.recent_feedback_title
+  {
+    color: white !important;  /*!important is required here –– will not work if removed! */
+  }
+  div.event-details p
+  {
+    color: #8B969E !important;
+  }
+  div.ic-DashboardCard svg
+  {
+    color: black !important; /* !important is required AND because the icon is inverted, the color black is needed */
+  }
+  div.ic-DashboardCard__header_content,
+  div.ic-DashboardCard
+  {
+    background-color: #404040;
+  }
+    ul.cAqHo_eAjd,
+    span.eoNrR_blJt,
+    span.sJGfW_bGBk,
+    span.sJGfW_blJt,
+    div.ColorPicker__Container.with-animation.with-arrow.with-border.with-box-shadow
+    {
+      background-color: #303030 !important;
+      background: #303030 !important;
+      color: white !important;
     }
 
-    .ic-app-header__main-navigation
-    {
-      background-color: white;
-    }
+  span.sJGfW_bGBk:hover,
+  span.sJGfW_blJt:hover
+  {
+    background-color: #303030 !important;
+    color: white !important;
+  }
+  span.sJGfW_dnnz svg.esvoZ_bGBk.esvoZ_drOs.esvoZ_eXrk.cGqzL_bGBk
+  {
+    color: black !important;
+  }
+  h2.fOyUs_bGBk.emyav_bGBk.emyav_dlZd.emyav_fAVi
+  {
+    margin-top: 20px;
+  }
+
+  /* buttons, images, videos, etc */
+  svg.esvoZ_bGBk.esvoZ_drOs.esvoZ_eXrk.cGqzL_bGBk.cGqzL_owrh.ToDoSidebarItem__Icon,
+  div.event-details::after,
+  iframe#preview_frame,
+  span.bNerA_bGBk.bNerA_NmrE.bNerA_qfdC.bNerA_bBOa.bNerA_buDT.bNerA_DpxJ.bNerA_eFno,
+  div#discussion-toolbar.toolbarView,
+  div.assignment-list,
+  img.equation_image,
+  pre,
+  i.placeholder.icon-check,
+  i.placeholder.icon-question,
+/*  table.summary,*/
+  span.ui-icon.ui-icon-extlink.ui-icon-inline,
+  span.ui-icon.ui-icon-closethick,
+  i.icon-mini-arrow-right,
+  i.icon-mini-arrow-right:before,
+  i.icon-folder,
+  i.icon-folder-locked,
+  i.media-object.ef-big-icon.FilesystemObjectThumbnail.mimeClass-folder,
+  i.media-object.ef-big-icon.FilesystemObjectThumbnail.mimeClass-folder-locked,
+  i.icon-mini-arrow-up,
+  svg.esvoZ_bGBk.esvoZ_drOs.esvoZ_eXrk.cGqzL_bGBk,
+  svg.esvoZ_bGBk.esvoZ_drOs.esvoZ_eXrk.cGqzL_bGBk.cGqzL_dIzR.cGqzL_owrh,
+  button#collapseAll.btn.disableWhileFiltering,
+  button#expandAll.btn.disableWhileFiltering,
+  label.ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-text-only,
+  i.icon-mini-arrow-right,
+  i.icon-check-plus.standalone-icon,
+  i.icon-trash.standalone-icon,
+  i.icon-trash,
+  span.fc-icon.fc-icon-right-single-arrow,
+  span.fc-icon.fc-icon-left-single-arrow,
+  span#refresh_calendar_link,
+  a.popover_close.x-close-link.close
+  {
+    -webkit-filter: invert(100%) hue-rotate(180deg)!important;  /* using important here as a precaution */
+  }
+  a#add_discussion.fOyUs_bGBk.eHiXd_bGBk.eHiXd_bXiG.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS span.eHiXd_caGd svg.esvoZ_bGBk.esvoZ_drOs.esvoZ_eXrk.cGqzL_bGBk path,
+  button#discussion_settings.fOyUs_bGBk.eHiXd_bGBk.eHiXd_ddES.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS span.eHiXd_caGd svg.esvoZ_bGBk.esvoZ_drOs.esvoZ_eXrk.cGqzL_bGBk path
+  {
+    fill: black !important;
+  }
+  table#access_tokens.summary thead tr th
+  {
+    color: white !important;
+  }
+
+  table.summary td, table.summary tbody th
+  {
+    background-color: #000000 !important;
+  }
+
+
+
+  thead th
+  {
+    background: black !important;
+    background-color: black !important;
+  }
+
+  /* some button elements and icons */
+  span.eHiXd_caGd,
+  h2.ig-header-title a.element_toggler.accessible-toggler, /* FIGURE OUT WHAT THE HECK IS GOING ON !!!! */
+  a.ef-plain-link span,
+  span.ellipsis,
+  a.ef-plain-link,
+  a.content_summary,
+  span.fake-link
+  {
+    color: white !important;
+  }
+
+  a.content_summary:hover
+  {
+    color: blue;
+  }
+
+  span#hints_name.edit_or_show_data.data_description,
+  span#hints_short_name.edit_or_show_data.data_description,
+  span#hints_sortable_name.edit_or_show_data.data_description,
+  p.path.email_channel.contact_channel_path.ellipsis,
+  span#hints_language.data_description,
+  div.cjUyb_bGBk.cjUyb_dfBC.cjUyb_pEgL.cjUyb_eQnG
+  {
+    color: #BBB !important;
+  }
+
+  /* other button elements */
+  a.Button.button-sidebar-wide,
+  button.fOyUs_bGBk.eHiXd_bGBk.eHiXd_ddES.eHiXd_doqw.eHiXd_bNlk.eHiXd_cuTS,
+  button#planner-today-btn.fOyUs_bGBk.eHiXd_bGBk.eHiXd_eYmo.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS,
+  a.btn.button-sidebar-wide,
+  button#submit_quiz_button.btn.submit_button.quiz_submit.btn-secondary,
+  button.Button.submit_button.next-question.btn-primary,
+  button.Button.submit_button.previous-question,
+  button.Button.submit_button.next-question,
+  a.Button,
+  a#take_quiz_link.btn.btn-primary,
+  button.ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-text-only,
+  button.btn.take-snapshot-btn,
+  button.hide-if-editing.Button,
+  button.show-if-editing.Button,
+  button.btn.btn-small,
+  button.btn,
+  button.btn.btn-primary,
+  button.Button,
+  button.Button:hover,
+  a.btn.btn-small,
+  a.btn.btn-primary.add_access_token_link,
+  a#add_discussion.fOyUs_bGBk.eHiXd_bGBk.eHiXd_bXiG.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS,
+  label.ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-text-only,
+  button#discussion_settings.fOyUs_bGBk.eHiXd_bGBk.eHiXd_ddES.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS,
+  button.fOyUs_bGBk.eHiXd_bGBk.eHiXd_ddES.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS,
+  button#submit_discussion_settings.fOyUs_bGBk.eHiXd_bGBk.eHiXd_bXiG.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS,
+  a.btn.view_all_pages,
+  button#show_all_details_button.Button,
+  button#apply_select_menus.fOyUs_bGBk.eHiXd_bGBk.eHiXd_bXiG.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS,
+  a#create_new_event_link.btn,
+  button.Button.Button--link.add_another_file_link,
+  button.Button.Button--link.toggle_uploaded_files_link,
+  button#ColorPicker__Apply.fOyUs_bGBk.eHiXd_bGBk.eHiXd_bXiG.eHiXd_doqw.eHiXd_bNlk.eHiXd_cuTS,
+  button.dialog_opener.Button.Button--link,
+  a.event_button.btn.btn-secondary.more_options_link
+  {
+    transition: .5s  ease !important;
+    background-color: #212121 !important;
+    color: white !important;
+    border-color: white !important;
+  }
+  a.Button.button-sidebar-wide:hover,
+  button.fOyUs_bGBk.eHiXd_bGBk.eHiXd_ddES.eHiXd_doqw.eHiXd_bNlk.eHiXd_cuTS:hover,
+  button#planner-today-btn.fOyUs_bGBk.eHiXd_bGBk.eHiXd_eYmo.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS:hover,
+  a.btn.button-sidebar-wide:hover,
+  button#submit_quiz_button.btn.submit_button.quiz_submit.btn-secondary:hover,
+  button.Button.submit_button.next-question.btn-primary:hover,
+  button.Button.submit_button.previous-question:hover,
+  button.Button.submit_button.next-question:hover,
+  a.Button:hover,
+  a#take_quiz_link.btn.btn-primary:hover,
+  button.ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-text-only:hover,
+  button.btn.take-snapshot-btn:hover,
+  button.hide-if-editing.Button:hover,
+  button.show-if-editing.Button:hover,
+  button.btn.btn-small:hover,
+  button.btn:hover:hover,
+  button.btn.btn-primary:hover,
+  a.btn.btn-small:hover,
+  a.btn.btn-primary.add_access_token_link:hover,
+  a#add_discussion.fOyUs_bGBk.eHiXd_bGBk.eHiXd_bXiG.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS:hover,
+  button#collapseAll.btn.disableWhileFiltering:hover,
+  button#expandAll.btn.disableWhileFiltering:hover,
+  label.ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-text-only:hover,
+  button#discussion_settings.fOyUs_bGBk.eHiXd_bGBk.eHiXd_ddES.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS:hover,
+  button.fOyUs_bGBk.eHiXd_bGBk.eHiXd_ddES.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS:hover,
+  button#submit_discussion_settings.fOyUs_bGBk.eHiXd_bGBk.eHiXd_bXiG.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS:hover,
+  a.btn.view_all_pages:hover,
+  button#show_all_details_button.Button:hover,
+  button#apply_select_menus.fOyUs_bGBk.eHiXd_bGBk.eHiXd_bXiG.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS:hover,
+  a#create_new_event_link.btn:hover,
+  button.Button.Button--link.add_another_file_link:hover
+  button.Button.Button--link.toggle_uploaded_files_link:hover,
+  button#ColorPicker__Apply.fOyUs_bGBk.eHiXd_bGBk.eHiXd_bXiG.eHiXd_doqw.eHiXd_bNlk.eHiXd_cuTS:hover,
+  button.dialog_opener.Button.Button--link:hover,
+  a.event_button.btn.btn-secondary.more_options_link:hover
+  {
+    background-color: #00703c !important;
+  }
+  button.dialog_opener.Button.Button--link,
+  button.dialog_opener.Button.Button--link:hover
+  {
+    text-decoration: none !important;
+  }
+
+  a.fOyUs_bGBk.eHiXd_bGBk.eHiXd_brAJ.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS:hover,
+  a span.ellipsible:hover
+  {
+    text-decoration: underline;
+    text-decoration-color: white;
+  }
+  span.deUoG_bGBk.deUoG_uUeq,
+  span.yyQPt_cSXm
+  {
+    -webkit-filter: invert(100%) hue-rotate(180deg)!important;  /* using important here as a precaution */
+  }
+
+  li.context_list_context.hover-container:hover
+  {
+    background-color: #303030 !important;
+  }
+  /* specific Dashboard list items for announcements/activty that don't display correctly */
+
+  /* HIDDEN ELEMENTS */
+  ::-webkit-scrollbar,
+  footer#footer.ic-app-footer,
+  span.MYpOQ_bGBk.MYpOQ_dBtH.MYpOQ_UeJS,
+  div#discussion-managebar.toolbarView,
+  div.ag-header-controls,
+  /* removed ability to customize dashboard view &  items for now
+  i.icon-more,
+  i.icon-more::before,
+  div#DashboardOptionsMenu_Container,*/
+  button.Button.Button--icon-action-rev.ic-DashboardCard__header-button,
+  div.feature-flag-wrapper
+  {
+  display: none !important; /* !important required for some elements */
+  }
+
+  /* discussion board and announcement view new borders */
+  div.entry-content
+  {
+    border-top: 1px solid #303030;
+    border-right: 1px solid #303030 !important;
+    border-left: 1px solid #303030 !important;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    z-index: 1000;
+  }
+
+  div.headerBar
+  {
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+  }
+
+
+  div#ag-list.item-group-container
+  {
+    border: 1px solid white;
+    border-radius: 25px;
+  }
+
+  div.header-bar,
+  div.ic-avatar
+  {
+    border-style: none !important;
+  }
+
+  div.stream_header:hover,
+  tr:hover,
+  li#service_google_drive.service.clearfix.service-hover
+  {
+    background-color: #303030 !important;
+  }
+
+  div.ef-item-row:hover,
+  div.ef-item-row.ef-item-selected
+  {
+    background-color: #212121 !important;
+  }
+
+  thead tr:hover,
+  tr.edit_data_row
+  {
+    background-color: #000 !important;
+  }
+
+  /* last attempt details
+   table.summary
+   {
+     color: black !important;
+   }*/
+
+
+  /* custom notification color */
+  span.ic-DashboardCard__action-badge
+  {
+    color: white;
+    background-color: red;
+  }
+
+
+  div.discussion-fyi
+  {
+    color: #CCC;
+  }
+
+  tr.date.related td, #syllabus
+  tr.date.related th, #syllabus
+  tr.date.selected td, #syllabus
+  tr.date.selected th
+  {
+    background-color: #303030 !important;
+  }
+
+  input#discussion-search,
+  input#quiz_access_code
+  {
+    -webkit-filter: invert(100%) hue-rotate(180deg)!important;
+    filter: invert(100%) hue-rotate(180deg)!important;
+    background: #121212;
+    background-color: #121212;
+    border: 1px solid #AAA;
+    color: white;
+  }
+
+  div#tab-0 input,
+  div#tab-0 select,
+  select#user_locale.locale,
+  select#user_time_zone,
+  input#searchTerm,
+  select#calendar_event_context,
+  select#planner_note_context
+  {
+    background: #121212;
+    background-color: #121212;
+    border: 1px solid #AAA;
+    color: white;
+  }
+
+
+  input#discussion-search:focus,
+    input#quiz_access_code:focus,
+    div#tab-0 input:focus,
+    input#searchTerm:focus
+  {
+    background: #212121;
+    background-color: #212121;
+    outline: none;
+    border: 1px solid white;
+  }
+
+  button#courseMenuToggle
+  {
+    outline: none;
+    border-style: none;
+  }
+
 }
