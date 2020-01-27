@@ -141,7 +141,8 @@ form#submit_online_upload_form table tbody tr:hover
   div#context-list-holder,
   div#event-details-trap-focus,
   div.agenda-wrapper.active,
-  div.agenda-day.agenda-today
+  div.agenda-day.agenda-today,
+  div#calendar_feed_box
   {
     background-color: black !important;
     color: white !important;
@@ -165,7 +166,8 @@ form#submit_online_upload_form table tbody tr:hover
   textarea#profile_bio.ic_Input,
   input.ic-Input,
   div.ic-notification__content,
-  textarea#submission_comment.submissino_comment-textarea
+  textarea#submission_comment.submissino_comment-textarea,
+  p#calendar-feed-box-lower input
   {
     background-color: #212121 !important;
     color: white !important;
@@ -224,7 +226,8 @@ form#submit_online_upload_form table tbody tr:hover
     ul.cAqHo_eAjd,
     span.eoNrR_blJt,
     span.sJGfW_bGBk,
-    span.sJGfW_blJt
+    span.sJGfW_blJt,
+    div.ColorPicker__Container.with-animation.with-arrow.with-border.with-box-shadow
     {
       background-color: #303030 !important;
       background: #303030 !important;
@@ -365,7 +368,9 @@ form#submit_online_upload_form table tbody tr:hover
   button#apply_select_menus.fOyUs_bGBk.eHiXd_bGBk.eHiXd_bXiG.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS,
   a#create_new_event_link.btn,
   button.Button.Button--link.add_another_file_link,
-  button.Button.Button--link.toggle_uploaded_files_link
+  button.Button.Button--link.toggle_uploaded_files_link,
+  button#ColorPicker__Apply.fOyUs_bGBk.eHiXd_bGBk.eHiXd_bXiG.eHiXd_doqw.eHiXd_bNlk.eHiXd_cuTS,
+  button.dialog_opener.Button.Button--link
   {
     transition: .5s  ease !important;
     background-color: #212121 !important;
@@ -403,9 +408,16 @@ form#submit_online_upload_form table tbody tr:hover
   button#apply_select_menus.fOyUs_bGBk.eHiXd_bGBk.eHiXd_bXiG.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS:hover,
   a#create_new_event_link.btn:hover,
   button.Button.Button--link.add_another_file_link:hover
-  button.Button.Button--link.toggle_uploaded_files_link:hover
+  button.Button.Button--link.toggle_uploaded_files_link:hover,
+  button#ColorPicker__Apply.fOyUs_bGBk.eHiXd_bGBk.eHiXd_bXiG.eHiXd_doqw.eHiXd_bNlk.eHiXd_cuTS:hover,
+  button.dialog_opener.Button.Button--link:hover
   {
     background-color: #00703c !important;
+  }
+  button.dialog_opener.Button.Button--link,
+  button.dialog_opener.Button.Button--link:hover
+  {
+    text-decoration: none !important;
   }
 
   a.fOyUs_bGBk.eHiXd_bGBk.eHiXd_brAJ.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS:hover,
@@ -420,7 +432,10 @@ form#submit_online_upload_form table tbody tr:hover
     -webkit-filter: invert(100%) hue-rotate(180deg)!important;  /* using important here as a precaution */
   }
 
-
+  li.context_list_context.hover-container:hover
+  {
+    background-color: #303030 !important;
+  }
   /* specific Dashboard list items for announcements/activty that don't display correctly */
 
   /* HIDDEN ELEMENTS */
