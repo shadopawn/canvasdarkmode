@@ -40,7 +40,12 @@
     color: white;
   }
 
-form#submit_online_upload_form table tbody tr:hover
+form#submit_online_upload_form table tbody tr:hover,
+div.fc-row.fc-week.fc-widget-content table tbody tr:hover,
+form#edit_calendar_event_form table tbody tr:hover,
+form.validated-form-view table tbody tr:hover,
+div.fc-slats table tbody tr:hover,
+div.event-details-timestring table tbody tr:hover
 {
   background-color: black !important;
 }
@@ -142,7 +147,12 @@ form#submit_online_upload_form table tbody tr:hover
   div#event-details-trap-focus,
   div.agenda-wrapper.active,
   div.agenda-day.agenda-today,
-  div#calendar_feed_box
+  div#calendar_feed_box,
+  div#edit_event,
+  div#edit_calendar_event_form_holder,
+  div#edit_planner_note_form_holder,
+  div.fc-day-header__week-number,
+  div.fc-day-header__week-day
   {
     background-color: black !important;
     color: white !important;
@@ -167,9 +177,26 @@ form#submit_online_upload_form table tbody tr:hover
   input.ic-Input,
   div.ic-notification__content,
   textarea#submission_comment.submissino_comment-textarea,
-  p#calendar-feed-box-lower input
+  p#calendar-feed-box-lower input,
+  a.fc-time-grid-event.fc-v-event.fc-event.fc-start.fc-end,
+  a.fc-day-grid-event.fc-h-event.fc-event.fc-start.fc-end,
+  input#calendar_event_title,
+  input#calendar_event_date,
+  input#calendar_event_start_time,
+  input#calendar_event_end_time,
+  input#calendar_event_location_name,
+  input#planner_note_title,
+  input#planner_note_date,
+  input#planner_note_time,
+  textarea#details_textarea
   {
     background-color: #212121 !important;
+    color: white !important;
+  }
+
+  a.fc-time-grid-event.fc-v-event.fc-event.fc-start.fc-end span,
+  td.fc-axis.fc-widget-content span
+  {
     color: white !important;
   }
 
@@ -370,7 +397,8 @@ form#submit_online_upload_form table tbody tr:hover
   button.Button.Button--link.add_another_file_link,
   button.Button.Button--link.toggle_uploaded_files_link,
   button#ColorPicker__Apply.fOyUs_bGBk.eHiXd_bGBk.eHiXd_bXiG.eHiXd_doqw.eHiXd_bNlk.eHiXd_cuTS,
-  button.dialog_opener.Button.Button--link
+  button.dialog_opener.Button.Button--link,
+  a.event_button.btn.btn-secondary.more_options_link
   {
     transition: .5s  ease !important;
     background-color: #212121 !important;
@@ -410,7 +438,8 @@ form#submit_online_upload_form table tbody tr:hover
   button.Button.Button--link.add_another_file_link:hover
   button.Button.Button--link.toggle_uploaded_files_link:hover,
   button#ColorPicker__Apply.fOyUs_bGBk.eHiXd_bGBk.eHiXd_bXiG.eHiXd_doqw.eHiXd_bNlk.eHiXd_cuTS:hover,
-  button.dialog_opener.Button.Button--link:hover
+  button.dialog_opener.Button.Button--link:hover,
+  a.event_button.btn.btn-secondary.more_options_link:hover
   {
     background-color: #00703c !important;
   }
@@ -546,7 +575,9 @@ form#submit_online_upload_form table tbody tr:hover
   div#tab-0 select,
   select#user_locale.locale,
   select#user_time_zone,
-  input#searchTerm
+  input#searchTerm,
+  select#calendar_event_context,
+  select#planner_note_context
   {
     background: #121212;
     background-color: #121212;
