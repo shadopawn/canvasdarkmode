@@ -36,6 +36,11 @@
       "matches": ["https://*.instructure.com/*"]
     },
     {
+
+      "css": ["webwork.css"],
+      "matches": ["https://webwork.uncc.edu/*"]
+    },
+    {
       "css": ["webauth.css"],
       "matches": ["https://webauth.uncc.edu/*"]
     }]
