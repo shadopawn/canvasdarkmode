@@ -57,9 +57,22 @@
 
   /* Course title / section number text on homepage of course */
    h2.course-title.ellipsis,
-   span.score_value
+   span.score_value,
+   h1.page-title,
+   span.fCrpb_bGBk.fCrpb_egrg
    {
      color: white !important;
+   }
+
+   div.context
+   {
+     color: #DDD !important;
+   }
+
+   /* background shading in some areas */
+   span.fvvQs_bGBk.fvvQs_cwzs.fvvQs_cMOR.eJkkQ_bEpV
+   {
+     -webkit-filter: invert(100%) hue-rotate(180deg)!important;  /* using important here as a precaution */
    }
 
   /* items that require !important in order to have black background on white text */
@@ -93,17 +106,75 @@
   button.MlJlv_cjSw,
   span.cjUyb_bGBk.cjUyb_ycrn.cjUyb_fetN.cjUyb_eQnG,
   div.discussions-v2__container-image,
-  div.closed-for-comments-discussions-v2__wrapper
+  div.closed-for-comments-discussions-v2__wrapper,
+  span.deUoG_bGBk.deUoG_uUeq,
+  div.cDMBL_bGBk.cDMBL_ssMr,
+  span.yyQPt_blJt,
+  div.dNoYT_bGBk,
+  div#tab-0,
+  tr,
+  a.ui-tabs-anchor,
+  li.ui-state-default.ui-corner-top,
+  span.item_name a,
+  span.name,
+  div.ig-row,
+  div.context_module,
+  div.item-group-container,
+  tr.date.date_passed td,
+  a.ig-title,
+  ul#assignment-quizzes.ig-list.collectionViewItems li.quiz div.ig-row,
+  ul#surveys-quizzes.ig-list.collectionViewItems li.quiz div.ig-row,
+  ul#assignment-quizzes.ig-list.collectionViewItems li.quiz div.ig-row a.ig-title,
+  ul#surveys-quizzes.ig-list.collectionViewItems li.quiz div.ig-row a.ig-title,
+  div#minical.fc.fc-ltr.fc-unthemed,
+  div.rs-section.hidden-phone,
+  div.fc-center h2,
+  div#context-list-holder,
+  div#event-details-trap-focus,
+  div.agenda-wrapper.active,
+  div.agenda-day.agenda-today
   {
     background-color: black !important;
     color: white !important;
   }
+  ul.collectionViewItems.ig-list li div.ig-row,
+  ul.collectionViewItems.ig-list li div.ig-row a.ig-title
+  {
+    background-color: white !important;
+    color: black !important;
+  }
+  div.context_module
+  {
+    border: 2px solid #606060 !important;
+    border-bottom-style: none !important;
+  }
+  div.item-group-container
+  {
+    border-style: none !important;
+  }
   textarea.ic-Input.grading_comment,
   textarea#profile_bio.ic_Input,
-  input.ic-Input
+  input.ic-Input,
+  div.ic-notification__content
   {
     background-color: #212121 !important;
     color: white !important;
+  }
+
+
+
+  a.ui-tabs-anchor,
+    li.ui-state-default.ui-corner-top a
+  {
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+  }
+
+  a.ui-tabs-anchor:hover,
+  li.ui-state-default.ui-corner-top a:hover
+  {
+    background-color: #303030 !important;
   }
 
 
@@ -166,16 +237,26 @@
   i.media-object.ef-big-icon.FilesystemObjectThumbnail.mimeClass-folder,
   i.media-object.ef-big-icon.FilesystemObjectThumbnail.mimeClass-folder-locked,
   i.icon-mini-arrow-up,
-  table#access_tokens.summary thead tr th,
-  button#discussion_settings.fOyUs_bGBk.eHiXd_bGBk.eHiXd_ddES.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS,
   svg.esvoZ_bGBk.esvoZ_drOs.esvoZ_eXrk.cGqzL_bGBk,
   svg.esvoZ_bGBk.esvoZ_drOs.esvoZ_eXrk.cGqzL_bGBk.cGqzL_dIzR.cGqzL_owrh,
   button#collapseAll.btn.disableWhileFiltering,
   button#expandAll.btn.disableWhileFiltering,
   label.ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-text-only,
-  i.icon-mini-arrow-right
+  i.icon-mini-arrow-right,
+  i.icon-check-plus.standalone-icon,
+  i.icon-trash.standalone-icon,
+  i.icon-trash,
+  span.fc-icon.fc-icon-right-single-arrow,
+  span.fc-icon.fc-icon-left-single-arrow,
+  span#refresh_calendar_link,
+  a.popover_close.x-close-link.close
   {
     -webkit-filter: invert(100%) hue-rotate(180deg)!important;  /* using important here as a precaution */
+  }
+  a#add_discussion.fOyUs_bGBk.eHiXd_bGBk.eHiXd_bXiG.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS span.eHiXd_caGd svg.esvoZ_bGBk.esvoZ_drOs.esvoZ_eXrk.cGqzL_bGBk path,
+  button#discussion_settings.fOyUs_bGBk.eHiXd_bGBk.eHiXd_ddES.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS span.eHiXd_caGd svg.esvoZ_bGBk.esvoZ_drOs.esvoZ_eXrk.cGqzL_bGBk path
+  {
+    fill: black !important;
   }
   table#access_tokens.summary thead tr th
   {
@@ -245,12 +326,19 @@
   a.btn.btn-small,
   a.btn.btn-primary.add_access_token_link,
   a#add_discussion.fOyUs_bGBk.eHiXd_bGBk.eHiXd_bXiG.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS,
-  label.ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-text-only
+  label.ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-text-only,
+  button#discussion_settings.fOyUs_bGBk.eHiXd_bGBk.eHiXd_ddES.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS,
+  button.fOyUs_bGBk.eHiXd_bGBk.eHiXd_ddES.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS,
+  button#submit_discussion_settings.fOyUs_bGBk.eHiXd_bGBk.eHiXd_bXiG.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS,
+  a.btn.view_all_pages,
+  button#show_all_details_button.Button,
+  button#apply_select_menus.fOyUs_bGBk.eHiXd_bGBk.eHiXd_bXiG.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS,
+  a#create_new_event_link.btn
   {
     transition: .5s  ease !important;
     background-color: #212121 !important;
     color: white !important;
-    border-color: white;
+    border-color: white !important;
   }
   a.Button.button-sidebar-wide:hover,
   button.fOyUs_bGBk.eHiXd_bGBk.eHiXd_ddES.eHiXd_doqw.eHiXd_bNlk.eHiXd_cuTS:hover,
@@ -274,7 +362,14 @@
   a#add_discussion.fOyUs_bGBk.eHiXd_bGBk.eHiXd_bXiG.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS:hover,
   button#collapseAll.btn.disableWhileFiltering:hover,
   button#expandAll.btn.disableWhileFiltering:hover,
-  label.ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-text-only:hover
+  label.ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-text-only:hover,
+  button#discussion_settings.fOyUs_bGBk.eHiXd_bGBk.eHiXd_ddES.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS:hover,
+  button.fOyUs_bGBk.eHiXd_bGBk.eHiXd_ddES.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS:hover,
+  button#submit_discussion_settings.fOyUs_bGBk.eHiXd_bGBk.eHiXd_bXiG.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS:hover,
+  a.btn.view_all_pages:hover,
+  button#show_all_details_button.Button:hover,
+  button#apply_select_menus.fOyUs_bGBk.eHiXd_bGBk.eHiXd_bXiG.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS:hover,
+  a#create_new_event_link.btn:hover
   {
     background-color: #00703c !important;
   }
@@ -285,6 +380,12 @@
     text-decoration: underline;
     text-decoration-color: white;
   }
+  span.deUoG_bGBk.deUoG_uUeq,
+  span.yyQPt_cSXm
+  {
+    -webkit-filter: invert(100%) hue-rotate(180deg)!important;  /* using important here as a precaution */
+  }
+
 
   /* specific Dashboard list items for announcements/activty that don't display correctly */
 
@@ -392,8 +493,23 @@
     color: white;
   }
 
+  div#tab-0 input,
+  div#tab-0 select,
+  select#user_locale.locale,
+  select#user_time_zone,
+  input#searchTerm
+  {
+    background: #121212;
+    background-color: #121212;
+    border: 1px solid #AAA;
+    color: white;
+  }
+
+
   input#discussion-search:focus,
-    input#quiz_access_code:focus
+    input#quiz_access_code:focus,
+    div#tab-0 input:focus,
+    input#searchTerm:focus
   {
     background: #212121;
     background-color: #212121;
