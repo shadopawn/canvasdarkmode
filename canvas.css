@@ -221,6 +221,26 @@ form#submit_online_upload_form table tbody tr:hover
   {
     background-color: #404040;
   }
+    ul.cAqHo_eAjd,
+    span.eoNrR_blJt,
+    span.sJGfW_bGBk,
+    span.sJGfW_blJt
+    {
+      background-color: #303030 !important;
+      background: #303030 !important;
+      color: white !important;
+    }
+
+  span.sJGfW_bGBk:hover,
+  span.sJGfW_blJt:hover
+  {
+    background-color: #303030 !important;
+    color: white !important;
+  }
+  span.sJGfW_dnnz svg.esvoZ_bGBk.esvoZ_drOs.esvoZ_eXrk.cGqzL_bGBk
+  {
+    color: black !important;
+  }
   h2.fOyUs_bGBk.emyav_bGBk.emyav_dlZd.emyav_fAVi
   {
     margin-top: 20px;
