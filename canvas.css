@@ -29,7 +29,8 @@
   span.month_name,
   span.year_number,
   table.mini_calendar,
-  div.day_wrapper
+  div.day_wrapper,
+  form#submit_online_upload_form
   {
     background-color: black;
     color: white;
@@ -155,7 +156,8 @@
   textarea.ic-Input.grading_comment,
   textarea#profile_bio.ic_Input,
   input.ic-Input,
-  div.ic-notification__content
+  div.ic-notification__content,
+  textarea#submission_comment.submissino_comment-textarea
   {
     background-color: #212121 !important;
     color: white !important;
@@ -333,7 +335,9 @@
   a.btn.view_all_pages,
   button#show_all_details_button.Button,
   button#apply_select_menus.fOyUs_bGBk.eHiXd_bGBk.eHiXd_bXiG.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS,
-  a#create_new_event_link.btn
+  a#create_new_event_link.btn,
+  button.Button.Button--link.add_another_file_link,
+  button.Button.Button--link.toggle_uploaded_files_link
   {
     transition: .5s  ease !important;
     background-color: #212121 !important;
@@ -369,7 +373,9 @@
   a.btn.view_all_pages:hover,
   button#show_all_details_button.Button:hover,
   button#apply_select_menus.fOyUs_bGBk.eHiXd_bGBk.eHiXd_bXiG.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS:hover,
-  a#create_new_event_link.btn:hover
+  a#create_new_event_link.btn:hover,
+  button.Button.Button--link.add_another_file_link:hover
+  button.Button.Button--link.toggle_uploaded_files_link:hover
   {
     background-color: #00703c !important;
   }
