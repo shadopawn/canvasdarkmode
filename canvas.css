@@ -30,6 +30,7 @@
   span.year_number,
   table.mini_calendar,
   div.day_wrapper,
+  form#submit_online_upload_form,
   form#submit_google_doc_form
   {
     background-color: black;
