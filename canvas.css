@@ -30,12 +30,16 @@
   span.year_number,
   table.mini_calendar,
   div.day_wrapper,
-  form#submit_online_upload_form
+  form#submit_google_doc_form
   {
     background-color: black;
     color: white;
   }
 
+form#submit_online_upload_form table tbody tr:hover
+{
+  background-color: black !important;
+}
 
   /* alert banner */
   div.alert
