@@ -40,7 +40,4 @@ The asterisks in the URLs represent any subdomains or pages within a site (such 
  Dark Mode for Canvas uses various resources hosted via Github Pages.  You can find them by viewing the gh-pages branch in this repository. There is also a live viewable page with official download links and an FAQ available at https://marissa.page/canvasdarkmode
 
  ## Firefox Edition (Experimental)
- The firefox-edition branch contains an in-the-works build of Dark Mode for Canvas (Firefox Edition). This build is available on the Firefox Add-ons Website. 
-
- ## Dark Mode for Canvas (Experimental Edition)
- The chrome-beta branch contains an experimental build of Dark Mode for Canvas. This build is only supported on Google Chrome. It will not see releases for the time being, and is only meant to be a way to test out new features early. It must also be sideloaded via chrome://extensions.
+ The firefox-edition branch contains an in-the-works build of Dark Mode for Canvas (Firefox Edition). This build is available on the Firefox Add-ons Website.
