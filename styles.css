@@ -91,3 +91,9 @@ img#needsInvert
 body {
   overscroll-behavior-y: none;
 }
+
+div.faq-section
+{
+  margin-left: 15%;
+  margin-right: 15%;
+}
