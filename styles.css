@@ -97,3 +97,8 @@ div.faq-section
   margin-left: 15%;
   margin-right: 15%;
 }
+
+iframe#feedback-form
+{
+  filter: invert(100%);
+}
