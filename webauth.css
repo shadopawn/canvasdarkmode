@@ -1,115 +1,112 @@
-@media(prefers-color-scheme: dark), (prefers-color-scheme: no-preference)
+html
 {
-  html
-  {
-    -webkit-filter: invert(100%) hue-rotate(180deg)!important;
-    filter: invert(100%) hue-rotate(180deg)!important;
-    background: rgb(0, 0, 0)!important;
+  -webkit-filter: invert(100%) hue-rotate(180deg)!important;
+  filter: invert(100%) hue-rotate(180deg)!important;
+  background: rgb(0, 0, 0)!important;
 
-  }
+}
 
-  img,
-  div#branding,
-  div#logo-wrapper,
-  iframe#duo_iframe
-  {
-    -webkit-filter: invert(100%) hue-rotate(180deg)!important;
-    filter: invert(100%) hue-rotate(180deg)!important;
-  }
+img,
+div#branding,
+div#logo-wrapper,
+iframe#duo_iframe
+{
+  -webkit-filter: invert(100%) hue-rotate(180deg)!important;
+  filter: invert(100%) hue-rotate(180deg)!important;
+}
 
-  input#username.form-element.form-field,
-  input#password.form-element.form-field
-  {
-    -webkit-filter: invert(100%) hue-rotate(180deg)!important;
-    filter: invert(100%) hue-rotate(180deg)!important;
-    background: #121212;
-    background-color: #121212;
-    border: 1px solid #AAA;
-    color: white;
-  }
+input#username.form-element.form-field,
+input#password.form-element.form-field
+{
+  -webkit-filter: invert(100%) hue-rotate(180deg)!important;
+  filter: invert(100%) hue-rotate(180deg)!important;
+  background: #121212;
+  background-color: #121212;
+  border: 1px solid #AAA;
+  color: white;
+}
 
-  input#username.form-element.form-field:focus,
-  input#password.form-element.form-field:focus
-  {
-    background: #212121;
-    background-color: #212121;
-    outline: none;
-    border: 1px solid white;
-  }
+input#username.form-element.form-field:focus,
+input#password.form-element.form-field:focus
+{
+  background: #212121;
+  background-color: #212121;
+  outline: none;
+  border: 1px solid white;
+}
 
 
-  button#shibboleth-login-button.form-element.form-button
-  {
-    -webkit-filter: invert(100%) hue-rotate(180deg)!important;
-    filter: invert(100%) hue-rotate(180deg)!important;
-    background: #212121 !important;
-    transition: .5s  ease !important;
-    background-color: #212121 !important;
-    color: white !important;
-    border: 1px solid white;
-  }
+button#shibboleth-login-button.form-element.form-button
+{
+  -webkit-filter: invert(100%) hue-rotate(180deg)!important;
+  filter: invert(100%) hue-rotate(180deg)!important;
+  background: #212121 !important;
+  transition: .5s  ease !important;
+  background-color: #212121 !important;
+  color: white !important;
+  border: 1px solid white;
+}
 
 
 
-  button#shibboleth-login-button.form-element.form-button:hover
-  {
-    -webkit-filter: invert(100%) hue-rotate(180deg)!important;
-    filter: invert(100%) hue-rotate(180deg)!important;
-    background-color: #00703c !important;
-  }
+button#shibboleth-login-button.form-element.form-button:hover
+{
+  -webkit-filter: invert(100%) hue-rotate(180deg)!important;
+  filter: invert(100%) hue-rotate(180deg)!important;
+  background-color: #00703c !important;
+}
 
 
-  div#footer,
-  div#branding,
-  span#login-id-details.glyphicon.glyphicon-info-sign
-  {
-    display: none !important;
-    visibility: hidden !important;
-  }
+div#footer,
+div#branding,
+span#login-id-details.glyphicon.glyphicon-info-sign
+{
+  display: none !important;
+  visibility: hidden !important;
+}
 
-  header
-  {
-    -webkit-filter: invert(100%) hue-rotate(180deg)!important;
-    filter: invert(100%) hue-rotate(180deg)!important;
-    background: green !important;
-    border-top-left-radius: 15px !important;
-    border-top-right-radius: 15px !important;
-  }
-
-
-  div#page-wrapper
-  {
-    transform: scale(1.05) !important;
-    margin-bottom: 500px !important;
-  }
+header
+{
+  -webkit-filter: invert(100%) hue-rotate(180deg)!important;
+  filter: invert(100%) hue-rotate(180deg)!important;
+  background: green !important;
+  border-top-left-radius: 15px !important;
+  border-top-right-radius: 15px !important;
+}
 
 
-  div#logo-wrapper
-  {
-    margin-left: 305px !important;
-  }
+div#page-wrapper
+{
+  transform: scale(1.05) !important;
+  margin-bottom: 500px !important;
+}
 
 
-  label[for="username"]:before
-  {
-    content:'Email';
-    font-size: 15px !important;
-  }
-
-  label[for="password"]:before
-  {
-    content:'Password';
-    font-size: 15px !important;
-  }
-
-  label
-  {
-    font-size: 0 !important;
-  }
+div#logo-wrapper
+{
+  margin-left: 305px !important;
+}
 
 
-  div.logout-content
-  {
-    text-align: center !important;
-  }
+label[for="username"]:before
+{
+  content:'Email';
+  font-size: 15px !important;
+}
+
+label[for="password"]:before
+{
+  content:'Password';
+  font-size: 15px !important;
+}
+
+label
+{
+  font-size: 0 !important;
+}
+
+
+div.logout-content
+{
+  text-align: center !important;
 }
