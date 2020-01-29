@@ -92,13 +92,29 @@ body {
   overscroll-behavior-y: none;
 }
 
+/* keeps text from getting too close to edge of screen */
 div.faq-section
 {
   margin-left: 15%;
   margin-right: 15%;
 }
 
+/* invert feedback form, set up for form.js file */
 iframe#feedback-form
 {
   filter: invert(100%);
+  margin-top: 50%;
+  transition: 1s ease;
+}
+
+/* completely center the logo */
+#splash-screen-logo
+{
+  position: absolute;
+  margin-top: -250px;
+  margin-left: -250px;
+  top: 50%;
+  left: 50%;
+  width: 500px;
+  height: 500px;
 }
