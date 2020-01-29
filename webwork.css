@@ -10,10 +10,24 @@ div#site-links ul,
 div#siblings ul,
 div#fisheye.info-box,
 div#info-panel-right,
-div#problem_body
+div#problem_body,
+table.attemptResults.table.table-condensed.table-bordered,
+table.attemptResults.table.table-condensed.table-bordered tbody td,
+table.attemptResults.table.table-condensed.table-bordered tbody tr th
 {
   background-color: #212121 !important;
   color: white !important;
+}
+
+table.attemptResults.table.table-condensed.table-bordered tbody td.ResultsWithoutError
+{
+  background-color: #8F8 !important;
+}
+div.ResultsWithoutError
+{
+  color: black !important;
+  text-align: center !important;
+  border-radius: 5px;
 }
 
 div#site-links ul li a,
