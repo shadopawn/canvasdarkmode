@@ -31,53 +31,6 @@ button a
     text-align: center
 }
 
-h3#onState
-{
-  color: green;
-  font-size: 1.5em;
-}
-
-h3#offState
-{
-  color: red;
-  font-size: 1.5em;
-}
-@media(prefers-color-scheme: light)
-{
-  #onState
-  {
-    display: none;
-  }
-  #offState
-  {
-    display: block !important;
-  }
-
-}
-
-#offState
-{
-  display: none;
-}
-span#onByDefault
-{
-  display: none;
-}
-
-
-@media(prefers-color-scheme: no-preference)
-{
-  span#setByBrowser
-  {
-    display: none;
-  }
-
-  span#onByDefault
-  {
-    display: block !important;
-  }
-}
-
 ::-webkit-scrollbar
 {
 display: none;
