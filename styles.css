@@ -56,8 +56,8 @@ div.faq-section
 iframe#feedback-form
 {
   filter: invert(100%);
-  margin-top: 50%;
-  transition: 1s ease;
+  margin-top: 200%;
+  transition: 1.5s ease;
 }
 
 /* completely center the logo */
@@ -158,4 +158,31 @@ article a button:hover
   margin-bottom: 15px;
   top: 0;
   position: sticky;
+}
+
+
+body.browser-action-popup
+{
+  width: 300px;
+}
+
+i#check-mark.material-icons-outlined
+{
+  color: green;
+  font-size: 2em;
+  margin-top: 10px;
+}
+
+article#browser-action-article
+{
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  border-radius: 2px;
+  border: 2px solid;
+}
+
+article#browser-action-article.is-enabled
+{
+  border-color: green;
 }
