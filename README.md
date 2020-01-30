@@ -34,10 +34,14 @@ The asterisks in the URLs represent any subdomains or pages within a site (such 
 
  (3) Click "Add extension"
 
+ ### Install from Firefox Addons
+ (1) Navigate to https://addons.mozilla.org/en-US/firefox/addon/dark-mode-for-canvas/
+
+ (2) Click "Add to Firefox"
+
+ (3) Click "Add"
+
  (4) Confirm extension is working by selecting the Canvas icon in your web browser's toolbar. If you see a green check mark, you are good to go!
 
  ## gh-pages branch
  Dark Mode for Canvas uses various resources hosted via Github Pages.  You can find them by viewing the gh-pages branch in this repository. There is also a live viewable page with official download links and an FAQ available at https://marissa.page/canvasdarkmode
-
- ## Firefox Edition (Experimental)
- The firefox-edition branch contains an in-the-works build of Dark Mode for Canvas (Firefox Edition). This build is available on the Firefox Add-ons Website.
