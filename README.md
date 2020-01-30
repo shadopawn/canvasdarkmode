@@ -6,7 +6,7 @@ Annoyed that Canvas doesn't support dark mode? Then this extension is for you! N
 
 This extension modifies all Canvas Instructure URLs in order to add dark mode support.  It works for all organizations that use Canvas. This can be useful at night, for those who have vision impairment, or for people who just prefer dark mode to light mode.  
 
-An exclusive feature exists for UNCC users. The login page for Canvas (known as UNCC WebAuth) also comes in dark mode while using this extension.
+Students that attend the University of North Carolina at Charlotte have additional benefits when using this extension! All UNCC WebAuth URLs (the login page for My UNCC) have a supported dark mode when using the extension. The math homework site WebWork is also supported.
 
 --
 
