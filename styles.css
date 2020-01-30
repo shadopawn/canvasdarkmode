@@ -173,6 +173,15 @@ i#check-mark.material-icons-outlined
   margin-top: 10px;
 }
 
+.user-selection-blocked
+{
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
 article#browser-action-article
 {
   padding: 0;
@@ -185,4 +194,9 @@ article#browser-action-article
 article#browser-action-article.is-enabled
 {
   border-color: green;
+}
+
+.three-fourths-font
+{
+  font-size: .75em;
 }
