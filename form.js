@@ -3,7 +3,7 @@ function decreaseMargin()
 {
   window.onload = function()
   {
-    for(var x=49; x>=0; x--)
+    for(var x=200; x>=0; x--)
     {
       document.getElementById("feedback-form").style.marginTop = x + "%";
     }
