@@ -63,6 +63,7 @@ iframe#feedback-form
 /* completely center the logo */
 #splash-screen-logo
 {
+  transition: 1s ease;
   position: absolute;
   margin-top: -250px;
   margin-left: -250px;
