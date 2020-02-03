@@ -85,7 +85,8 @@ input
 }
 
 a.set-id-tooltip,
-table.problem_set_table.table.small-table-text tbody tr th a
+table.problem_set_table.table.small-table-text tbody tr th a,
+span.icon.icon-download
 {
   color: white !important;
 }
