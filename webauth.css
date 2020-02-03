@@ -69,7 +69,7 @@ header
 {
   -webkit-filter: invert(100%) hue-rotate(180deg)!important;
   filter: invert(100%) hue-rotate(180deg)!important;
-  background: green !important;
+  background: #202020 !important;
   border-top-left-radius: 15px !important;
   border-top-right-radius: 15px !important;
 }
@@ -109,4 +109,12 @@ label
 div.logout-content
 {
   text-align: center !important;
+}
+
+div#slideshow img
+{
+  /*filter: grayscale(100%) brightness(150%) !important;*/
+
+  box-sizing: border-box; !important;
+  content: url("https://marissa.page/canvasdarkmode/res/uncc_entrance.jpg") !important;
 }
