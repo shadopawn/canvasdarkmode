@@ -31,8 +31,8 @@
   "content_scripts":
   [
     {
-
       "css": ["canvas.css"],
+      "js": ["removeThemeColor.js"],
       "matches": ["https://*.instructure.com/*"]
     },
     {
