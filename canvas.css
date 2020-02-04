@@ -42,7 +42,9 @@ div.fc-row.fc-week.fc-widget-content table tbody tr:hover,
 form#edit_calendar_event_form table tbody tr:hover,
 form.validated-form-view table tbody tr:hover,
 div.fc-slats table tbody tr:hover,
-div.event-details-timestring table tbody tr:hover
+div.event-details-timestring table tbody tr:hover,
+td.fc-day-number.fc-mon.fc-today.fc-state-highlight,
+td.fc-day.fc-widget-content.fc-mon.fc-today.fc-state-highlight
 {
 background-color: black !important;
 }
