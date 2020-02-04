@@ -201,3 +201,16 @@ article#browser-action-article.is-enabled
 {
   font-size: .75em;
 }
+
+@media screen and (max-width: 840px)
+{
+  article#dark-mode-homepage
+  {
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+
+    padding-top: 2%; /* <= 45px */
+    padding-bottom: 3%; /* 45px */
+  }
+}
