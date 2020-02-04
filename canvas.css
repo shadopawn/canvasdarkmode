@@ -440,7 +440,8 @@ button#ColorPicker__Apply.fOyUs_bGBk.eHiXd_bGBk.eHiXd_bXiG.eHiXd_doqw.eHiXd_bNlk
 button.dialog_opener.Button.Button--link,
 a.event_button.btn.btn-secondary.more_options_link,
 button.fOyUs_bGBk.eHiXd_bGBk.eHiXd_eYmo.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS,
-button.fOyUs_bGBk.eHiXd_bGBk.eHiXd_bXiG.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS
+button.fOyUs_bGBk.eHiXd_bGBk.eHiXd_bXiG.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS,
+a.btn.btn-primary
 {
   transition: .5s  ease !important;
   background-color: #212121 !important;
@@ -483,7 +484,8 @@ button#ColorPicker__Apply.fOyUs_bGBk.eHiXd_bGBk.eHiXd_bXiG.eHiXd_doqw.eHiXd_bNlk
 button.dialog_opener.Button.Button--link:hover,
 a.event_button.btn.btn-secondary.more_options_link:hover,
 button.fOyUs_bGBk.eHiXd_bGBk.eHiXd_eYmo.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS:hover,
-button.fOyUs_bGBk.eHiXd_bGBk.eHiXd_bXiG.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS:hover
+button.fOyUs_bGBk.eHiXd_bGBk.eHiXd_bXiG.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS:hover,
+a.btn.btn-primary:hover
 {
   background-color: #00703c !important;
 }
