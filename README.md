@@ -27,19 +27,24 @@ The asterisks in the URLs represent any subdomains or pages within a site (such 
  ![screenshot4](https://marissa.page/canvasdarkmode/screenshot4.png)
 
  ## How to Install
- ### Install from Chrome Web Store
+ ### Chrome Web Store
  (1) Navigate to https://chrome.google.com/webstore/detail/jgiilnejobjjdnjkpoahdglfejggnfgh
 
  (2) Click "Add to Chrome"
 
  (3) Click "Add extension"
 
- ### Install from Firefox Addons
+ ### Firefox Addons
  (1) Navigate to https://addons.mozilla.org/en-US/firefox/addon/dark-mode-for-canvas/
 
  (2) Click "Add to Firefox"
 
  (3) Click "Add"
+
+ ### Opera Addons
+ (1) Navigate to https://addons.opera.com/en/extensions/details/dark-mode-for-canvas/
+
+ (2) Click "Add to Opera"
 
  (4) Confirm extension is working by selecting the Canvas icon in your web browser's toolbar. If you see a green check mark, you are good to go!
 
