@@ -37,6 +37,11 @@ button.fOyUs_bGBk.eHiXd_bGBk.eHiXd_dnnz.eHiXd_doqw.eHiXd_bPzo.eHiXd_cuTS.eHiXd_w
   color: white;
 }
 
+th.fc-day-header.fc-widget-header
+{
+  color: white !important;
+}
+
 form#submit_online_upload_form table tbody tr:hover,
 div.fc-row.fc-week.fc-widget-content table tbody tr:hover,
 form#edit_calendar_event_form table tbody tr:hover,
