@@ -37,12 +37,19 @@ button.fOyUs_bGBk.eHiXd_bGBk.eHiXd_dnnz.eHiXd_doqw.eHiXd_bPzo.eHiXd_cuTS.eHiXd_w
   color: white;
 }
 
+th.fc-day-header.fc-widget-header
+{
+  color: white !important;
+}
+
 form#submit_online_upload_form table tbody tr:hover,
 div.fc-row.fc-week.fc-widget-content table tbody tr:hover,
 form#edit_calendar_event_form table tbody tr:hover,
 form.validated-form-view table tbody tr:hover,
 div.fc-slats table tbody tr:hover,
-div.event-details-timestring table tbody tr:hover
+div.event-details-timestring table tbody tr:hover,
+td.fc-day-number.fc-mon.fc-today.fc-state-highlight,
+td.fc-day.fc-widget-content.fc-mon.fc-today.fc-state-highlight
 {
 background-color: black !important;
 }
@@ -101,7 +108,6 @@ span.question_points_holder,
 span#last_saved_indicator,
 div.module-sequence-footer-content,
 div.MYpOQ_bGBk,
-div#opportunities_parent.root_3FFz,
 div.fOyUs_bGBk.fOyUs_desw.fOyUs_cBHs.fOyUs_eWbJ.fOyUs_eeJl.fOyUs_cBtr.fOyUs_fuTR.cMXVf_bXVH,
 div.fOyUs_bGBk.cDwzl_caGd.eJkkQ_bEpV,
 div#panel-uGLOkZy3Zy6s.cDwzl_bGBk.cDwzl_GKUc,
@@ -306,7 +312,9 @@ i.icon-trash,
 span.fc-icon.fc-icon-right-single-arrow,
 span.fc-icon.fc-icon-left-single-arrow,
 span#refresh_calendar_link,
-a.popover_close.x-close-link.close
+a.popover_close.x-close-link.close,
+span.fCrpb_bGBk.fCrpb_egrg,
+svg.esvoZ_bGBk.esvoZ_drOs.esvoZ_eXrk.cGqzL_bGBk.bgKsu_dnnz
 {
   -webkit-filter: invert(100%) hue-rotate(180deg)!important;  /* using important here as a precaution */
 }
@@ -326,6 +334,26 @@ table.summary td, table.summary tbody th
 }
 
 
+/* waiting on response from user with this issue */
+
+
+/* FIXING ASSIGNMENT NOTIFICATIONS CONTENT ON CERTAIN DASHBOARD VIEWS*/
+div.fOyUs_bGBk.fOyUs_desw.fOyUs_cBHs.fOyUs_eWbJ.fOyUs_eeJl.fOyUs_cBtr.fOyUs_fuTR.XBLto_bXVH,
+div.fOyUs_bGBk.fOyUs_EMjX.dpCPB_caGd.eJkkQ_bEpV,
+div.tab-uzgLY2e37GeC.fOyUs_bGBk.bdYPe_bGBk.bdYPe_ddES,
+div.fOyUs_bGBk.bdYPe_bGBk.bdYPe_ddES span span,
+div#opportunities_parent.root_3FFz,
+a.fOyUs_bGBk.eHiXd_bGBk.eHiXd_brAJ.eHiXd_ycrn.eHiXd_bN1k.eHiXd_cuTS,
+div.title_2_RE,
+ol.list_3FFz,
+ol.list_3FFz li,
+ol.list_3FFz li div
+{
+  background: #303030 !important;
+  background-color: #303030 !important;
+  color: white !important;
+}
+
 
 thead th
 {
@@ -333,9 +361,24 @@ thead th
   background-color: black !important;
 }
 
-/* some button elements and icons */
+/* DISCUSSION ENTRIES */
+.discussion_entry
+{
+  background: black !important;
+}
+.discussion_entries entry
+{
+  background: black !important;
+  border: 1px solid black !important;
+}
+.replies
+{
+  border-left: solid black 16px !important;
+}
+
+/* some button elements, icons, annoying text that won't turn white, etc */
 span.eHiXd_caGd,
-h2.ig-header-title a.element_toggler.accessible-toggler, /* FIGURE OUT WHAT THE HECK IS GOING ON !!!! */
+h2.ig-header-title a.element_toggler.accessible-toggler,
 a.ef-plain-link span,
 span.ellipsis,
 a.ef-plain-link,
@@ -395,7 +438,9 @@ button.Button.Button--link.add_another_file_link,
 button.Button.Button--link.toggle_uploaded_files_link,
 button#ColorPicker__Apply.fOyUs_bGBk.eHiXd_bGBk.eHiXd_bXiG.eHiXd_doqw.eHiXd_bNlk.eHiXd_cuTS,
 button.dialog_opener.Button.Button--link,
-a.event_button.btn.btn-secondary.more_options_link
+a.event_button.btn.btn-secondary.more_options_link,
+button.fOyUs_bGBk.eHiXd_bGBk.eHiXd_eYmo.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS,
+button.fOyUs_bGBk.eHiXd_bGBk.eHiXd_bXiG.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS
 {
   transition: .5s  ease !important;
   background-color: #212121 !important;
@@ -436,7 +481,9 @@ button.Button.Button--link.add_another_file_link:hover
 button.Button.Button--link.toggle_uploaded_files_link:hover,
 button#ColorPicker__Apply.fOyUs_bGBk.eHiXd_bGBk.eHiXd_bXiG.eHiXd_doqw.eHiXd_bNlk.eHiXd_cuTS:hover,
 button.dialog_opener.Button.Button--link:hover,
-a.event_button.btn.btn-secondary.more_options_link:hover
+a.event_button.btn.btn-secondary.more_options_link:hover,
+button.fOyUs_bGBk.eHiXd_bGBk.eHiXd_eYmo.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS:hover,
+button.fOyUs_bGBk.eHiXd_bGBk.eHiXd_bXiG.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS:hover
 {
   background-color: #00703c !important;
 }
@@ -574,19 +621,24 @@ select#user_locale.locale,
 select#user_time_zone,
 input#searchTerm,
 select#calendar_event_context,
-select#planner_note_context
+select#planner_note_context,
+input.qBMHb_cwos.qBMHb_ycrn.qBMHb_EMjX,
+span.qBMHb_cSXm,
+input#unyK6UuapeCC.bgKsu_cwos.bgKsu_bfxl
 {
   background: #121212;
   background-color: #121212;
   border: 1px solid #AAA;
-  color: white;
+  color: white !important;
 }
 
 
 input#discussion-search:focus,
   input#quiz_access_code:focus,
   div#tab-0 input:focus,
-  input#searchTerm:focus
+  input#searchTerm:focus,
+  input#uguHg3YuVsUP.qBMHb_cwos.qBMHb_ycrn.qBMHb_EMjX:focus,
+  span.qBMHb_cSXm:focus
 {
   background: #212121;
   background-color: #212121;
@@ -594,7 +646,8 @@ input#discussion-search:focus,
   border: 1px solid white;
 }
 
-button#courseMenuToggle
+button#courseMenuToggle,
+input#to-do-item-course-select
 {
   outline: none;
   border-style: none;

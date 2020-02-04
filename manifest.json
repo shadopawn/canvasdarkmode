@@ -31,6 +31,7 @@
     {
 
       "css": ["canvas.css"],
+      "js": ["removeThemeColor.js"],
       "run_at": "document_start",
       "matches": ["https://*.instructure.com/*"]
     },
@@ -39,6 +40,12 @@
       "css": ["webwork.css"],
       "run_at": "document_start",
       "matches": ["https://webwork.uncc.edu/*"]
+    },
+    {
+
+      "css": ["zybooks.css"],
+      "run_at": "document_start",
+      "matches": ["https://*.zybooks.com/*"]
     },
     {
       "css": ["webauth.css"],
