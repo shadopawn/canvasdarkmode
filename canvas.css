@@ -330,23 +330,43 @@ table.summary td, table.summary tbody th
 /* waiting on response from user with this issue */
 
 
-/* FIXING ASSIGNMENT NOTIFICATIONS CONTENT ON CERTAIN DASHBOARD VIEWS
+/* FIXING ASSIGNMENT NOTIFICATIONS CONTENT ON CERTAIN DASHBOARD VIEWS*/
 div.fOyUs_bGBk.fOyUs_desw.fOyUs_cBHs.fOyUs_eWbJ.fOyUs_eeJl.fOyUs_cBtr.fOyUs_fuTR.XBLto_bXVH,
 div.fOyUs_bGBk.fOyUs_EMjX.dpCPB_caGd.eJkkQ_bEpV,
 div.tab-uzgLY2e37GeC.fOyUs_bGBk.bdYPe_bGBk.bdYPe_ddES,
 div.fOyUs_bGBk.bdYPe_bGBk.bdYPe_ddES span span,
-div#opportunities_parent.root_3FFz
+div#opportunities_parent.root_3FFz,
+a.fOyUs_bGBk.eHiXd_bGBk.eHiXd_brAJ.eHiXd_ycrn.eHiXd_bN1k.eHiXd_cuTS,
+div.title_2_RE,
+ol.list_3FFz,
+ol.list_3FFz li,
+ol.list_3FFz li div
 {
   background: #303030 !important;
   background-color: #303030 !important;
   color: white !important;
-} */
+}
 
 
 thead th
 {
   background: black !important;
   background-color: black !important;
+}
+
+/* DISCUSSION ENTRIES */
+.discussion_entry
+{
+  background: black !important;
+}
+.discussion_entries entry
+{
+  background: black !important;
+  border: 1px solid black !important;
+}
+.replies
+{
+  border-left: solid black 16px !important;
 }
 
 /* some button elements, icons, annoying text that won't turn white, etc */
