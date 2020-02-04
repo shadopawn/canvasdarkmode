@@ -652,3 +652,9 @@ input#to-do-item-course-select
   outline: none;
   border-style: none;
 }
+
+div.show-content.user_content.clearfix.enhanced table tbody tr td ol li,
+div.show-content.user_content.clearfix.enhanced table tbody tr td ol li span
+{
+  color: white !important;
+}
