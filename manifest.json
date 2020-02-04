@@ -41,6 +41,11 @@
       "matches": ["https://webwork.uncc.edu/*"]
     },
     {
+
+      "css": ["zybooks.css"],
+      "matches": ["https://*.zybooks.com/*"]
+    },
+    {
       "css": ["webauth.css"],
       "matches": ["https://webauth.uncc.edu/*"]
     }]
