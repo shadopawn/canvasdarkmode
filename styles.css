@@ -214,3 +214,8 @@ article#browser-action-article.is-enabled
     padding-bottom: 3%; /* 45px */
   }
 }
+
+.overflow-hidden
+{
+  overflow: hidden;
+}
