@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css?family=Questrial|Roboto&display=swap');
+
+body
+{
+  font-family: 'Questrial', sans-serif;
+}
+
+article,
+p
+{
+  font-family: 'Roboto', sans-serif;
+}
+body
+{
+    background-color: #000;
+    color: white;
+    text-align: center;
+}
+
+button
+{
+    background-color: #404040;
+    color: white;
+    border: 4px solid #404040;
+    padding: 10px;
+    width: 200px;
+    border-radius: 50px;
+    margin: 4px 2px;
+    display: inline-block;
+    transition: .25s ease;
+    outline: none;
+}
+
+button:hover
+{
+    transform: scale(1.05)
+}
+
+button a
+{
+    float: left;
+    text-decoration: none;
+    text-align: center
+}
+
+::-webkit-scrollbar
+{
+display: none;
+}
+
+img#needsInvert
+{
+  filter: invert(100%) hue-rotate(180deg);
+}
+
+body {
+  overscroll-behavior-y: none;
+}
+
+/* keeps text from getting too close to edge of screen */
+div.faq-section
+{
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+/* invert feedback form, set up for form.js file */
+iframe#feedback-form
+{
+  filter: invert(100%);
+  margin-top: 200%;
+  transition: 1.5s ease;
+}
+
+/* completely center the logo */
+#splash-screen-logo
+{
+  transition: 1s ease;
+  position: absolute;
+  margin-top: -250px;
+  margin-left: -250px;
+  top: 50%;
+  left: 50%;
+  width: 500px;
+  height: 500px;
+}
+
+
+
+article
+{
+
+  text-align: center;
+  background-color: #212121;
+  color: white;
+}
+
+@media screen and (min-width: 841px)
+{
+  article
+  {
+
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+
+    padding-top: 2%; /* <= 45px */
+    padding-bottom: 3%; /* 45px */
+    padding-left: 20%; /* 200px */
+    padding-right: 20%; /* 200px */
+  }
+}
+
+
+article a:visited,
+article a
+{
+  text-decoration: none;
+  color: white;
+}
+
+article a button
+{
+  font-size: 13px;
+  color: white;
+  background-color: #303030;
+  border: none;
+  outline: none;
+  border-radius: 48px;
+  padding: 24px;
+  transition: .15s ease;
+  margin: 10px;
+}
+
+article a button:hover
+{
+  transition: .15 ease;
+  transform: scale(1.1);
+}
+
+
+body.browser-action-popup
+{
+  width: 300px;
+}
+
+.user-selection-blocked
+{
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+article#browser-action-article
+{
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  border-radius: 10px;
+  border: 2px solid gray;
+  margin-top: 10px;
+  display: inline-block;
+  padding-bottom: 30px
+}
+
+
+.three-fourths-font
+{
+  font-size: .75em;
+}
+
+
+.overflow-hidden
+{
+  overflow: hidden;
+}
