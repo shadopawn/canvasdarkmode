@@ -1,5 +1,12 @@
-body {
-    font-family: 'Open Sans',sans-serif;
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans&display=swap');
+
+*
+{
+  font-family: 'Fira Sans', sans-serif;
+}
+
+body
+{
     background-color: #000;
     color: white;
     text-align: center;
@@ -75,8 +82,6 @@ iframe#feedback-form
 
 
 
-
-/* ARTICLES */
 article
 {
 
@@ -100,20 +105,6 @@ article
     padding-right: 20%; /* 200px */
   }
 }
-@media screen and (max-width: 840px)
-{
-  article
-  {
-    margin-left: 75px;
-    margin-right: 75px;
-    margin-bottom: 50px;
-
-    padding-top: 1%; /* <= 45px */
-    padding-bottom: 2%; /* 45px */
-    padding-left: 10%; /* 200px */
-    padding-right: 10%; /* 200px */
-  }
-}
 
 
 article a:visited,
@@ -125,12 +116,6 @@ article a
 
 article a button
 {
-  /* prevemt selection of button content */
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
   font-size: 13px;
   color: white;
   background-color: #303030;
@@ -148,30 +133,10 @@ article a button:hover
   transform: scale(1.1);
 }
 
-#sticky-header
-{
-  z-index: 1000;
-  background-color: black;
-  color: white;
-  width: 100%;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin-bottom: 15px;
-  top: 0;
-  position: sticky;
-}
-
 
 body.browser-action-popup
 {
   width: 300px;
-}
-
-i#check-mark.material-icons-outlined
-{
-  color: green;
-  font-size: 2em;
-  margin-top: 10px;
 }
 
 .user-selection-blocked
@@ -188,8 +153,8 @@ article#browser-action-article
   padding: 0;
   margin: 0;
   display: inline-block;
-  border-radius: 24px;
-  border: 2px solid;
+  border-radius: 10px;
+  border: 2px solid gray;
 }
 
 article#browser-action-article.is-enabled
@@ -202,18 +167,6 @@ article#browser-action-article.is-enabled
   font-size: .75em;
 }
 
-@media screen and (max-width: 840px)
-{
-  article#dark-mode-homepage
-  {
-    margin-left: 25px;
-    margin-right: 25px;
-    margin-bottom: 50px;
-
-    padding-top: 2%; /* <= 45px */
-    padding-bottom: 3%; /* 45px */
-  }
-}
 
 .overflow-hidden
 {
