@@ -165,10 +165,6 @@ article#browser-action-article
   padding-bottom: 30px
 }
 
-article#browser-action-article.is-enabled
-{
-  border-color: green;
-}
 
 .three-fourths-font
 {
