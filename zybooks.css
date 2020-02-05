@@ -32,4 +32,15 @@ button#ember1426.zb-button.grey.icon-button-with-title.left.ember-view i
 {
   color: white !important;
 }
+
+
+
+MANIFEST INFO:
+
+{
+
+  "css": ["zybooks.css"],
+  "run_at": "document_start",
+  "matches": ["https://*.zybooks.com/*"]
+},
 */

@@ -35,12 +35,6 @@
       "matches": ["https://webwork.uncc.edu/*"]
     },
     {
-
-      "css": ["zybooks.css"],
-      "run_at": "document_start",
-      "matches": ["https://*.zybooks.com/*"]
-    },
-    {
       "css": ["webauth.css"],
       "run_at": "document_start",
       "matches": ["https://webauth.uncc.edu/*"]
