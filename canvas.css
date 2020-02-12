@@ -314,7 +314,8 @@ span.fc-icon.fc-icon-left-single-arrow,
 span#refresh_calendar_link,
 a.popover_close.x-close-link.close,
 span.fCrpb_bGBk.fCrpb_egrg,
-svg.esvoZ_bGBk.esvoZ_drOs.esvoZ_eXrk.cGqzL_bGBk.bgKsu_dnnz
+svg.esvoZ_bGBk.esvoZ_drOs.esvoZ_eXrk.cGqzL_bGBk.bgKsu_dnnz,
+span.fc-icon::after
 {
   -webkit-filter: invert(100%) hue-rotate(180deg)!important;  /* using important here as a precaution */
 }
@@ -331,6 +332,11 @@ table#access_tokens.summary thead tr th
 table.summary td, table.summary tbody th
 {
   background-color: #000000 !important;
+}
+
+span.fc-icon::after
+{
+  outline: none !important;
 }
 
 
@@ -404,43 +410,18 @@ div.cjUyb_bGBk.cjUyb_dfBC.cjUyb_pEgL.cjUyb_eQnG
 }
 
 /* other button elements */
+button,
 a.Button.button-sidebar-wide,
-button.fOyUs_bGBk.eHiXd_bGBk.eHiXd_ddES.eHiXd_doqw.eHiXd_bNlk.eHiXd_cuTS,
-button#planner-today-btn.fOyUs_bGBk.eHiXd_bGBk.eHiXd_eYmo.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS,
 a.btn.button-sidebar-wide,
-button#submit_quiz_button.btn.submit_button.quiz_submit.btn-secondary,
-button.Button.submit_button.next-question.btn-primary,
-button.Button.submit_button.previous-question,
-button.Button.submit_button.next-question,
 a.Button,
 a#take_quiz_link.btn.btn-primary,
-button.ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-text-only,
-button.btn.take-snapshot-btn,
-button.hide-if-editing.Button,
-button.show-if-editing.Button,
-button.btn.btn-small,
-button.btn,
-button.btn.btn-primary,
-button.Button,
-button.Button:hover,
 a.btn.btn-small,
 a.btn.btn-primary.add_access_token_link,
 a#add_discussion.fOyUs_bGBk.eHiXd_bGBk.eHiXd_bXiG.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS,
 label.ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-text-only,
-button#discussion_settings.fOyUs_bGBk.eHiXd_bGBk.eHiXd_ddES.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS,
-button.fOyUs_bGBk.eHiXd_bGBk.eHiXd_ddES.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS,
-button#submit_discussion_settings.fOyUs_bGBk.eHiXd_bGBk.eHiXd_bXiG.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS,
 a.btn.view_all_pages,
-button#show_all_details_button.Button,
-button#apply_select_menus.fOyUs_bGBk.eHiXd_bGBk.eHiXd_bXiG.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS,
 a#create_new_event_link.btn,
-button.Button.Button--link.add_another_file_link,
-button.Button.Button--link.toggle_uploaded_files_link,
-button#ColorPicker__Apply.fOyUs_bGBk.eHiXd_bGBk.eHiXd_bXiG.eHiXd_doqw.eHiXd_bNlk.eHiXd_cuTS,
-button.dialog_opener.Button.Button--link,
 a.event_button.btn.btn-secondary.more_options_link,
-button.fOyUs_bGBk.eHiXd_bGBk.eHiXd_eYmo.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS,
-button.fOyUs_bGBk.eHiXd_bGBk.eHiXd_bXiG.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS,
 a.btn.btn-primary
 {
   transition: .5s  ease !important;
@@ -448,43 +429,18 @@ a.btn.btn-primary
   color: white !important;
   border-color: white !important;
 }
+button:hover,
 a.Button.button-sidebar-wide:hover,
-button.fOyUs_bGBk.eHiXd_bGBk.eHiXd_ddES.eHiXd_doqw.eHiXd_bNlk.eHiXd_cuTS:hover,
-button#planner-today-btn.fOyUs_bGBk.eHiXd_bGBk.eHiXd_eYmo.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS:hover,
 a.btn.button-sidebar-wide:hover,
-button#submit_quiz_button.btn.submit_button.quiz_submit.btn-secondary:hover,
-button.Button.submit_button.next-question.btn-primary:hover,
-button.Button.submit_button.previous-question:hover,
-button.Button.submit_button.next-question:hover,
 a.Button:hover,
 a#take_quiz_link.btn.btn-primary:hover,
-button.ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-text-only:hover,
-button.btn.take-snapshot-btn:hover,
-button.hide-if-editing.Button:hover,
-button.show-if-editing.Button:hover,
-button.btn.btn-small:hover,
-button.btn:hover:hover,
-button.btn.btn-primary:hover,
 a.btn.btn-small:hover,
 a.btn.btn-primary.add_access_token_link:hover,
 a#add_discussion.fOyUs_bGBk.eHiXd_bGBk.eHiXd_bXiG.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS:hover,
-button#collapseAll.btn.disableWhileFiltering:hover,
-button#expandAll.btn.disableWhileFiltering:hover,
 label.ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-text-only:hover,
-button#discussion_settings.fOyUs_bGBk.eHiXd_bGBk.eHiXd_ddES.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS:hover,
-button.fOyUs_bGBk.eHiXd_bGBk.eHiXd_ddES.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS:hover,
-button#submit_discussion_settings.fOyUs_bGBk.eHiXd_bGBk.eHiXd_bXiG.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS:hover,
 a.btn.view_all_pages:hover,
-button#show_all_details_button.Button:hover,
-button#apply_select_menus.fOyUs_bGBk.eHiXd_bGBk.eHiXd_bXiG.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS:hover,
 a#create_new_event_link.btn:hover,
-button.Button.Button--link.add_another_file_link:hover
-button.Button.Button--link.toggle_uploaded_files_link:hover,
-button#ColorPicker__Apply.fOyUs_bGBk.eHiXd_bGBk.eHiXd_bXiG.eHiXd_doqw.eHiXd_bNlk.eHiXd_cuTS:hover,
-button.dialog_opener.Button.Button--link:hover,
 a.event_button.btn.btn-secondary.more_options_link:hover,
-button.fOyUs_bGBk.eHiXd_bGBk.eHiXd_eYmo.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS:hover,
-button.fOyUs_bGBk.eHiXd_bGBk.eHiXd_bXiG.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS:hover,
 a.btn.btn-primary:hover
 {
   background-color: #00703c !important;
