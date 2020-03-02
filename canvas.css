@@ -1,10 +1,21 @@
+:root
+{
+  --cjUyb-brandColor: #00703c !important;
+  --ic-brand-global-nav-ic-icon-svg-fill: #FFF !important
+}
+
+:root
+{
+  --ic-brand-global-nav-menu-item__text-color--active: #000000 !important
+}
 /* GENERAL */
 html,
 body,
 header#header.ic-app-header.no-print,
 div.ic-app-header__logomark-container,
 div#main.ic-Layout-columns,
-div.large.ic-Dashboard-header__layout,
+div.ic-Dashboard-header__layout,
+header#mobile-header,
 div.fLzZc_caGd,
 div.root_3KEc.planner-day,
 div.nothingPlannedContainer_hppr,
@@ -159,7 +170,9 @@ div.fc-day-header__week-day,
 div.MYpOQ_bGBk.MYpOQ_ImeN,
 div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-draggable,
 div#record_media_tab,
-div#upload_media_tab
+div#upload_media_tab,
+header.panel,
+div.rubric_title
 {
   background-color: black !important;
   color: white !important;
@@ -218,7 +231,8 @@ a.active
 }
 
 /* new styling of dashboard header */
-div.large.ic-Dashboard-header__layout
+div.ic-Dashboard-header__layout,
+header#mobile-header
 {
   border-bottom-style: none;
   opacity: .8;
@@ -309,7 +323,8 @@ svg.esvoZ_bGBk.esvoZ_drOs.esvoZ_eXrk.cGqzL_bGBk.bgKsu_dnnz,
 span.fc-icon::after,
 div#audio_upload_under button.btn img,
 div#video_upload_under button.btn img,
-i.icon-discussion.standalone-icon
+i.icon-discussion.standalone-icon,
+i.icon-trash::before
 {
   -webkit-filter: invert(100%) hue-rotate(180deg)!important;  /* using important here as a precaution */
 }
@@ -536,7 +551,8 @@ tr.edit_data_row
 
 
 /* custom notification color */
-span.ic-DashboardCard__action-badge
+span.ic-DashboardCard__action-badge,
+span.menu-item__badge
 {
   color: white;
   background-color: red;
@@ -685,4 +701,22 @@ span.fCrpb_bGBk.fCrpb_egrg
   color: black !important;
 }
 
-/*TO-DO: FIX ISSUES WITH LIST VIEW ON DASHBOARD - like adding new todo item UI, etc*/
+div.rubric_title
+{
+  text-align: center !important;
+}
+
+ul#section-tabs li.section a
+{
+  color: #AAA !important;
+}
+
+ul#section-tabs li.section a.active
+{
+  color: white !important;
+}
+
+.ic-app-header__menu-list-link
+{
+  color: white !important;
+}

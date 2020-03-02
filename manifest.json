@@ -21,12 +21,18 @@
     "default_popup" : "popup.html"
   },
 
+
   "content_scripts":
   [
     {
       "css": ["canvas.css"],
       "js": ["removeThemeColor.js"],
       "matches": ["https://*.instructure.com/*"]
+    },
+    {
+      "css": ["canvas.css"],
+      "js": ["removeThemeColor.js"],
+       "matches": ["https://*.fsu.edu/*"]
     },
     {
 
