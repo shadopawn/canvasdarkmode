@@ -586,7 +586,8 @@ input#quiz_access_code
 select,
 span.qBMHb_cSXm,
 input,
-textarea
+textarea,
+div.ac-input-box
 {
   background: #121212 !important;
   background-color: #121212 !important;
@@ -599,7 +600,8 @@ textarea
 span.qBMHb_cSXm:focus,
 input:focus,
 select:focus,
-textarea:focus
+textarea:focus,
+div.ac-input-box.focused
 {
   background: #212121 !important;
   background-color: #212121 !important;
@@ -706,6 +708,7 @@ div.rubric_title
   text-align: center !important;
 }
 
+/* trying to fix some darkened text for some organizations that use dark text in Canvas, such as Canvas FSU */
 ul#section-tabs li.section a
 {
   color: #AAA !important;
@@ -717,6 +720,52 @@ ul#section-tabs li.section a.active
 }
 
 .ic-app-header__menu-list-link
+{
+  color: white !important;
+}
+
+/* messages list */
+ul.messages.unstyled.collectionViewItems li
+{
+  background-color: black !important;
+  color: white !important;
+}
+
+div.date,
+h2.author,
+h3.subject,
+div.summary
+{
+  color: white !important;
+}
+
+span.message-count
+{
+  background-color: #303030 !important;
+  border: 1px solid white !important;
+}
+
+input#compose-message-recipients.ac-input,
+input.read-state
+{
+  border-style: none !important;
+}
+
+li.ac-result,
+div.ac-result-container,
+ul.al-options li,
+ul.al-options
+{
+  background-color: black !important;
+}
+
+li.ac-result:hover,
+ul.al-options li:hover
+{
+  background-color: #303030 !important;
+}
+
+ul.al-option li a
 {
   color: white !important;
 }
