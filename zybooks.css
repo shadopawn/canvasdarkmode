@@ -1,102 +1,26 @@
-/*html,
-body,
-section,
-div.route-container.zybook-chapter-section-page.no-margin-left
+
+html
 {
-  background: black !important;
+  -webkit-filter: invert(100%) hue-rotate(180deg)!important;
+}
+
+
+a.ember-view,
+div.catalog-take-class-modal.zb-modal.ember-view,
+section.find-zybook-section
+{
+  -webkit-filter: invert(100%) hue-rotate(180deg)!important;
+}
+
+
+div.zb-modal-content
+{
   background-color: black !important;
   color: white !important;
+  border: 2px solid white !important;
 }
-
-header.top-toolbar,
-ul.bread-crumbs,
-li.bread-crumb,
-button.toolbar-menu-toggle.rl-dropdown-toggle.ember-view,
-button.zb-button.grey.icon-button-with-title.left.ember-view,
-a.zb-button.help-button
-{
-  background: #404040;
-  background-color: #404040;
-  color: white;
-}
-
-button.profile-button,
-button.signout-button,
-i.zb-icon.grey.material-icons.med.ember-view
-{
-  background: #404040 !important;
-  background-color: #404040 !important;
-  color: white !important;
-}
-
-button.profile-button:hover,
-button.signout-button:hover
-{
-  text-decoration: underline;
-}
-
-li.bread-crumb:hover,
-button.zb-button.grey.icon-button-with-title.left.ember-view:hover,
-button.zb-button.grey.icon-button-with-title.left.ember-view i:hover,
-a.zb-button.help-button:hover,
-a.zb-button.help-button i:hover,
-button.toolbar-menu-toggle.rl-dropdown-toggle.ember-view:hover,
-button.toolbar-menu-toggle.rl-dropdown-toggle.ember-view i:hover,
-button.profile-button:hover,
-button.signout-button:hover
-{
-  color: orange;
-}
-
-
-i#ember908.zb-icon.grey.material-icons.med.ember-view,
-a.zb-button.help-button i,
-button#ember1426.zb-button.grey.icon-button-with-title.left.ember-view i,
-button#ember923.toolbar-menu-toggle.rl-dropdown-toggle.ember-view i
+div.zb-modal-content p.body-text,
+div.zb-modal-content h1
 {
   color: white !important;
 }
-
-/* foreground elements
-nav.section-nav,
-div.section-announcement-block-content,
-div.assignment-section-announcement.section-announcement.zb-card.primary.ember-view
-{
-  background: #303030 !important;
-  background-color: #303030 !important;
-  color: white !important;
-}
-
-div.due-date-text
-{
-  color: #AAA !important;
-}
-
-
-article.zybook-section.zb-card.ember-view,
-article.zybook-section.zb-card.ember-view h1,
-article.zybook-section.zb-card.ember-view h3,
-article.zybook-section.zb-card.ember-view p,
-span.term
-{
-  background: #303030 !important;
-  background-color: #303030 !important;
-  color: white !important;
-}
-
-div.interactive-activity-container.animation-player-content-resource.participation.medium.ember-view,
-div.activity-title-bar
-{
-  background: #121212 !important;
-  background-color: #121212 !important;
-  color: white !important;
-}*/
-
-
-/*
-{
-MANIFEST INFORMATION
-  "css": ["zybooks.css"],
-  "matches": ["https://*.zybooks.com/*"]
-},
-*/
