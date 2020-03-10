@@ -53,6 +53,14 @@ li.info-box h2
   text-align: center;
 }
 
+div#alert-error,
+div#warnings
+{
+  background-color: #303030 !important;
+  color: white !important;
+  border: 2px solid red;
+  border-radius: 5px;
+}
 div#alert-error
 {
   text-align: center;
