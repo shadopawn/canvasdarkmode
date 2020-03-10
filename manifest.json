@@ -29,6 +29,12 @@
       "matches": ["https://*.instructure.com/*"]
     },
     {
+      "css": ["canvas.css"],
+      "js": ["removeThemeColor.js"],
+      "run_at": "document_start",
+       "matches": ["https://*.fsu.edu/*"]
+    },
+    {
 
       "css": ["webwork.css"],
       "run_at": "document_start",
