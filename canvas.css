@@ -1,10 +1,21 @@
+:root
+{
+  --cjUyb-brandColor: #00703c !important;
+  --ic-brand-global-nav-ic-icon-svg-fill: #FFF !important
+}
+
+:root
+{
+  --ic-brand-global-nav-menu-item__text-color--active: #000000 !important
+}
 /* GENERAL */
 html,
 body,
 header#header.ic-app-header.no-print,
 div.ic-app-header__logomark-container,
 div#main.ic-Layout-columns,
-div.large.ic-Dashboard-header__layout,
+div.ic-Dashboard-header__layout,
+header#mobile-header,
 div.fLzZc_caGd,
 div.root_3KEc.planner-day,
 div.nothingPlannedContainer_hppr,
@@ -155,7 +166,13 @@ div#edit_event,
 div#edit_calendar_event_form_holder,
 div#edit_planner_note_form_holder,
 div.fc-day-header__week-number,
-div.fc-day-header__week-day
+div.fc-day-header__week-day,
+div.MYpOQ_bGBk.MYpOQ_ImeN,
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-draggable,
+div#record_media_tab,
+div#upload_media_tab,
+header.panel,
+div.rubric_title
 {
   background-color: black !important;
   color: white !important;
@@ -175,23 +192,10 @@ div.item-group-container
 {
   border-style: none !important;
 }
-textarea.ic-Input.grading_comment,
-textarea#profile_bio.ic_Input,
-input.ic-Input,
+
 div.ic-notification__content,
-textarea#submission_comment.submissino_comment-textarea,
-p#calendar-feed-box-lower input,
 a.fc-time-grid-event.fc-v-event.fc-event.fc-start.fc-end,
-a.fc-day-grid-event.fc-h-event.fc-event.fc-start.fc-end,
-input#calendar_event_title,
-input#calendar_event_date,
-input#calendar_event_start_time,
-input#calendar_event_end_time,
-input#calendar_event_location_name,
-input#planner_note_title,
-input#planner_note_date,
-input#planner_note_time,
-textarea#details_textarea
+a.fc-day-grid-event.fc-h-event.fc-event.fc-start.fc-end
 {
   background-color: #212121 !important;
   color: white !important;
@@ -214,7 +218,8 @@ a.ui-tabs-anchor,
 }
 
 a.ui-tabs-anchor:hover,
-li.ui-state-default.ui-corner-top a:hover
+li.ui-state-default.ui-corner-top a:hover,
+div.cvphu_caGd
 {
   background-color: #303030 !important;
 }
@@ -226,7 +231,8 @@ a.active
 }
 
 /* new styling of dashboard header */
-div.large.ic-Dashboard-header__layout
+div.ic-Dashboard-header__layout,
+header#mobile-header
 {
   border-bottom-style: none;
   opacity: .8;
@@ -283,7 +289,6 @@ h2.fOyUs_bGBk.emyav_bGBk.emyav_dlZd.emyav_fAVi
 svg.esvoZ_bGBk.esvoZ_drOs.esvoZ_eXrk.cGqzL_bGBk.cGqzL_owrh.ToDoSidebarItem__Icon,
 div.event-details::after,
 iframe#preview_frame,
-span.bNerA_bGBk.bNerA_NmrE.bNerA_qfdC.bNerA_bBOa.bNerA_buDT.bNerA_DpxJ.bNerA_eFno,
 div#discussion-toolbar.toolbarView,
 div.assignment-list,
 img.equation_image,
@@ -314,7 +319,12 @@ span.fc-icon.fc-icon-left-single-arrow,
 span#refresh_calendar_link,
 a.popover_close.x-close-link.close,
 span.fCrpb_bGBk.fCrpb_egrg,
-svg.esvoZ_bGBk.esvoZ_drOs.esvoZ_eXrk.cGqzL_bGBk.bgKsu_dnnz
+svg.esvoZ_bGBk.esvoZ_drOs.esvoZ_eXrk.cGqzL_bGBk.bgKsu_dnnz,
+span.fc-icon::after,
+div#audio_upload_under button.btn img,
+div#video_upload_under button.btn img,
+i.icon-discussion.standalone-icon,
+i.icon-trash::before
 {
   -webkit-filter: invert(100%) hue-rotate(180deg)!important;  /* using important here as a precaution */
 }
@@ -331,6 +341,11 @@ table#access_tokens.summary thead tr th
 table.summary td, table.summary tbody th
 {
   background-color: #000000 !important;
+}
+
+span.fc-icon::after
+{
+  outline: none !important;
 }
 
 
@@ -404,43 +419,18 @@ div.cjUyb_bGBk.cjUyb_dfBC.cjUyb_pEgL.cjUyb_eQnG
 }
 
 /* other button elements */
+button,
 a.Button.button-sidebar-wide,
-button.fOyUs_bGBk.eHiXd_bGBk.eHiXd_ddES.eHiXd_doqw.eHiXd_bNlk.eHiXd_cuTS,
-button#planner-today-btn.fOyUs_bGBk.eHiXd_bGBk.eHiXd_eYmo.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS,
 a.btn.button-sidebar-wide,
-button#submit_quiz_button.btn.submit_button.quiz_submit.btn-secondary,
-button.Button.submit_button.next-question.btn-primary,
-button.Button.submit_button.previous-question,
-button.Button.submit_button.next-question,
 a.Button,
 a#take_quiz_link.btn.btn-primary,
-button.ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-text-only,
-button.btn.take-snapshot-btn,
-button.hide-if-editing.Button,
-button.show-if-editing.Button,
-button.btn.btn-small,
-button.btn,
-button.btn.btn-primary,
-button.Button,
-button.Button:hover,
 a.btn.btn-small,
 a.btn.btn-primary.add_access_token_link,
 a#add_discussion.fOyUs_bGBk.eHiXd_bGBk.eHiXd_bXiG.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS,
 label.ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-text-only,
-button#discussion_settings.fOyUs_bGBk.eHiXd_bGBk.eHiXd_ddES.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS,
-button.fOyUs_bGBk.eHiXd_bGBk.eHiXd_ddES.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS,
-button#submit_discussion_settings.fOyUs_bGBk.eHiXd_bGBk.eHiXd_bXiG.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS,
 a.btn.view_all_pages,
-button#show_all_details_button.Button,
-button#apply_select_menus.fOyUs_bGBk.eHiXd_bGBk.eHiXd_bXiG.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS,
 a#create_new_event_link.btn,
-button.Button.Button--link.add_another_file_link,
-button.Button.Button--link.toggle_uploaded_files_link,
-button#ColorPicker__Apply.fOyUs_bGBk.eHiXd_bGBk.eHiXd_bXiG.eHiXd_doqw.eHiXd_bNlk.eHiXd_cuTS,
-button.dialog_opener.Button.Button--link,
 a.event_button.btn.btn-secondary.more_options_link,
-button.fOyUs_bGBk.eHiXd_bGBk.eHiXd_eYmo.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS,
-button.fOyUs_bGBk.eHiXd_bGBk.eHiXd_bXiG.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS,
 a.btn.btn-primary
 {
   transition: .5s  ease !important;
@@ -448,43 +438,18 @@ a.btn.btn-primary
   color: white !important;
   border-color: white !important;
 }
+button:hover,
 a.Button.button-sidebar-wide:hover,
-button.fOyUs_bGBk.eHiXd_bGBk.eHiXd_ddES.eHiXd_doqw.eHiXd_bNlk.eHiXd_cuTS:hover,
-button#planner-today-btn.fOyUs_bGBk.eHiXd_bGBk.eHiXd_eYmo.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS:hover,
 a.btn.button-sidebar-wide:hover,
-button#submit_quiz_button.btn.submit_button.quiz_submit.btn-secondary:hover,
-button.Button.submit_button.next-question.btn-primary:hover,
-button.Button.submit_button.previous-question:hover,
-button.Button.submit_button.next-question:hover,
 a.Button:hover,
 a#take_quiz_link.btn.btn-primary:hover,
-button.ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-text-only:hover,
-button.btn.take-snapshot-btn:hover,
-button.hide-if-editing.Button:hover,
-button.show-if-editing.Button:hover,
-button.btn.btn-small:hover,
-button.btn:hover:hover,
-button.btn.btn-primary:hover,
 a.btn.btn-small:hover,
 a.btn.btn-primary.add_access_token_link:hover,
 a#add_discussion.fOyUs_bGBk.eHiXd_bGBk.eHiXd_bXiG.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS:hover,
-button#collapseAll.btn.disableWhileFiltering:hover,
-button#expandAll.btn.disableWhileFiltering:hover,
 label.ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-text-only:hover,
-button#discussion_settings.fOyUs_bGBk.eHiXd_bGBk.eHiXd_ddES.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS:hover,
-button.fOyUs_bGBk.eHiXd_bGBk.eHiXd_ddES.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS:hover,
-button#submit_discussion_settings.fOyUs_bGBk.eHiXd_bGBk.eHiXd_bXiG.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS:hover,
 a.btn.view_all_pages:hover,
-button#show_all_details_button.Button:hover,
-button#apply_select_menus.fOyUs_bGBk.eHiXd_bGBk.eHiXd_bXiG.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS:hover,
 a#create_new_event_link.btn:hover,
-button.Button.Button--link.add_another_file_link:hover
-button.Button.Button--link.toggle_uploaded_files_link:hover,
-button#ColorPicker__Apply.fOyUs_bGBk.eHiXd_bGBk.eHiXd_bXiG.eHiXd_doqw.eHiXd_bNlk.eHiXd_cuTS:hover,
-button.dialog_opener.Button.Button--link:hover,
 a.event_button.btn.btn-secondary.more_options_link:hover,
-button.fOyUs_bGBk.eHiXd_bGBk.eHiXd_eYmo.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS:hover,
-button.fOyUs_bGBk.eHiXd_bGBk.eHiXd_bXiG.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS:hover,
 a.btn.btn-primary:hover
 {
   background-color: #00703c !important;
@@ -586,7 +551,8 @@ tr.edit_data_row
 
 
 /* custom notification color */
-span.ic-DashboardCard__action-badge
+span.ic-DashboardCard__action-badge,
+span.menu-item__badge
 {
   color: white;
   background-color: red;
@@ -617,35 +583,30 @@ input#quiz_access_code
   color: white;
 }
 
-div#tab-0 input,
-div#tab-0 select,
-select#user_locale.locale,
-select#user_time_zone,
-input#searchTerm,
-select#calendar_event_context,
-select#planner_note_context,
-input.qBMHb_cwos.qBMHb_ycrn.qBMHb_EMjX,
+select,
 span.qBMHb_cSXm,
-input#unyK6UuapeCC.bgKsu_cwos.bgKsu_bfxl
+input,
+textarea,
+div.ac-input-box
 {
-  background: #121212;
-  background-color: #121212;
-  border: 1px solid #AAA;
+  background: #121212 !important;
+  background-color: #121212 !important;
+  border: 1px solid #AAA !important;
   color: white !important;
 }
 
 
-input#discussion-search:focus,
-  input#quiz_access_code:focus,
-  div#tab-0 input:focus,
-  input#searchTerm:focus,
-  input#uguHg3YuVsUP.qBMHb_cwos.qBMHb_ycrn.qBMHb_EMjX:focus,
-  span.qBMHb_cSXm:focus
+
+span.qBMHb_cSXm:focus,
+input:focus,
+select:focus,
+textarea:focus,
+div.ac-input-box.focused
 {
-  background: #212121;
-  background-color: #212121;
-  outline: none;
-  border: 1px solid white;
+  background: #212121 !important;
+  background-color: #212121 !important;
+  outline: none !important;
+  border: 1px solid white !important;
 }
 
 button#courseMenuToggle,
@@ -657,6 +618,154 @@ input#to-do-item-course-select
 
 div.show-content.user_content.clearfix.enhanced table tbody tr td ol li,
 div.show-content.user_content.clearfix.enhanced table tbody tr td ol li span
+{
+  color: white !important;
+}
+
+button.fOyUs_bGBk.eHiXd_bGBk.eHiXd_brAJ.eHiXd_ycrn.eHiXd_bNlk.eHiXd_cuTS
+{
+  text-decoration: none !important;
+}
+
+/* popup that describes number of students in a section when viewing announcements */
+/*div.MYpOQ_bGBk,*/
+span.fOyUs_bGBk.fOyUs_dnJm.fOyUs_dzKA.fOyUs_EMjX.fOyUs_elGp.fOyUs_UeJS.dqmEK_caGd
+{
+  background: #303030 !important;
+  background-color: #303030 !important;
+  color: white !important;
+}
+span.fOyUs_bGBk.fOyUs_dnJm.fOyUs_dzKA.fOyUs_EMjX.fOyUs_elGp.fOyUs_UeJS.dqmEK_caGd
+{
+  border: 2px solid white;
+}
+
+svg.fTsnK_bGBk.fTsnK_eXrk.bHbtJ_bGBk.dLdjY_fAVq
+{
+  color: white !important;
+}
+
+tr.comments,
+tr.comments:hover,
+table.score_details_table tbody tr td
+{
+  background-color: black !important;
+}
+
+
+/* submission missing pill alert */
+span.fOyUs_bGBk.fOyUs_cKQL.bZMhq_bGBk.bZMhq_zGXc
+{
+  background-color: red !important;
+  border: none !important;
+}
+span.EGevE_fZRY span
+{
+  color: white !important;
+}
+
+/* assignment submitted pill alert */
+span.bZMhq_eWKC span
+{
+  color: white !important;
+}
+
+span.fOyUs_bGBk.fOyUs_cKQL.bZMhq_bGBk.bZMhq_ddES
+{
+  background-color: green !important;
+  border: none !important;
+}
+
+span.title_3bek
+{
+  background-color: #303030 !important;
+  color: white !important;
+}
+
+span.title_3bek::after
+{
+  display: none;
+}
+
+span.fLzZc_bGBk.fLzZc_fSpQ.fLzZc_doqw.fLzZc_bQpq.eJkkQ_bIuM
+{
+  border-right-style: none;
+  border-left: 2px solid white !important;
+}
+
+span.fLzZc_bGBk.fLzZc_fSpQ.fLzZc_doqw.fLzZc_bQpq.eJkkQ_bIuM div
+{
+  border-style: none;
+}
+
+span.fCrpb_bGBk.fCrpb_egrg
+{
+  color: black !important;
+}
+
+div.rubric_title
+{
+  text-align: center !important;
+}
+
+/* trying to fix some darkened text for some organizations that use dark text in Canvas, such as Canvas FSU */
+ul#section-tabs li.section a
+{
+  color: #AAA !important;
+}
+
+ul#section-tabs li.section a.active
+{
+  color: white !important;
+}
+
+.ic-app-header__menu-list-link
+{
+  color: white !important;
+}
+
+/* messages list */
+ul.messages.unstyled.collectionViewItems li
+{
+  background-color: black !important;
+  color: white !important;
+}
+
+div.date,
+h2.author,
+h3.subject,
+div.summary
+{
+  color: white !important;
+}
+
+span.message-count
+{
+  background-color: #303030 !important;
+  border: 1px solid white !important;
+}
+
+input#compose-message-recipients.ac-input,
+input.read-state
+{
+  border-style: none !important;
+}
+
+li.ac-result,
+div.ac-result-container,
+ul.al-options li,
+ul.al-options
+{
+  background-color: black !important;
+}
+
+li.ac-result:hover,
+ul.al-options li:hover
+{
+  background-color: #303030 !important;
+}
+
+ul.al-option li a
 {
   color: white !important;
 }
