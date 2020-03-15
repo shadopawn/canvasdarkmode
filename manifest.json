@@ -3,7 +3,7 @@
 
   "name": "Dark Mode for Canvas",
 
-  "version": "1.1.6",
+  "version": "1.1.7",
 
   "description": "Dark mode support for Canvas. Stay up late doing your homework, without the eyestrain.",
 
@@ -24,13 +24,13 @@
     {
 
       "css": ["canvas.css"],
-      "js": ["removeThemeColor.js"],
+      "js": ["canvas.js"],
       "run_at": "document_start",
       "matches": ["https://*.instructure.com/*"]
     },
     {
       "css": ["canvas.css"],
-      "js": ["removeThemeColor.js"],
+      "js": ["canvas.js"],
       "run_at": "document_start",
        "matches": ["https://*.fsu.edu/*"]
     },
