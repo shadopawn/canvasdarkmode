@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Questrial|Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp');
 
 body
 {
@@ -175,4 +176,22 @@ article#browser-action-article
 .overflow-hidden
 {
   overflow: hidden;
+}
+
+#title-content
+{
+  margin-top: 20px;
+}
+
+#canvas-logo
+{
+  margin-bottom: 10px;
+  height: 100px;
+}
+
+body#browser-action-body
+{
+  height: 100%;
+  width: 315px;
+  margin-bottom: 20px;
 }

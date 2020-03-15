@@ -1,8 +1,6 @@
 ## Contributing Guidelines
-I am completely open to any and all ideas that someone may have for Dark Mode for Canvas.
+Dark Mode for Canvas is a relatively simple extension. It's primary purpose is fairly narrow, but there's always opportunity to develop and improve! Feel free to contribute any ideas, improvements, or suggestions you have for the extension! If you are experiencing an issue with the extension and know a way to improve it, feel free to take part and contribute your solution.
 
-If there's a cool feature or idea that you think the extension can use, feel free to contribute.
+There are no specific guidelines for contributing.  You can open a pull request, add your idea or suggestion to a Github issue, or submit feedback via https://marissa.page/canvasdarkmode/form. Whichever way you choose, you will likely see your contributions make it to a final release!
 
-Have an issue where a part of Canvas is not displaying correctly? You can help contribute a fix to that issue!
-
-I don't have specific guidelines for contributing, just open a pull request and if it looks good I'll merge it with the master branch!
+Anyone who contributes can also request to receive credit for their contributions.  

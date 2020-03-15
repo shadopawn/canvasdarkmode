@@ -1,3 +1,5 @@
+/* Function that removes the standard theme color from Canvas pages and replaces it with solid black */
+
 function removeThemeColor()
 {
   document.querySelector("[name='theme-color']").remove()
