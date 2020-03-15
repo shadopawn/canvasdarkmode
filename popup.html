@@ -3,29 +3,49 @@
 <html>
   <head>
     <title>Dark Mode for Canvas</title>
-    <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
     <link href="popup.css" rel="stylesheet"/>
-    <style>
-    </style>
   </head>
 
-  <body class="user-selection-blocked" style="height: 100%; width: 315px; margin-bottom: 20px;">
+  <body id="browser-action-body" class="user-selection-blocked">
+
     <div class="overflow-hidden">
-    <div style="margin-top: 20px">
-      <h1> Dark Mode for Canvas </h1>
-    <img draggable="false" style="margin-bottom: 10px; height: 100px" src="icon128.png">
-    </div>
-    <article id="browser-action-article">
+
+      <h1 id="title-content"> Dark Mode for Canvas </h1>
+
+      <img draggable="false" id="canvas-logo" src="icon128.png">
+
+      <article id="browser-action-article">
+
       <h2>Report a problem via</h2>
 
-      <a href="https://marissa.page/canvasdarkmode/form" target="_blank"><button><i class="material-icons-outlined">assignment</i><br>Form</button></a>
+      <a draggable="false" href="https://marissa.page/canvasdarkmode/form" target="_blank">
+        <button>
+          <i class="material-icons-outlined">assignment</i>
+          <br>
+          Form
+        </button>
+      </a>
 
-      <a href="https://github.com/marissarousseau/canvasdarkmode/issues/new" target="_blank"><button><i class="material-icons-outlined">code</i><br>Github</button></a>
+      <a draggable="false" href="https://github.com/marissarousseau/canvasdarkmode/issues/new" target="_blank">
+        <button>
+          <i class="material-icons-outlined">code</i>
+          <br>
+          Github
+        </button>
+      </a>
+
     </article>
+
       <br>
+
       <br>
-      <p> v1.1.6 </p>
+
+      <p> v1.1.7 </p>
+
       <p> Developed by Marissa Rousseau</p>
+
   </div>
+
   </body>
+
 </html>
