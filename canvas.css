@@ -263,12 +263,30 @@ div.ic-DashboardCard
   span.eoNrR_blJt,
   span.sJGfW_bGBk,
   span.sJGfW_blJt,
-  div.ColorPicker__Container.with-animation.with-arrow.with-border.with-box-shadow
+  div.ColorPicker__Container.with-animation.with-arrow.with-border.with-box-shadow,
+  .mce-container.mce-panel.mce-floatpanel.mce-menu.mce-animate.mce-menu-align.mce-in,
+  .dXATK_bGBk.dXATK_cAug
   {
     background-color: #303030 !important;
     background: #303030 !important;
     color: white !important;
   }
+
+.mce-text
+{
+  color: white !important;
+}
+
+.mce-active
+{
+  background-color: #303030 !important;
+}
+
+
+.mce-menu-item.mce-menu-item-normal.mce-stack-layout-item:hover
+{
+  background-color: #999 !important;
+}
 
 span.sJGfW_bGBk:hover,
 span.sJGfW_blJt:hover
@@ -295,6 +313,9 @@ img.equation_image,
 pre,
 i.placeholder.icon-check,
 i.placeholder.icon-question,
+i.mce-caret,
+i.mce-ico,
+i.mce-ico.mce-i-none
 /*  table.summary,*/
 span.ui-icon.ui-icon-extlink.ui-icon-inline,
 span.ui-icon.ui-icon-closethick,
@@ -362,7 +383,8 @@ a.fOyUs_bGBk.eHiXd_bGBk.eHiXd_brAJ.eHiXd_ycrn.eHiXd_bN1k.eHiXd_cuTS,
 div.title_2_RE,
 ol.list_3FFz,
 ol.list_3FFz li,
-ol.list_3FFz li div
+ol.list_3FFz li div,
+.czbXA_bGBk.cDwzl_caGd.eJkkQ_bEpV
 {
   background: #303030 !important;
   background-color: #303030 !important;
@@ -398,7 +420,8 @@ a.ef-plain-link span,
 span.ellipsis,
 a.ef-plain-link,
 a.content_summary,
-span.fake-link
+span.fake-link,
+.mce-wordcount.mce-widget.mce-label.mce-flow-layout-item
 {
   color: white !important;
 }
@@ -420,6 +443,8 @@ div.cjUyb_bGBk.cjUyb_dfBC.cjUyb_pEgL.cjUyb_eQnG
 
 /* other button elements */
 button,
+a.discussion-reply-action.discussion-reply-box,
+a.btn.topic-subscribe-button,
 a.Button.button-sidebar-wide,
 a.btn.button-sidebar-wide,
 a.Button,
@@ -439,6 +464,8 @@ a.btn.btn-primary
   border-color: white !important;
 }
 button:hover,
+a.discussion-reply-action.discussion-reply-box:hover,
+a.btn.topic-subscribe-button:hover,
 a.Button.button-sidebar-wide:hover,
 a.btn.button-sidebar-wide:hover,
 a.Button:hover,
@@ -467,7 +494,8 @@ a span.ellipsible:hover
   text-decoration-color: white;
 }
 span.deUoG_bGBk.deUoG_uUeq,
-span.yyQPt_cSXm
+span.yyQPt_cSXm,
+a.btn.topic-subscribe-button
 {
   -webkit-filter: invert(100%) hue-rotate(180deg)!important;  /* using important here as a precaution */
 }
@@ -784,4 +812,34 @@ ul.al-option li a
   height: 100px;
   background-color: #404040 !important;
   border-radius: 48px !important;
+}
+
+
+.ic-discussion-content-container,
+.ic-item-row.ic-discussion-row
+{
+  background-color: black !important;
+  color: white !important;
+}
+
+/* rich text editor items */
+.mce-txt,
+.mce-path-item,
+.discussion-reply-add-attachment.discussion-reply-action.icon-paperclip,
+li._hpjm5j a,
+span.rcs-LinkSet-LoadFailed
+{
+  color: white !important;
+}
+
+#root_reply_message_for_686238_ifr,
+svg.fTsnK_bGBk.fTsnK_eXrk.bHbtJ_bGBk.bHbtJ_owrh,
+svg.fTsnK_bGBk.fTsnK_eXrk.bHbtJ_bGBk:not(._13gjrqj)
+{
+  -webkit-filter: invert(100%) hue-rotate(180deg)!important;  /* using important here as a precaution */
+}
+
+li._hpjm5j:hover
+{
+  background-color: #303030 !important;
 }
