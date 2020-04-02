@@ -843,3 +843,9 @@ li._hpjm5j:hover
 {
   background-color: #303030 !important;
 }
+
+/* mark might fix highlight contrast issue */
+mark
+{
+  color: black !important;
+}
