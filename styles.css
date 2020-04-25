@@ -52,10 +52,10 @@ div.faq-section
   margin-right: 15%;
 }
 
-/* invert feedback form, set up for form.js file */
+/* set up for form.js file */
 iframe#feedback-form
 {
-  filter: invert(100%);
+  filter: invert(0%);
   margin-top: 200%;
   transition: 1.5s ease;
 }
