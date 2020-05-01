@@ -26,6 +26,7 @@ Dark Mode for Canvas needs access to a number of websites in order to function c
 
 ## How to Install
 ### Chrome Web Store
+#### For Chrome and Chromium-based browsers
 (1) Navigate to https://chrome.google.com/webstore/detail/jgiilnejobjjdnjkpoahdglfejggnfgh
 
 (2) Click "Add to Chrome"
@@ -33,6 +34,7 @@ Dark Mode for Canvas needs access to a number of websites in order to function c
 (3) Click "Add extension"
 
 ### Firefox Addons
+#### For Firefox and Firefox-based browsers
 (1) Navigate to https://addons.mozilla.org/en-US/firefox/addon/dark-mode-for-canvas/
 
 (2) Click "Add to Firefox"
@@ -40,6 +42,7 @@ Dark Mode for Canvas needs access to a number of websites in order to function c
 (3) Click "Add"
 
 ### Opera Addons
+#### Exclusively for Opera browser
 (1) Navigate to https://addons.opera.com/en/extensions/details/dark-mode-for-canvas/
 
 (2) Click "Add to Opera"
