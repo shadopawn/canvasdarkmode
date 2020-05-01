@@ -47,7 +47,7 @@ Dark Mode for Canvas needs access to a number of websites in order to function c
 
 (2) Click "Add to Opera"
 
-(4) Confirm extension is working by selecting the Canvas icon in your web browser's toolbar. If you see a green check mark, you are good to go!
+(3) Confirm extension is working by selecting the Canvas icon in your web browser's toolbar. If you see a green check mark, you are good to go!
 
 ## gh-pages branch
 Dark Mode for Canvas uses various resources hosted via Github Pages.  You can find them by viewing the gh-pages branch in this repository. There is also a live viewable page with official download links and an FAQ available at https://marissa.page/canvasdarkmode
