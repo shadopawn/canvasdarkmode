@@ -22,7 +22,7 @@ While the extension's main priority will always be to bring dark mode to Canvas,
 ![screenshot4](https://marissa.page/canvasdarkmode/screenshot4.png)
 
 ## Privacy
-Dark Mode for Canvas needs access to a number of websites in order to function correctly.  For more information about what site permissions are needed and how †hose permissions are used, visit https://marissa.page/policies. This extension never uses your private information such as usernames, passwords, or login information.  
+Dark Mode for Canvas needs access to a number of websites in order to function correctly.  For more information about what site permissions are needed and how †hose permissions are used, visit https://marissa.page/canvasdarkmode/privacy. This extension never uses your private information such as usernames, passwords, or login information.  
 
 ## How to Install
 ### Chrome Web Store
