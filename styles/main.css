@@ -1,5 +1,42 @@
-body {
-    font-family: 'Open Sans',sans-serif;
+@font-face
+{
+    font-family: 'hackbold';
+    src: url('hack-bold-webfont.woff2') format('woff2'),
+           url('hack-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'hackbold_italic';
+    src: url('hack-bolditalic-webfont.woff2') format('woff2'),
+           url('hack-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'hackitalic';
+    src: url('hack-italic-webfont.woff2') format('woff2'),
+         url('hack-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'hackregular';
+    src: url('hack-regular-webfont.woff2') format('woff2'),
+         url('hack-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body
+{
+    font-family: "hackregular",sans-serif;
     background-color: #000;
     color: white;
     text-align: center;
@@ -7,6 +44,7 @@ body {
 
 button
 {
+    font-family: "hackregular",sans-serif;
     background-color: #404040;
     color: white;
     border: 4px solid #404040;
