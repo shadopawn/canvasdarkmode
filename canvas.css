@@ -62,7 +62,14 @@ div.event-details-timestring table tbody tr:hover,
 td.fc-day-number.fc-mon.fc-today.fc-state-highlight,
 td.fc-day.fc-widget-content.fc-mon.fc-today.fc-state-highlight
 {
-background-color: black !important;
+  background-color: black !important;
+}
+
+/* calender current day */
+#calendar-app .fc-month-view .fc-today,
+#calendar-drag-and-drop-container .fc-month-view .fc-today 
+{
+  background-color: #777777 !important;
 }
 
 /* alert banner */
